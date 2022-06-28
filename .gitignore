@@ -1,0 +1,9 @@
+/node_modules
+/storage/*.key
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+.DS_Store
+public/.DS_Store

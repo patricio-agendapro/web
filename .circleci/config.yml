@@ -1,0 +1,91 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: 415538714327.dkr.ecr.us-west-2.amazonaws.com/agendapro-backend-infra01:v2
+        aws_auth:
+          aws_access_key_id: ${DP_AWS_ACCESS_KEY_ID}  # can specify string literal values
+          aws_secret_access_key: ${DP_AWS_SECRET_ACCESS_KEY}  # or project UI envar reference
+    steps:
+      - checkout
+      -  run:
+          name: "Set envars"
+          command: |
+            if   [ "${CIRCLE_BRANCH}" == "main" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_MARKET_MAIN} -p devops-iac2 -c ag_market_master  |sed 's/\"//g' >ff
+            elif [ "${CIRCLE_BRANCH}" == "staging" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_MARKET_STG} -p devops-iac2 -c ag_market_stg |sed 's/\"//g' >ff
+            elif [ "${CIRCLE_BRANCH}" == "development" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_MARKET_DEV} -p devops-iac2 -c ag_market_dev |sed 's/\"//g' >ff
+            else
+              echo "no se consiguio la condicion"
+            fi
+            export $(cat ff | xargs )
+            cat ff 
+            export AWS_PAGER=""
+      - setup_remote_docker:
+          version: 20.10.11
+          docker_layer_caching: true
+      - run:
+          name: "build image Docker"
+          command: |
+            export $(cat ff |  xargs)
+            cat ff
+            envsubst < Dockerfile_ > Dockerfile
+            cat Dockerfile
+            aws ecr get-login-password --region ${DP_AWS_REGION}| docker login --username AWS --password-stdin 415538714327.dkr.ecr.us-west-2.amazonaws.com
+            echo "${DP_AWS_ECR_ACCOUNT_URL}:${DP_ENVIRONMENT}-${CIRCLE_SHA1}"
+            docker build -t ${DP_AWS_ECR_ACCOUNT_URL}:${DP_ENVIRONMENT}-${CIRCLE_SHA1} .
+            docker push ${DP_AWS_ECR_ACCOUNT_URL}:${DP_ENVIRONMENT}-${CIRCLE_SHA1}
+      - persist_to_workspace:
+          root: /root/project
+          paths:
+            - ./ff
+            - .k8s/deploy/agendapro-eks.yml
+  deploy:
+    docker:
+      - image: 415538714327.dkr.ecr.us-west-2.amazonaws.com/agendapro-backend-infra01:v2
+        aws_auth:
+          aws_access_key_id: ${DP_AWS_ACCESS_KEY_ID}  # can specify string literal values
+          aws_secret_access_key: ${DP_AWS_SECRET_ACCESS_KEY}  # or project UI envar reference
+    steps:
+      - attach_workspace:
+          at: ./
+      - run:
+          name: "Deploy EKS"
+          command: |
+            export $(cat ff |  xargs)
+            aws eks update-kubeconfig --name ${DP_CLUSTER_NAME} --region ${DP_AWS_REGION}
+            export IMAGE_NAME="${DP_AWS_ECR_ACCOUNT_URL}:${DP_ENVIRONMENT}-${CIRCLE_SHA1}"
+            envsubst < .k8s/deploy/agendapro-eks.yml > k8s.yml
+            cat k8s.yml
+            kubectl apply -f k8s.yml
+      - persist_to_workspace:
+          root: /root/project
+          paths:
+            - ./ff
+      - store_artifacts:
+          path: temp/
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - main
+                - development
+                - staging
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - main
+                - development
+                - staging

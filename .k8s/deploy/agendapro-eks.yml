@@ -1,0 +1,59 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ${DP_NAMESPACE}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: ${DP_NAMESPACE}
+  name: ${DP_APP_NAME_K8S}
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: ${DP_APP_NAME_K8S}
+  strategy:
+    rollingUpdate:
+      maxSurge: 85%
+      maxUnavailable: 5%
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: ${DP_APP_NAME_K8S}
+    spec:
+      containers:
+      - image: ${IMAGE_NAME}
+        imagePullPolicy: Always
+        name: ${DP_APP_NAME_K8S}-container
+        ports:
+        - containerPort: 80
+        env:
+          - name: DOPPLER_TOKEN
+            value: ${DP_BACKEND_DOPPLER_TOKEN}
+          - name: DD_ENV
+            value: ${DP_ENVIRONMENT}
+          - name: LOG_TO_STDOUT
+            value: 'true'
+        resources:
+          requests:
+            memory: ${DP_BACKEND_CONTAINER_MAX_RAM}
+            cpu: ${DP_BACKEND_CONTAINER_MAX_CPU}
+          limits:
+            memory: ${DP_BACKEND_CONTAINER_MAX_RAM}
+            cpu: ${DP_BACKEND_CONTAINER_MAX_CPU}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: ${DP_NAMESPACE}
+  name: ${DP_APP_NAME_K8S}
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+  type: NodePort
+  selector:
+    app.kubernetes.io/name: ${DP_APP_NAME_K8S}
+    #

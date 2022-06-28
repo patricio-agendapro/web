@@ -1,0 +1,155 @@
+// Use this to write your custom SCSS
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1140px;
+    }
+}
+
+body{
+    background-color: white;
+}
+
+body.home {
+    background-image: url(https://agendapro.com/wp-content/uploads/2020/10/Rectangle-1028.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+// .navbar.navbar-light.fixed .btn:not(.btn-expand) {
+//     background: $orange;
+//     border-color: $orange;
+//     color: #fff;
+// }
+
+@media (min-width: 992px){
+    .nav-agendapro-menu .navbar-nav .nav-link {
+        padding-top: 28px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+.navbar-light .navbar-brand {
+    flex-shrink: 2;
+    margin-right: 40px;
+}
+
+.navbar-expand-lg.transparent:not(.fixed) {
+    padding-top: 0 !important;
+}
+
+.contact-info-strip{
+    margin-bottom: -10px;
+}
+
+@media (min-width: 1200px){
+    body.home section.growth-section .counter-wrapper .counter.counter-lg {
+        font-size: 2.2rem !important;
+    }
+}
+
+body.home .features-section .icon-list li {
+    position: relative;
+    padding-left: 1.7rem;
+    text-align: left;
+}
+
+body.home .process-wrapper.arrow [class*=col-]:before {
+    opacity: .6;
+    margin-top: 15px !important;
+}
+
+footer .image-wrapper.bg-full {
+    background-size: 80%;
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: scroll!important;
+}
+
+footer .signup_cta .btn-outline-primary {
+    background-color: white;
+}
+
+footer .signup_cta .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #22c488 !important;
+    border-color: #22c488;
+}
+
+footer .signup_cta .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #22c488 !important;
+    border-color: #22c488;
+}
+
+footer .social .avatar{
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+footer .social .avatar i{
+    font-size: 20px;
+}
+
+footer .mobile_apps img{
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+footer .mobile_apps img:hover{
+    filter: none;
+    opacity: 1;
+}
+
+footer .investors img{
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+footer .investors .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px 0 10px;
+}
+
+.sub-footer .comodo img{
+    width: 120px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+.features-section .features img{
+    width: 40px;
+}
+
+.features-section .features .textinfo{
+    margin-left: 20px;
+}
+
+.more-section .more-image img{
+    width: 80px;
+}
+
+.clients-section .clients img{
+    width: 100%;
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+
+.clients-section .clients img:hover{
+    width: 100%;
+    filter: none;
+    opacity: 1;
+}
+
+@media (min-width: 992px){
+    body.home .features-section .process-wrapper.arrow [class*=col-]:before {
+    background-size: 50% 50%;
+
+    }
+}
+
+.features-section .features-icons img{
+    height: 60px;
+}

@@ -1,0 +1,278 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: 415538714327.dkr.ecr.us-west-2.amazonaws.com/agendapro-backend-infra01:v2
+        aws_auth:
+          aws_access_key_id: ${DP_AWS_ACCESS_KEY_ID}  # can specify string literal values
+          aws_secret_access_key: ${DP_AWS_SECRET_ACCESS_KEY}  # or project UI envar reference
+    steps:
+      - checkout
+      - run:
+          name: "Set envars"
+          command: |
+            if   [ "${CIRCLE_BRANCH}" == "two-devpod-staging" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_APP_DP2} -p agendapro-backend -c stg_devpod2 |sed 's/\"//g' >ff
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_INF_DP2} -p devops-iac -c deploybackend_devpod2 |sed 's/\"//g' >> ff
+            elif [ "${CIRCLE_BRANCH}" == "one-devpod-staging" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_APP_DP1} -p agendapro-backend -c stg_devpod1 |sed 's/\"//g' >ff
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_INF_DP1} -p devops-iac -c deploybackend_devpod1 |sed 's/\"//g' >> ff
+            elif [ "${CIRCLE_BRANCH}" == "bestpod-staging" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_APP_BESTPOD} -p agendapro-backend -c stg_bambucalbestpod |sed 's/\"//g' >ff
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_INF_BESTPOD} -p devops-iac -c deploybackend_bambucalbestpod |sed 's/\"//g' >> ff
+            elif [ "${CIRCLE_BRANCH}" == "hermes-staging" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_APP_HERMES} -p agendapro-backend -c stg_hermes |sed 's/\"//g' >ff
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_INF_HERMES} -p devops-iac -c deploybackend_hermes |sed 's/\"//g' >> ff
+            elif [ "${CIRCLE_BRANCH}" == "growth-staging" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_APP_GROWTH} -p agendapro-backend -c stg_growth |sed 's/\"//g' >ff
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_INF_GROWTH} -p devops-iac -c deploybackend_growth |sed 's/\"//g' >> ff
+            elif [ "${CIRCLE_BRANCH}" == "qa-staging" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_APP_QA} -p agendapro-backend -c stg_qa |sed 's/\"//g' >ff
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_INF_QA} -p devops-iac -c deploybackend_qa |sed 's/\"//g' >> ff
+            elif [ "${CIRCLE_BRANCH}" == "staging" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_APP_STG} -p agendapro-backend -c stg |sed 's/\"//g' >ff
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_INF_STG} -p devops-iac -c deploybackend_staging |sed 's/\"//g' >> ff
+            elif [ "${CIRCLE_BRANCH}" == "master" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_APP_MASTER} -p agendapro-backend -c prd |sed 's/\"//g' >ff
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_INF_MASTER} -p devops-iac -c deploybackend_master |sed 's/\"//g' >> ff
+            elif [ "${CIRCLE_BRANCH}" == "CIDEV" ]
+            then
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_APP_STG} -p agendapro-backend -c stg |sed 's/\"//g' >ff
+              doppler secrets download --no-file --format env -t ${DP_TOKEN_BACK_INF_STG} -p devops-iac -c  deploybackend_staging  |sed 's/\"//g' >> ff
+            else
+              echo "no se consiguio la condicion"
+            fi
+            export $(cat ff | xargs )
+            export AWS_PAGER=""
+            source /etc/profile
+            rvm --default use ruby-2.3.6
+            ruby --version
+      - run:
+          name: Expire caches every month and git head hash for assets
+          command: |
+            date '+%Y %m' > ~/project/dependency_checksum
+            git rev-parse HEAD > ~/project/githead_checksum
+      - restore_cache: # bundle cache restore
+          keys:
+            - v0-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ .Environment.CIRCLE_BRANCH }}-bundle-{{ checksum "~/project/dependency_checksum" }}-{{ checksum "~/project/Gemfile.lock" }}
+            - v0-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ .Environment.CIRCLE_BRANCH }}-bundle-{{ checksum "~/project/dependency_checksum" }}-
+      - run:
+          name: "Install bundle dependencies"
+          command: |
+            export $(cat ff | xargs)
+            source /etc/profile
+            rvm --default use ruby-2.3.6
+            ruby --version
+            gem install bundler -v 1.17.3 --no-document
+            bundle install --jobs 20 --retry 5 --without development test --path=~/project/vendor/bundle --frozen
+      - save_cache: # bundle cache save
+          paths:
+            - ~/project/vendor/bundle
+          key: v0-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ .Environment.CIRCLE_BRANCH }}-bundle-{{ checksum "~/project/dependency_checksum" }}-{{ checksum "~/project/Gemfile.lock" }}
+      - run:
+          name: "Add Whitelist IP for Postgres"
+          command: |
+            export $(cat ff | xargs)
+            LATEST_IP=$(wget -qO- http://checkip.amazonaws.com)
+            IP="${IP-$LATEST_IP}"
+            aws ec2 authorize-security-group-ingress --group-id ${DP_BUILD_SECURITY_GROUP_ID} --ip-permissions '[{"IpProtocol": "tcp", "FromPort": 5432, "ToPort": 5432, "IpRanges": [{"CidrIp": "'$IP/32'","Description": "CircleCIPostgres"}]}]'
+      - run:
+          name: "Add Whitelist IP for Redis"
+          command: |
+            export $(cat ff |  xargs)
+            LATEST_IP=$(wget -qO- http://checkip.amazonaws.com)
+            IP="${IP-$LATEST_IP}"
+            aws ec2 authorize-security-group-ingress --group-id ${DP_BUILD_SECURITY_GROUP_ID} --ip-permissions '[{"IpProtocol": "tcp", "FromPort": 6379, "ToPort": 6379, "IpRanges": [{"CidrIp": "'$IP/32'","Description": "CircleCIRedis"}]}]'
+      - restore_cache: # assets cache restore
+          keys:
+            - v0-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ .Environment.CIRCLE_BRANCH }}-assets-{{ checksum "~/project/dependency_checksum" }}-{{ checksum "~/project/githead_checksum" }}
+            - v0-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ .Environment.CIRCLE_BRANCH }}-assets-{{ checksum "~/project/dependency_checksum" }}-
+      - run:
+          name: "Assets precompile and sync to S3"
+          command: |
+            git_file="/root/project/public/assets/git-info.txt"
+            touch "$git_file"
+            changes=`git diff --name-only $(cat "$git_file") HEAD | { grep -E "(app|lib|vendor)/assets" || echo ""; }`
+            if   [ -s "$git_file" ] && [ -z "$changes" ]
+            then
+              cat "$git_file"
+            else
+              export $(cat ff |  xargs)
+              source /etc/profile
+              rvm --default use ruby-2.3.6
+              COVERBAND_DISABLE_AUTO_START=true bundle exec rake assets:precompile
+              git rev-parse HEAD > $git_file
+            fi
+          no_output_timeout: 30m
+      - save_cache: # assets cache save
+          key: v0-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ .Environment.CIRCLE_BRANCH }}-assets-{{ checksum "~/project/dependency_checksum" }}-{{ checksum "~/project/githead_checksum" }}
+          paths:
+            - ~/project/public/assets
+      - run:
+          name: "Database migrations"
+          command: |
+            export $(cat ff |  xargs)
+            source /etc/profile
+            rvm --default use ruby-2.3.6
+            COVERBAND_DISABLE_AUTO_START=true bundle exec rake db:migrate
+            COVERBAND_DISABLE_AUTO_START=true bundle exec rake db:install_postgres_functions
+      - run:
+          name: "mapper rails variable"
+          command: |
+            export $(cat ff | xargs )
+            envsubst < Dockerfile_ > Dockerfile
+            cat Dockerfile
+      - run:
+          name: "Remove Whitelist IP for Postgres"
+          command: |
+            export $(cat ff |  xargs)
+            LATEST_IP=$(wget -qO- http://checkip.amazonaws.com)
+            IP="${IP-$LATEST_IP}"
+            aws ec2 revoke-security-group-ingress --group-id ${DP_BUILD_SECURITY_GROUP_ID} --ip-permissions '[{"IpProtocol": "tcp", "FromPort": 5432, "ToPort": 5432, "IpRanges": [{"CidrIp": "'$IP/32'","Description": "CircleCIPostgres"}]}]'
+          when: always
+      - run:
+          name: "Remove Whitelist IP for Redis"
+          command: |
+            export $(cat ff |  xargs)
+            LATEST_IP=$(wget -qO- http://checkip.amazonaws.com)
+            IP="${IP-$LATEST_IP}"
+            aws ec2 revoke-security-group-ingress --group-id ${DP_BUILD_SECURITY_GROUP_ID} --ip-permissions '[{"IpProtocol": "tcp", "FromPort": 6379, "ToPort": 6379, "IpRanges": [{"CidrIp": "'$IP/32'","Description": "CircleCIRedis"}]}]'
+          when: always
+      - setup_remote_docker:
+          version: 20.10.11
+          docker_layer_caching: true
+      - run:
+          name: "build image Docker"
+          command: |
+            export $(cat ff |  xargs)
+            cat Dockerfile
+            aws ecr get-login-password --region ${DP_AWS_REGION}| docker login --username AWS --password-stdin 415538714327.dkr.ecr.us-west-2.amazonaws.com
+            docker build -t ${DP_AWS_ECR_ACCOUNT_URL}:${DP_ENVIRONMENT}-${CIRCLE_SHA1} .
+            docker push ${DP_AWS_ECR_ACCOUNT_URL}:${DP_ENVIRONMENT}-${CIRCLE_SHA1}
+      - persist_to_workspace:
+          root: /root/project
+          paths:
+            - ./ff
+            - ./.k8s/deploy/agendapro-eks-sidekiq.yml
+            - ./.k8s/deploy/agendapro-eks-sidekiq_rollback.yml
+  deploy:
+    docker:
+      - image: 415538714327.dkr.ecr.us-west-2.amazonaws.com/agendapro-backend-infra01:v2
+        aws_auth:
+          aws_access_key_id: ${DP_AWS_ACCESS_KEY_ID}  # can specify string literal values
+          aws_secret_access_key: ${DP_AWS_SECRET_ACCESS_KEY}  # or project UI envar reference
+    steps:
+      - attach_workspace:
+          at: ./
+      - run:
+          name: "Deploy EKS"
+          command: |
+            export $(cat ff |  xargs)
+            export IMAGE_NAME="${DP_AWS_ECR_ACCOUNT_URL}:${DP_ENVIRONMENT}-${CIRCLE_SHA1}"
+            export HPA_REPLICA_SIZE=$(kubectl -n agendapro-${DP_ENVIRONMENT} get deploy ${DP_APP_NAME} -o jsonpath='{.spec.replicas}')
+            aws eks update-kubeconfig --name ${DP_CLUSTER_NAME} --region ${DP_AWS_REGION}
+            if [ "${CIRCLE_BRANCH}" == "master" ]
+            then
+              export IMAGE_NAME_ROLLBACK=$(kubectl -n agendapro-${ENVIRONMENT} get deploy ${DP_APP_NAME} -o jsonpath='{.spec.template.spec.containers[].image}')
+              envsubst < .k8s/deploy/agendapro-eks-sidekiq.yml > k8s.yml
+              envsubst < .k8s/deploy/agendapro-eks-sidekiq_rollback.yml > k8s_rollback.yml
+              kubectl apply -f k8s.yml
+
+            elif [ "${CIRCLE_BRANCH}" == "two-devpod-staging" ] || [ "${CIRCLE_BRANCH}" == "one-devpod-staging" ] || [ "${CIRCLE_BRANCH}" == "staging" ] || [ "${CIRCLE_BRANCH}" == "CIDEV" ] || [ "${CIRCLE_BRANCH}" == "bestpod-staging" ] || [ "${CIRCLE_BRANCH}" == "hermes-staging" ] || [ "${CIRCLE_BRANCH}" == "growth-staging" || [ "${CIRCLE_BRANCH}" == "qa-staging" ]
+            then
+              envsubst < .k8s/deploy/agendapro-eks-sidekiq.yml > k8s.yml
+              mkdir temp
+              cp k8s.yml temp/
+              kubectl apply -f k8s.yml
+            fi
+      - persist_to_workspace:
+          root: /root/project
+          paths:
+            - ./ff
+            - ./k8s_rollback.yml
+      - store_artifacts:
+          path: temp/
+  rollback:
+    docker:
+      - image: 415538714327.dkr.ecr.us-west-2.amazonaws.com/agendapro-backend-infra01:v2
+        aws_auth:
+          aws_access_key_id: ${DP_AWS_ACCESS_KEY_ID}  # can specify string literal values
+          aws_secret_access_key: ${DP_AWS_SECRET_ACCESS_KEY}  # or project UI envar reference
+    steps:
+      - attach_workspace:
+          at: ./
+      - run:
+          name: "Apply Rollback"
+          command: |
+            export $(cat ff |  xargs)
+            kubectl apply -f k8s_rollback.yml
+workflows:
+  version: 2
+  # ------ DEPLOY DEVS environments ------ #
+  build_and_deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - two-devpod-staging
+                - one-devpod-staging
+                - staging
+                - CIDEV
+                - bestpod-staging
+                - hermes-staging
+                - growth-staging
+                - qa-staging
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - two-devpod-staging
+                - one-devpod-staging
+                - staging
+                - CIDEV
+                - bambucal-bestpod
+                - bestpod-staging
+                - hermes-staging
+                - growth-staging
+                - qa-staging
+  # ------ PRD ------ #
+  build_and_deploy_production:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
+      - HOLD:
+          type: approval
+          requires:
+            - deploy
+          filters:
+            branches:
+              only:
+                - master
+      - rollback:
+          requires:
+            - HOLD
+          filters:
+            branches:
+              only:
+                - master
