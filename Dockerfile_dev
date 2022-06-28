@@ -2,8 +2,6 @@ FROM ubuntu:20.04
 
 ARG PHP_VERSION=8.1
 
-ARG PHP_VERSION=8.1
-
 ARG DEBIAN_FRONTEND=noninteractive
 
 COPY ./docker-conf/scripts/docker-entrypoint_dev.sh /
