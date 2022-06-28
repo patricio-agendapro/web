@@ -18,13 +18,3 @@ use App\Http\Controllers\MarketController;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-
-Route::get('/market/{country}/search', [SearchController::class, 'search']);
-
-Route::get('/market/{country}/{slug}', [LandingController::class, 'landing']);
-
-Route::get('/market/{country}', [MarketController::class, 'home']);
