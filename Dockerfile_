@@ -33,17 +33,11 @@ php$PHP_VERSION-memcached php-tcpdf php-redis php-imagick php-mongodb php-pear p
 #php-swoole
 RUN pecl install swoole;
 
-#sphinxsearch
-RUN apt-get install -y sphinxsearch;
-
 #config base
 
 COPY ./docker-conf/php/php-fpm.ini /etc/php/$PHP_VERSION/fpm/php.ini
 COPY ./docker-conf/php/php-cli.ini /etc/php/$PHP_VERSION/cli/php.ini
 COPY ./docker-conf/nginx/default /etc/nginx/sites-available/default
-COPY ./docker-conf/sphinxsearch/sphinx.conf /etc/sphinxsearch/sphinx.conf
-COPY ./docker-conf/sphinxsearch/sphinxsearch /etc/default/sphinxsearch
-COPY ./docker-conf/sphinxsearch/stop_words_es.txt /etc/sphinxsearch/data/stop_words_es.txt
 COPY . /app/
 
 RUN chmod 777 -R /app/storage/logs;
