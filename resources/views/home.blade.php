@@ -351,9 +351,9 @@
           </div>
           <!--/column -->
           <div class="col-lg-5 me-auto">
-            <h2 class="fs-16 text-uppercase text-leaf mb-3">Our Solutions</h2>
-            <h3 class="display-4 mb-5 pe-xxl-5">Just sit & relax while we take care of your business needs.</h3>
-            <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna.</p>
+            <h2 class="fs-16 text-uppercase text-leaf mb-3">¿Cómo hacemos crecer tu negocio?</h2>
+            <h3 class="display-4 mb-5 pe-xxl-5">Nosotros nos encargamos de hacer crecer tu negocio.</h3>
+            <p class="mb-6">Sabías qué el 80% de tus ingresos proviene del 20% de tus clientes, y el Rebound Marketing sabe cómo encontrarlos y hacerlos crece </p>
             <div class="row align-items-center counter-wrapper gy-6">
               <div class="col-6">
                 <h3 class="counter counter-lg mb-1 text-green">+49%</h3>
