@@ -64,7 +64,7 @@
       <div class="bg-soft-yellow text-leaf fs-13 mb-2 d-none d-lg-block">
         <div class="container py-2 d-md-flex flex-md-row">
           <div class="d-flex flex-row align-items-center">
-            <span>Desde nuestro Blog: <a class="link-leaf hover-3 more" href="#">Pérdida de clientes: Causas y cómo evitarlas</a></span>
+            <span>Desde nuestro Blog: <a class="link-leaf hover-3 more" href="https://blog.agendapro.com/perdida-de-clientes-causas-y-como-evitarlas">Pérdida de clientes: Causas y cómo evitarlas</a></span>
           </div>
           <div class="d-flex flex-row align-items-center me-6 ms-auto">
             <div class="icon text-leaf fs-18 mt-0 me-1"> <i class="uil uil-phone-volume"></i></div>
