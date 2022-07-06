@@ -201,31 +201,16 @@
     <!-- /section -->
     <section class="wrapper bg-light features-section">
       <div class="container py-8 py-md-0 mb-2 mb-md-14 mt-md-16">
-
-        <div class="row gx-lg-8 gx-xl-10 mb-lg-12 align-items-center">
-          <div class="col-lg-6 my-10">
-            <figure><img src="https://agendapro.com/wp-content/uploads/2021/04/Como-hacemos-crecer-tu-negocio-1.png" alt="" /></figure>
+        <div class="row">
+          <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
+            <h2 class="fs-15 text-uppercase text-muted mb-3">La única forma de crecer es manteniendo el orden</h2>
+            <h3 class="display-4 mb-10">Simplifica tu <mark>día a día</mark> y haz crecer tu negocio</h3>
           </div>
           <!-- /column -->
-          <div class="col-lg-6 features-icons">
-            <h2 class="fs-15 text-uppercase text-muted mb-3">La única forma de crecer es manteniendo el orden</h2>
-            <h3 class="display-4 mb-5">Simplifica tu día a día y haz crecer tu negocio</h3>
-            <div class="row gy-3">
-              <div class="col-xl-6">
-                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                  <li><span><i class="uil uil-check"></i></span><span>Agenda online</span></li>
-                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>CRM de clientes</span></li>
-                </ul>
-              </div>
-              <!--/column -->
-              <div class="col-xl-6">
-                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                  <li><span><i class="uil uil-check"></i></span><span>Recordatorios automáticos</span></li>
-                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Email Marketing</span></li>
-                </ul>
-              </div>
-              <!--/column -->
-            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row gx-lg-8 gx-xl-10 mb-lg-12 align-items-center">
+          <div class="col-lg-12 features-icons">
             <div class="row gx-lg-4 gx-xl-4 mt-10 mb-4 process-wrapper arrow text-center">
               <div class="col-md-4"> <img src="https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja_4-2.png" class="mb-4" alt="" />
                 <h3 class="fs-18">Toma el control</h3>

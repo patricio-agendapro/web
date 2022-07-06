@@ -55,7 +55,7 @@ body.home .features-section .icon-list li {
 }
 
 body.home .process-wrapper.arrow [class*=col-]:before {
-    opacity: .6;
+    opacity: .8;
     margin-top: 15px !important;
 }
 
@@ -145,7 +145,7 @@ footer .investors .logo{
 
 @media (min-width: 992px){
     body.home .features-section .process-wrapper.arrow [class*=col-]:before {
-    background-size: 50% 50%;
+    background-size: 80% 80%;
 
     }
 }
