@@ -164,7 +164,7 @@
           <!--/column -->
         </div>
         <!-- /.row -->
-        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="underline-3 style-2 green clients_qty">4.000</span> clientes confían en nosotros</h2>
+        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="underline-3 style-1 green clients_qty">4.000</span> clientes confían en nosotros</h2>
         <div class="px-lg-5 mb-0 mb-md-16 clients">
           <div class="row gx-0 gx-md-8 gx-xl-6 gy-8 align-items-center">
             <div class="col-4 col-md-2">
