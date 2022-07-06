@@ -61,7 +61,7 @@
 <body class="home">
   <div class="content-wrapper">
     <header class="wrapper">
-      <div class="bg-soft-yellow text-leaf fs-13 mb-2 d-none d-lg-block">
+      <div class="bg-soft-aqua text-leaf fs-13 mb-2 d-none d-lg-block">
         <div class="container py-2 d-md-flex flex-md-row">
           <div class="d-flex flex-row align-items-center">
             <span>Desde nuestro Blog: <a class="link-leaf hover-3 more" href="https://blog.agendapro.com/perdida-de-clientes-causas-y-como-evitarlas">Pérdida de clientes: Causas y cómo evitarlas</a></span>
@@ -120,12 +120,6 @@
               <!--<li class="nav-item d-none d-md-block">
                 <a class="nav-link link-green" href="tel:56229381145">+562 2938 1145</a>
               </li>-->
-              <li class="nav-item d-none d-md-block">
-                <a href="#" class="btn btn-sm btn-outline-primary rounded">Login</a>
-              </li>
-              <li class="nav-item d-none d-md-block">
-                <a href="#" class="btn btn-sm btn-primary rounded">Prueba Gratis</a>
-              </li>
               <li class="nav-item dropdown language-select">
                 <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/cl-bandera.png" alt=""></a>
                 <ul class="dropdown-menu">
@@ -134,6 +128,13 @@
                   <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/ar-bandera.png" alt=""> Argentina</a></li>
                 </ul>
               </li>
+              <li class="nav-item d-none d-md-block">
+                <a href="#" class="btn btn-sm btn-outline-primary rounded">Login</a>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a href="#" class="btn btn-sm btn-primary rounded">Prueba Gratis</a>
+              </li>
+
               <li class="nav-item d-lg-none">
                 <button class="hamburger offcanvas-nav-btn"><span></span></button>
               </li>
@@ -165,7 +166,7 @@
           <!--/column -->
         </div>
         <!-- /.row -->
-        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="underline-3 style-1 green clients_qty">4.000</span> clientes confían en nosotros</h2>
+        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <mark class="clients_qty">4.000</mark> clientes confían en nosotros</h2>
         <div class="px-lg-5 mb-0 mb-md-16 clients">
           <div class="row gx-0 gx-md-8 gx-xl-6 gy-8 align-items-center">
             <div class="col-4 col-md-2">
@@ -205,7 +206,7 @@
         <div class="row">
           <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
             <h2 class="fs-15 text-uppercase text-muted mb-3">La única forma de crecer es manteniendo el orden</h2>
-            <h3 class="display-4 mb-10">Simplifica tu <mark>día a día</mark> y haz crecer tu negocio</h3>
+            <h3 class="display-4 mb-10 mt-6 py-2 underline-3 style-1 green">Simplifica tu día a día y haz crecer tu negocio</h3>
           </div>
           <!-- /column -->
         </div>
