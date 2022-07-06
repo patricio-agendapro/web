@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Agendapro.">
+  <meta name="description" content="AgendaPro.">
   <meta name="author" content="elemis">
   <title>AgendaPro - Agenda online y Software de gestión</title>
   <link rel="shortcut icon" href="./assets/img/favicon.ico">
@@ -85,7 +85,7 @@
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
             <div class="offcanvas-header d-lg-none">
-              <h3 class="text-white fs-30 mb-0">Agendapro</h3>
+              <h3 class="text-white fs-30 mb-0">AgendaPro</h3>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body d-flex flex-column h-100 nav-agendapro-menu">
@@ -626,7 +626,7 @@
               <li><i class="uil uil-phone"></i> <a href="#">Colombia: +57 60 1 5087362</a></li>
               <li><i class="uil uil-phone"></i> <a href="#">México: +52 55 41613780</a></li>
             </ul>
-            <p>Agendapro. Gunei Investment SpA</p>
+            <p>AgendaPro. Gunei Investment SpA</p>
           </div>
           <!-- /.widget -->
         </div>
@@ -634,7 +634,7 @@
         
         <div class="col-md-4 col-lg-4">
           <div class="widget">
-            <h4 class="widget-title  mb-3">Más en Agendapro</h4>
+            <h4 class="widget-title  mb-3">Más en AgendaPro</h4>
             <ul class="list-unstyled text-reset mb-4">
               <li><a href="#">Blog</a></li>
               <li><a href="#">Ayuda</a></li>
@@ -709,7 +709,7 @@
   <section class="wrapper bg-soft-aqua sub-footer">
     <div class="container mt-4 pb-7">
       <div class="d-md-flex align-items-center justify-content-between">
-        <p class="mb-2 mb-lg-0">Agendapro se hace con <i class="uil uil-heart text-red"></i> desde <span class="typer" data-words="Chile,Colombia,México,Argentina" data-delay="100" data-deleteDelay="1000"></span></p>
+        <p class="mb-2 mb-lg-0">AgendaPro se hace con <i class="uil uil-heart text-red"></i> desde <span class="typer" data-words="Chile,Colombia,México,Argentina" data-delay="100" data-deleteDelay="1000"></span></p>
 
 
         <span class="comodo"><img src="./assets/img/comodo.png"></span>
