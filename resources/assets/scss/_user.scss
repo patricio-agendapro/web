@@ -1,7 +1,7 @@
 // Use this to write your custom SCSS
 @media (min-width: 1400px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1140px;
+        max-width: 1200px;
     }
 }
 
@@ -152,4 +152,14 @@ footer .investors .logo{
 
 .features-section .features-icons img{
     height: 60px;
+}
+
+body.home .clients-section .clients_qty{
+    font-size: 1.4em;
+    padding: 0 6px;
+}
+
+body.home .clients-section .clients_qty{
+    font-size: 1.4em;
+    padding: 0 6px;
 }

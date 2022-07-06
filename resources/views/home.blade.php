@@ -61,6 +61,21 @@
 <body class="home">
   <div class="content-wrapper">
     <header class="wrapper">
+      <div class="bg-primary text-white fw-bold fs-15 mb-2 d-none d-lg-block">
+        <div class="container py-2 d-md-flex flex-md-row">
+          <div class="d-flex flex-row align-items-center">
+          </div>
+          <div class="d-flex flex-row align-items-center me-6 ms-auto">
+            <div class="icon text-white fs-22 mt-1 me-2"> <i class="uil uil-phone-volume"></i></div>
+            <p class="mb-0">+562 2938 1145</p>
+          </div>
+          <div class="d-flex flex-row align-items-center">
+            <div class="icon text-white fs-22 mt-1 me-2"> <i class="uil uil-message"></i></div>
+            <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-white hover">contacto@agendapro.com</a></p>
+          </div>
+        </div>
+        <!-- /.container -->
+      </div>
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
@@ -89,8 +104,8 @@
               <!-- /.navbar-nav -->
               <div class="offcanvas-footer d-lg-none">
                 <div>
-                  <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
-                  <br /> 00 (123) 456 78 90 <br />
+                  <a href="mailto:first.last@email.com" class="link-inverse">contacto@agendapro.com</a>
+                  <br /> +562 2938 1145<br />
                   <!-- /.social -->
                 </div>
               </div>
@@ -101,21 +116,21 @@
           <!-- /.navbar-collapse -->
           <div class="navbar-other w-100 d-flex ms-auto">
             <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <!--<li class="nav-item d-none d-md-block">
+                <a class="nav-link link-green" href="tel:56229381145">+562 2938 1145</a>
+              </li>-->
               <li class="nav-item d-none d-md-block">
-                <a class="nav-link link-green" href="#">+562 2938 1145</a>
+                <a href="#" class="btn btn-sm btn-outline-primary rounded">Login</a>
               </li>
               <li class="nav-item d-none d-md-block">
-                <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-signin">Login</a>
+                <a href="#" class="btn btn-sm btn-primary rounded">Prueba Gratis</a>
               </li>
-              <li class="nav-item d-none d-md-block">
-                <a href="#" class="btn btn-sm btn-primary rounded" data-bs-toggle="modal" data-bs-target="#modal-signup">Prueba Gratis</a>
-              </li>
-              <li class="nav-item dropdown language-select text-uppercase">
-                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En</a>
+              <li class="nav-item dropdown language-select">
+                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/cl-bandera.png" alt=""></a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#">En</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#">De</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#">Es</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" src="https://agendapro.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/co.png" alt=""> Colombia</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/mx-bandera.png" alt=""> México</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/ar-bandera.png" alt=""> Argentina</a></li>
                 </ul>
               </li>
               <li class="nav-item d-lg-none">
@@ -133,7 +148,7 @@
     </header>
     <!-- /header -->
     <section class="wrapper clients-section">
-      <div class="container pt-10 pb-10 pt-md-18 pb-md-0 text-center">
+      <div class="container pt-10 pb-0 pt-md-18 pb-md-0 text-center">
         <div class="row gx-lg-0 gx-xl-8 gy-10 gy-md-13 gy-lg-0 mb-14 mb-md-14 mb-lg-16 align-items-center">
           <div class="col-md-9 offset-md-1 col-lg-7 offset-lg-1 position-relative order-lg-2">
             <figure class="rounded"><img src="https://agendapro.com/wp-content/uploads/2021/03/Home_-Crea-tu-agenda-online@2x-8.png" srcset="https://agendapro.com/wp-content/uploads/2021/03/Home_-Crea-tu-agenda-online@2x-8.png 2x" alt="" /></figure>
@@ -143,14 +158,13 @@
             <h1 class="display-1 mb-5">Crea tu agenda online y haz <span class="underline-3 style-3 primary">crecer</span> tu negocio.</h1>
             <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0">Gestiona tus citas, clientes y ventas en un mismo lugar.</p>
             <div class="d-flex justify-content-center justify-content-lg-start">
-              <span><a class="btn btn-green rounded mx-1">Empezar</a></span>
-              <span><a class="btn btn-outline-primary rounded mx-1">Agenda una Demo</a></span>
+              <span><a class="btn btn-green rounded">Prueba Gratis</a></span>
             </div>
           </div>
           <!--/column -->
         </div>
         <!-- /.row -->
-        <h2 class="fs-15 text-uppercase text-muted text-center mb-8">Más de 4000 clientes confían en nosotros</h2>
+        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="underline-3 style-2 green clients_qty">4.000</span> clientes confían en nosotros</h2>
         <div class="px-lg-5 mb-0 mb-md-16 clients">
           <div class="row gx-0 gx-md-8 gx-xl-6 gy-8 align-items-center">
             <div class="col-4 col-md-2">
@@ -463,128 +477,134 @@
         <!--/.row -->
       </div>
     </section>
+
+    <section class="wrapper bg-light cta-section mt-15 mb-0">
+      <div class="container">
+        <div class="card image-wrapper bg-full bg-image signup_cta" data-image-src="./assets/img/photos/bg2.jpg">
+          <div class="card-body p-9 py-xl-15">
+            <div class="row align-items-center gy-6">
+              <div class="col-lg-7">
+                <h3 class="display-5 text-navy">¿Ya estás listo para empezar?</h3>
+                <p class="lead pe-lg-12 mb-0 text-navy">Si aún tienes dudas, nos encantaria mostrarte todas nuestras funcionalidades en una breve demo online. ¡Contáctanos!.</p>
+              </div>
+              <!-- /column -->
+              <div class="col-lg-5 col-xl-5">
+                <div class="newsletter-wrapper">
+                  <!-- Begin Mailchimp Signup Form -->
+                    <div id="mc_embed_signup2">
+                      <div class="d-flex justify-content-center">
+                      <span><a class="btn btn-primary rounded mx-1">Empezar!</a></span>
+                      <span><a class="btn btn-outline-primary rounded mx-1">Agenda una Demo</a></span>
+                    </div>
+                  </div>
+                  <!--End mc_embed_signup-->
+                </div>
+                <!-- /.newsletter-wrapper -->
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!--/.card-body -->
+        </div>
+        <!--/.card -->
+        <div class="row gy-6 gy-lg-0 mt-17 mb-0">
+          <div class="col-md-3 col-lg-3">
+            <div class="widget">
+              <h4 class="widget-title  mb-3">Estética</h4>
+              <ul class="list-unstyled text-reset mb-4">
+                <li><a href="#">Centros de estética</a></li>
+                <li><a href="#">Spas</a></li>
+              </ul>
+              <h4 class="widget-title  mb-3">Salud</h4>
+              <ul class="list-unstyled text-reset mb-4">
+                <li><a href="#">Centros médicos</a></li>
+                <li><a href="#">Clínicas</a></li>
+                <li><a href="#">Centros de fisioterapia</a></li>
+                <li><a href="#">Kinesiólogos</a></li>
+                <li><a href="#">Psicólogos</a></li>
+                <li><a href="#">Consulta médica particular</a></li>
+                <li><a href="#">Medicina alternativa</a></li>
+                <li><a href="#">Centros de podología</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <div class="widget">
+              <h4 class="widget-title  mb-3">Belleza</h4>
+              <ul class="list-unstyled text-reset mb-4">
+                <li><a href="#">Barberías</a></li>
+                <li><a href="#">Peluquerías</a></li>
+                <li><a href="#">Salones de belleza</a></li>
+                <li><a href="#">Salones de manicure</a></li>
+              </ul>
+              <h4 class="widget-title  mb-3">Bienestar</h4>
+              <ul class="list-unstyled text-reset mb-4">
+                <li><a href="#">Centros deportivos</a></li>
+                <li><a href="#">Centros de crossfit</a></li>
+                <li><a href="#">Estudios de yoga</a></li>
+                <li><a href="#">Gimnasios</a></li>
+              </ul>
+              <h4 class="widget-title  mb-3">Negocios</h4>
+              <ul class="list-unstyled text-reset mb-4">
+                <li><a href="#">Otros negocios</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+          <div class="col-md-3 col-lg-3">
+            <div class="widget">
+              <h4 class="widget-title  mb-3">Capta</h4>
+              <ul class="list-unstyled text-reset mb-4">
+                <li><a href="#">Agenda Online</a></li>
+                <li><a href="#">Agenda Médica</a></li>
+                <li><a href="#">Reservas Online</a></li>
+                <li><a href="#">Aplicación móvil</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Integración con redes sociales</a></li>
+              </ul>
+              <h4 class="widget-title  mb-3">Retiene</h4>
+              <ul class="list-unstyled text-reset mb-4">
+                <li><a href="#">Encuesta de satisfacción</a></li>
+                <li><a href="#">Fidelización de clientes</a></li>
+                <li><a href="#">Charly</a></li>
+                <li><a href="#">Giftcards</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <div class="widget">
+              <h4 class="widget-title  mb-3">Gestiona</h4>
+              <ul class="list-unstyled text-reset mb-4">
+                <li><a href="#">Recordatorios automáticos</a></li>
+                <li><a href="#">Ficha Clínica</a></li>
+                <li><a href="#">Sistema de caja</a></li>
+                <li><a href="#">Facturación electrónica</a></li>
+                <li><a href="#">Control de inventarios</a></li>
+                <li><a href="#">Gestión de clientes</a></li>
+                <li><a href="#">Almacenamiento en la nube</a></li>
+                <li><a href="#">Teleconsulta</a></li>
+                <li><a href="#">Reportes de gestión</a></li>
+                <li><a href="#">Integraciones / API</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!--/.row -->  
+      </div>  
+    </section>
   </div>
   <!-- /.content-wrapper -->
-  <footer class="bg-light">
+
+ 
+  <footer class="bg-soft-aqua mt-15">
     <div class="container mt-10 pb-7">
-      <div class="card image-wrapper bg-full bg-image mb-14 mb-md-18 signup_cta" data-image-src="./assets/img/photos/bg2.jpg">
-        <div class="card-body p-9 py-xl-15">
-          <div class="row align-items-center gy-6">
-            <div class="col-lg-7">
-              <h3 class="display-5 text-navy">¿Ya estás listo para empezar?</h3>
-              <p class="lead pe-lg-12 mb-0 text-navy">Si aún tienes dudas, nos encantaria mostrarte todas nuestras funcionalidades en una breve demo online. ¡Contáctanos!.</p>
-            </div>
-            <!-- /column -->
-            <div class="col-lg-5 col-xl-5">
-              <div class="newsletter-wrapper">
-                <!-- Begin Mailchimp Signup Form -->
-                  <div id="mc_embed_signup2">
-                    <div class="d-flex justify-content-center">
-                    <span><a class="btn btn-primary rounded mx-1">Empezar!</a></span>
-                    <span><a class="btn btn-outline-primary rounded mx-1">Agenda una Demo</a></span>
-                  </div>
-                </div>
-                <!--End mc_embed_signup-->
-              </div>
-              <!-- /.newsletter-wrapper -->
-            </div>
-            <!-- /column -->
-          </div>
-          <!-- /.row -->
-        </div>
-        <!--/.card-body -->
-      </div>
-      <!--/.card -->
-      <div class="row gy-6 gy-lg-0">
-        <div class="col-md-3 col-lg-3">
-          <div class="widget">
-            <h4 class="widget-title  mb-3">Estética</h4>
-            <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">Centros de estética</a></li>
-              <li><a href="#">Spas</a></li>
-            </ul>
-            <h4 class="widget-title  mb-3">Salud</h4>
-            <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">Centros médicos</a></li>
-              <li><a href="#">Clínicas</a></li>
-              <li><a href="#">Centros de fisioterapia</a></li>
-              <li><a href="#">Kinesiólogos</a></li>
-              <li><a href="#">Psicólogos</a></li>
-              <li><a href="#">Consulta médica particular</a></li>
-              <li><a href="#">Medicina alternativa</a></li>
-              <li><a href="#">Centros de podología</a></li>
-            </ul>
-          </div>
-          <!-- /.widget -->
-        </div>
-        <div class="col-md-3 col-lg-3">
-          <div class="widget">
-            <h4 class="widget-title  mb-3">Belleza</h4>
-            <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">Barberías</a></li>
-              <li><a href="#">Peluquerías</a></li>
-              <li><a href="#">Salones de belleza</a></li>
-              <li><a href="#">Salones de manicure</a></li>
-            </ul>
-            <h4 class="widget-title  mb-3">Bienestar</h4>
-            <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">Centros deportivos</a></li>
-              <li><a href="#">Centros de crossfit</a></li>
-              <li><a href="#">Estudios de yoga</a></li>
-              <li><a href="#">Gimnasios</a></li>
-            </ul>
-            <h4 class="widget-title  mb-3">Negocios</h4>
-            <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">Otros negocios</a></li>
-            </ul>
-          </div>
-          <!-- /.widget -->
-        </div>
-        <!-- /column -->
-        <div class="col-md-3 col-lg-3">
-          <div class="widget">
-            <h4 class="widget-title  mb-3">Capta</h4>
-            <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">Agenda Online</a></li>
-              <li><a href="#">Agenda Médica</a></li>
-              <li><a href="#">Reservas Online</a></li>
-              <li><a href="#">Aplicación móvil</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Integración con redes sociales</a></li>
-            </ul>
-            <h4 class="widget-title  mb-3">Retiene</h4>
-            <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">Encuesta de satisfacción</a></li>
-              <li><a href="#">Fidelización de clientes</a></li>
-              <li><a href="#">Charly</a></li>
-              <li><a href="#">Giftcards</a></li>
-            </ul>
-          </div>
-          <!-- /.widget -->
-        </div>
-        <div class="col-md-3 col-lg-3">
-          <div class="widget">
-            <h4 class="widget-title  mb-3">Gestiona</h4>
-            <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">Recordatorios automáticos</a></li>
-              <li><a href="#">Ficha Clínica</a></li>
-              <li><a href="#">Sistema de caja</a></li>
-              <li><a href="#">Facturación electrónica</a></li>
-              <li><a href="#">Control de inventarios</a></li>
-              <li><a href="#">Gestión de clientes</a></li>
-              <li><a href="#">Almacenamiento en la nube</a></li>
-              <li><a href="#">Teleconsulta</a></li>
-              <li><a href="#">Reportes de gestión</a></li>
-              <li><a href="#">Integraciones / API</a></li>
-            </ul>
-          </div>
-          <!-- /.widget -->
-        </div>
-        <!-- /column -->
-      </div>
-      <!--/.row -->  
-      <hr class="mt-10 mt-10 mb-10" />
-      <div class="row mt-12 mb-12">
+      <div class="row mt-15 mb-12">
         <div class="col-md-4 col-lg-4">
           <div class="widget">
             <img class="mb-4" src="./assets/img/logo@2x.png" srcset="./assets/img/logo@2x.png 2x" alt="" />
@@ -681,11 +701,13 @@
         </div>
         <!-- /column -->   
       </div>    
+      <hr class="mt-0 mb-0" />
+      
     </div>
     <!-- /.container -->
   </footer>
   <section class="wrapper bg-soft-aqua sub-footer">
-    <div class="container mt-10 pb-7">
+    <div class="container mt-4 pb-7">
       <div class="d-md-flex align-items-center justify-content-between">
         <p class="mb-2 mb-lg-0">Agendapro se hace con <i class="uil uil-heart text-red"></i> desde <span class="typer" data-words="Chile,Colombia,México,Argentina" data-delay="100" data-deleteDelay="1000"></span></p>
 
