@@ -61,23 +61,23 @@
 <body class="home">
   <div class="content-wrapper">
     <header class="wrapper">
-      <div class="bg-soft-aqua text-leaf fs-13 mb-2 d-none d-lg-block">
+      <div class="bg-soft-aqua text-leaf fs-13 d-none d-lg-block">
         <div class="container py-2 d-md-flex flex-md-row">
           <div class="d-flex flex-row align-items-center">
-            <span>Desde nuestro Blog: <a class="link-leaf hover-3 more" href="https://blog.agendapro.com/perdida-de-clientes-causas-y-como-evitarlas">Pérdida de clientes: Causas y cómo evitarlas</a></span>
+            <span>Desde nuestro Blog: <a class="link-leaf hover-3 more" href="https://blog.agendapro.com/centros-de-estetica/como-administrar-tu-salon-de-belleza-o-peluqueria">¿Cómo administrar tu salón de belleza o peluquería?</a></span>
           </div>
           <div class="d-flex flex-row align-items-center me-6 ms-auto">
-            <div class="icon text-leaf fs-18 mt-0 me-1"> <i class="uil uil-phone-volume"></i></div>
+            <div class="icon text-leaf fs-18 mt-0 me-1"> <i class="uil uil-phone"></i></div>
             <p class="mb-0">+562 2938 1145</p>
           </div>
           <div class="d-flex flex-row align-items-center">
-            <div class="icon text-leaf fs-18 mt-0 me-1"> <i class="uil uil-message"></i></div>
+            <div class="icon text-leaf fs-18 mt-0 me-1"> <i class="uil uil-envelope-alt"></i></div>
             <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-leaf hover">contacto@agendapro.com</a></p>
           </div>
         </div>
         <!-- /.container -->
       </div>
-      <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
+      <nav class="navbar navbar-expand-lg center-nav transparent navbar-light ">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="./index.html">
@@ -91,8 +91,149 @@
             </div>
             <div class="offcanvas-body d-flex flex-column h-100 nav-agendapro-menu">
               <ul class="navbar-nav">
-                <li class="nav-item dropdown dropdown-mega">
+                <li class="nav-item dropdown dropdown-mega dropdown-features">
                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Rubros</a>
+                  <ul class="dropdown-menu mega-menu">
+                    <li class="mega-menu-content">
+                      <div class="row gx-0 gx-lg-3">
+                        <div class="col-lg-4">
+                          <h6 class="dropdown-header">Salud</h6>
+                          <ul class="list-unstyled cc-2 pb-lg-1">
+                          <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centro-medico.png"></span>
+                                Centros médicos
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Clinica.png"></span>
+                                Clínicas
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Fisioterapia.png"></span>
+                                Centros de fisioterapia
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Kinesiologia.png"></span>
+                                Kinesiólogos
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Psicologos.png"></span>
+                                Psicólogos
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Consulta-medica.png"></span>
+                                Consulta médica
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Medicina-alternativa.png"></span>
+                                Medicina alternativa
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Podologia.png"></span>
+                                Centro de podología
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <!--/column -->
+                        <div class="col-lg-4">
+                          <h6 class="dropdown-header">Estética y Belleza</h6>
+                          <ul class="list-unstyled cc-2">
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-de-estetica.png"></span>
+                                Centros de Estética
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Spas.png"></span>
+                                Spas
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Barberia.png"></span>
+                                Barberías
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Peliqueria.png"></span>
+                                Peluquerías
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Salon-de-belleza.png"></span>
+                                Salones de belleza
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-de-manicure-y-pedicure.png"></span>
+                                Manicure y pedicure
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <!--/column -->
+                        <div class="col-lg-4">
+                          <h6 class="dropdown-header">Bienestar</h6>
+                          <ul class="list-unstyled cc-2">
+                          <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-deportivos.png"></span>
+                                Centros deportivos
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Crossfit.png"></span>
+                                Centros de crossfit
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Barberia.png"></span>
+                                Estudios de pilates
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Yoga.png"></span>
+                                Estudios de yoga
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Gimnasio.png"></span>
+                                Estudios de yoga
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <!--/column -->
+                      </div>
+                      <!--/.row -->
+                    </li>
+                    <!--/.mega-menu-content-->
+                  </ul>
+                  <!--/.dropdown-menu -->
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Funcionalidades</a>
@@ -150,8 +291,8 @@
     </header>
     <!-- /header -->
     <section class="wrapper clients-section">
-      <div class="container pt-10 pb-0 pt-md-18 pb-md-0 text-center">
-        <div class="row gx-lg-0 gx-xl-8 gy-10 gy-md-13 gy-lg-0 mb-14 mb-md-14 mb-lg-16 align-items-center">
+      <div class="container pt-10 pb-0 pt-md-16 pb-md-0 text-center">
+        <div class="row gx-lg-0 gx-xl-8 gy-10 gy-md-13 gy-lg-0 mb-14 mb-md-14 mb-lg-18 align-items-center">
           <div class="col-md-9 offset-md-1 col-lg-7 offset-lg-1 position-relative order-lg-2">
             <figure class="rounded"><img src="https://agendapro.com/wp-content/uploads/2021/03/Home_-Crea-tu-agenda-online@2x-8.png" srcset="https://agendapro.com/wp-content/uploads/2021/03/Home_-Crea-tu-agenda-online@2x-8.png 2x" alt="" /></figure>
           </div>
@@ -166,7 +307,7 @@
           <!--/column -->
         </div>
         <!-- /.row -->
-        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <mark class="clients_qty">4.000</mark> clientes confían en nosotros</h2>
+        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="underline-3 style-1 green clients_qty">4.000</span> clientes confían en nosotros</h2>
         <div class="px-lg-5 mb-0 mb-md-16 clients">
           <div class="row gx-0 gx-md-8 gx-xl-6 gy-8 align-items-center">
             <div class="col-4 col-md-2">
@@ -202,11 +343,11 @@
     </section>
     <!-- /section -->
     <section class="wrapper bg-light features-section">
-      <div class="container py-8 py-md-0 mb-2 mb-md-14 mt-md-16">
+      <div class="container py-8 py-md-0 mb-2 mb-md-14 mt-md-18">
         <div class="row">
           <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
             <h2 class="fs-15 text-uppercase text-muted mb-3">La única forma de crecer es manteniendo el orden</h2>
-            <h3 class="display-4 mb-10 mt-6 py-2 underline-3 style-1 green">Simplifica tu día a día y haz crecer tu negocio</h3>
+            <h3 class="display-4 mb-2 py-2"><mark>Simplifica tu día a día</mark> y haz crecer tu negocio</h3>
           </div>
           <!-- /column -->
         </div>
@@ -383,7 +524,7 @@
         <div class="row text-center">
           <div class="col-lg-9 col-xl-8 mx-auto">
             <h2 class="fs-16 text-uppercase text-muted mb-3">Y aún tenemos mucho más para gestionar tu negocio.</h2>
-            <h3 class="display-4 mb-10 px-xxl-10">Automatiza y ahorra con las siguientes herramientas.</h3>
+            <h3 class="display-4 mb-10 px-xxl-10"><mark>Automatiza y ahorra</mark> con las siguientes herramientas.</h3>
           </div>
           <!-- /column -->
         </div>

@@ -9,25 +9,17 @@ body{
     background-color: white;
 }
 
-body.home {
-    background-image: url(https://agendapro.com/wp-content/uploads/2020/10/Rectangle-1028.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-}
+// body.home {
+//     background-image: url(https://agendapro.com/wp-content/uploads/2020/10/Rectangle-1028.png);
+//     background-repeat: no-repeat;
+//     background-position-x: right;
+// }
 
 // .navbar.navbar-light.fixed .btn:not(.btn-expand) {
 //     background: $orange;
 //     border-color: $orange;
 //     color: #fff;
 // }
-
-@media (min-width: 992px){
-    .nav-agendapro-menu .navbar-nav .nav-link {
-        padding-top: 28px;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-}
 
 .navbar-light .navbar-brand {
     flex-shrink: 2;
@@ -148,6 +140,18 @@ footer .investors .logo{
     background-size: 80% 80%;
 
     }
+    header .nav-agendapro-menu .dropdown-features .dropdown-item{
+        text-align: center;
+        padding: 10px;
+    }
+    header .nav-agendapro-menu .dropdown-features .dropdown-item span{
+        text-align: center;
+    }
+    .nav-agendapro-menu .navbar-nav .nav-link {
+        padding-top: 28px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
 
 .features-section .features-icons img{
@@ -162,4 +166,10 @@ body.home .clients-section .clients_qty{
 body.home .clients-section .clients_qty{
     font-size: 1.4em;
     padding: 0 6px;
+}
+
+header .nav-agendapro-menu .mega-menu{
+    background-image: url(https://agendapro.com/wp-content/uploads/2020/10/Rectangle-1028.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
