@@ -357,11 +357,11 @@
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2020/12/Gestion-de-clientes_1-1.png">
+                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png">
                               </div>
                               <div>
-                                <h6 class="mb-1">Gestión de clientes</h6>
-                                <p class="mb-0">La información de tus clientes más relevante en un solo lugar.</p>
+                                <h6 class="mb-1">Control de comisiones</h6>
+                                <p class="mb-0">Calcula automáticamente las comisiones de tus profesionales.</p>
                               </div>
                             </a>
                             <ul class="list-unstyled cc-2">
@@ -408,6 +408,11 @@
                               <li class="item-agendapro-menu">
                                 <a class="dropdown-item fs-13" href="./docs/index.html">
                                   Sistema de caja
+                                </a>
+                              </li>
+                              <li class="item-agendapro-menu">
+                                <a class="dropdown-item fs-13" href="./docs/index.html">
+                                  Gestión de clientes
                                 </a>
                               </li>
                             </ul>
