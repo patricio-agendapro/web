@@ -232,7 +232,7 @@
                       <!--/.row -->
                       <div class="otro_negocio_text fs-md">
                         <h6>¿No encuentras tu negocio?</h6>
-                        <p>AgendaPro se adapta a cualquier negocio que trabaje con citas.</p>
+                        <p>AgendaPro se adapta a cualquier <br>negocio que trabaje con citas.</p>
                       </div>
                     </li>
                     <!--/.mega-menu-content-->
@@ -339,7 +339,7 @@
                           <div class="d-none d-lg-block">
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automaticos.png">
+                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automaticos.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Recordatorios automáticos</h6>
@@ -348,7 +348,7 @@
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2020/12/Pago-online_3-9.png">
+                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2020/12/Pago-online_3-9.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Pago online</h6>
@@ -357,7 +357,7 @@
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2020/12/Gestion-de-clientes_1-1.png">
+                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2020/12/Gestion-de-clientes_1-1.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Gestión de clientes</h6>
@@ -451,7 +451,7 @@
                           <div class="d-none d-lg-block">
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Encuestas-de-satisfaccio%CC%81n_2.png">
+                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Encuestas-de-satisfaccio%CC%81n_2.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Encuesta de satisfacción</h6>
@@ -460,7 +460,7 @@
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Fidelizacio%CC%81n-de-clientes_3-3.png">
+                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Fidelizacio%CC%81n-de-clientes_3-3.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Fidelización de clientes</h6>
@@ -469,7 +469,7 @@
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/04/Gift-cards-1_1@2x.png">
+                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/04/Gift-cards-1_1@2x.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Giftcards</h6>
@@ -478,7 +478,7 @@
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4 mt-2 mt-lg-8">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Charly_4-1.png">
+                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Charly_4-1.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Charly: Tu experto en Marketing Inteligente</h6>
