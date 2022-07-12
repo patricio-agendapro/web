@@ -246,14 +246,14 @@
                       <div class="row gx-0 gx-lg-3">
                         <div class="col-lg-4">
                           <h6 class="dropdown-header">Capta</h6>
-                          <div class="d-none d-lg-block">
+                          <div class="d-none d-lg-block ap-mega-menu">
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Agenda-online_2-3.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Agenda Online</h6>
-                                <p class="mb-0">Digitaliza tu agenda y organiza tu día a día.</p>
+                                <p class="mb-0 d-none d-xl-block">Digitaliza tu agenda y organiza tu día a día.</p>
                               </div>
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
@@ -262,7 +262,7 @@
                               </div>
                               <div>
                                 <h6 class="mb-1">Reservas Online</h6>
-                                <p class="mb-0">Tus clientes estarán felices de lo fácil e intuitivo que es reservar.</p>
+                                <p class="mb-0 d-none d-xl-block">Tus clientes estarán felices de lo fácil e intuitivo que es reservar.</p>
                               </div>
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
@@ -271,7 +271,7 @@
                               </div>
                               <div>
                                 <h6 class="mb-1">Marketing</h6>
-                                <p class="mb-0">Campañas de email marketing con métricas útiles y fáciles de usar.</p>
+                                <p class="mb-0 d-none d-xl-block">Campañas de email marketing con métricas útiles y fáciles de usar.</p>
                               </div>
                             </a>
                             <ul class="list-unstyled cc-2 pb-lg-1">
@@ -336,14 +336,14 @@
                         <!--/column -->
                         <div class="col-lg-4">
                           <h6 class="dropdown-header">Gestiona</h6>
-                          <div class="d-none d-lg-block">
+                          <div class="d-none d-lg-block ap-mega-menu">
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automaticos.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Recordatorios automáticos</h6>
-                                <p class="mb-0">Reduce tu tasa de inasistencias recordando las citas un día antes.</p>
+                                <p class="mb-0 d-none d-xl-block">Reduce tu tasa de inasistencias recordando las citas un día antes.</p>
                               </div>
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
@@ -352,7 +352,7 @@
                               </div>
                               <div>
                                 <h6 class="mb-1">Pago online</h6>
-                                <p class="mb-0">Ofrece a tus clientes una manera rápida y sencilla de pagar.</p>
+                                <p class="mb-0 d-none d-xl-block">Ofrece a tus clientes una manera rápida y sencilla de pagar.</p>
                               </div>
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
@@ -361,7 +361,7 @@
                               </div>
                               <div>
                                 <h6 class="mb-1">Control de comisiones</h6>
-                                <p class="mb-0">Calcula automáticamente las comisiones de tus profesionales.</p>
+                                <p class="mb-0 d-none d-xl-block">Calcula automáticamente las comisiones de tus profesionales.</p>
                               </div>
                             </a>
                             <ul class="list-unstyled cc-2">
@@ -453,14 +453,14 @@
                         <!--/column -->
                         <div class="col-lg-4">
                           <h6 class="dropdown-header">Retiene</h6>
-                          <div class="d-none d-lg-block">
+                          <div class="d-none d-lg-block ap-mega-menu">
                             <a href="#" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Encuestas-de-satisfaccio%CC%81n_2.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Encuesta de satisfacción</h6>
-                                <p class="mb-0">Optimiza tu negocio tomando en cuenta la opinión de tus clientes.</p>
+                                <p class="mb-0 d-none d-xl-block">Optimiza tu negocio tomando en cuenta la opinión de tus clientes.</p>
                               </div>
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
@@ -469,7 +469,7 @@
                               </div>
                               <div>
                                 <h6 class="mb-1">Fidelización de clientes</h6>
-                                <p class="mb-0">Fideliza a tus clientes y conviertelos en frecuentes.</p>
+                                <p class="mb-0 d-none d-xl-block">Fideliza a tus clientes y conviertelos en frecuentes.</p>
                               </div>
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4">
@@ -478,7 +478,7 @@
                               </div>
                               <div>
                                 <h6 class="mb-1">Giftcards</h6>
-                                <p class="mb-0">Comienza a ofrecer Giftcards a tus clientes y haz crecer tu negocio.</p>
+                                <p class="mb-0 d-none d-xl-block">Comienza a ofrecer Giftcards a tus clientes y haz crecer tu negocio.</p>
                               </div>
                             </a>
                             <a href="#" class="d-flex flex-row mb-6 px-4 mt-2 mt-lg-8">

@@ -159,6 +159,21 @@ footer .investors .logo{
     .navbar .dropdown-features a:hover h6{
         color: $green;
     }
+    .ap-mega-menu  .item-agendapro-menu .dropdown-item{
+        padding: .2rem 0.5rem;
+        white-space: nowrap;
+    }
+
+    .dropdown-merchants .item-agendapro-menu .dropdown-item{
+        white-space: nowrap;
+    }
+}
+.ap-mega-menu  .item-agendapro-menu .dropdown-item{
+    white-space: normal;
+}
+
+.dropdown-merchants .item-agendapro-menu .dropdown-item{
+    white-space: normal;
 }
 
 .features-section .features-icons img{
@@ -175,11 +190,7 @@ body.home .clients-section .clients_qty{
     padding: 0 6px;
 }
 
-.nav-agendapro-menu .mega-menu{
-    background-image: url(https://agendapro.com/wp-content/uploads/2020/10/Rectangle-1028.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-}
+
 
 .nav-agendapro-menu .mega-menu-content .otro_negocio_text{
     position: absolute;
