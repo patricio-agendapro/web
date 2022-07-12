@@ -298,37 +298,32 @@
                           <ul class="list-unstyled cc-2 pb-lg-1 d-block d-lg-none">
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Clínicas
+                                Agenda Online
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Centros de fisioterapia
+                                Reservas Online
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Kinesiólogos
+                                Marketing
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Psicólogos
+                                Agenda Médica
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Consulta médica
+                                Integración redes sociales
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Medicina alternativa
-                              </a>
-                            </li>
-                            <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="./docs/index.html">
-                                Centro de podología
+                                Aplicación móvil
                               </a>
                             </li>
                           </ul>
@@ -420,32 +415,62 @@
                           <ul class="list-unstyled cc-2 d-block d-lg-none">
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Centros de Estética
+                                Recordatorios automáticos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Spas
+                                Pago online
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Barberías
+                                Control de comisiones
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Peluquerías
+                                Ficha Clínica
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Salones de belleza
+                                Gestión de presupuestos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Manicure y pedicure
+                                Facturación electrónica
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                Control de inventarios
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                Almacenamiento en la nube
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                Teleconsulta
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                Reportes de gestión
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                Integraciones / API
+                              </a>
+                            </li>
+                            <li class="item-agendapro-menu">
+                              <a class="dropdown-item" href="./docs/index.html">
+                                Gestión de clientes
                               </a>
                             </li>
                           </ul>
@@ -495,27 +520,22 @@
                           <ul class="list-unstyled cc-2 d-block d-lg-none">
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Centros deportivos
+                                Encuesta de satisfacción
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Centros de crossfit
+                                Fidelización de clientes
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Estudios de pilates
+                                Giftcards
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="./docs/index.html">
-                                Estudios de yoga
-                              </a>
-                            </li>
-                            <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="./docs/index.html">
-                                Estudios de yoga
+                                Charly
                               </a>
                             </li>
                           </ul>
