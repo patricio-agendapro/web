@@ -6,8 +6,9 @@ use App\Http\Controllers\Controller;
 
 class FeatureController extends Controller
 {
-    public function agenda_online()
+    public function agenda_online($country)
     {
+        
 
         $meta = array(
             'title'=> 'home',
@@ -16,7 +17,7 @@ class FeatureController extends Controller
             'bodyclass' => 'home'
         );
 
-        return view('home');
+        return view('agenda_online');
 
     }
 

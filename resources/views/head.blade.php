@@ -4,9 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="AgendaPro.">
-  <meta name="author" content="elemis">
-  <title>AgendaPro - Agenda online y Software de gestión</title>
+  {{ seo()->render() }}
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <!---<link rel="preload" href="./assets/fonts/roboto/roboto-400.woff2" as="font" crossorigin="anonymous" />

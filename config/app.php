@@ -8,8 +8,7 @@ return [
     |--------------------------------------------------------------------------
     |
     */
-    'ap_domain' => 'agendapro.com',
-    'ap_cdn' => 'https://dcx13p9dsx90t.cloudfront.net/uploads/logos/',
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -21,7 +20,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Web'),
+    'name' => env('APP_NAME', 'AgendaProWeb'),
 
     /*
     |--------------------------------------------------------------------------
@@ -60,7 +59,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://agendapro.local'),
+    'url' => env('APP_URL'),
 
     'asset_url' => env('ASSET_URL', env('APP_URL').'/market_assets'),
 
@@ -88,7 +87,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
