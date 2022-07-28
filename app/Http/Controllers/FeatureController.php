@@ -11,13 +11,10 @@ class FeatureController extends Controller
         
 
         $meta = array(
-            'title'=> 'home',
-            'description'=> 'description',
-            'robots'=> 'index,follow',
             'bodyclass' => 'home'
         );
 
-        return view('agenda_online');
+        return view('agenda_online', ['country' => $country, 'meta' => $meta]);
 
     }
 

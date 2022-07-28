@@ -17,11 +17,15 @@ class HomeController extends Controller
         $seo = seo();
         $seo = app(SeoService::class);
         $seo = Seo::make();
-        
+
         seo()->title('AgendaPro');
         seo()->meta('description', 'AgendaPro FTW');
 
-        return view('home');
+        $meta = array(
+            'bodyclass' => 'home'
+        );
+
+        return view('home', ['country' => $country, 'meta' => $meta]);
 
     }
 

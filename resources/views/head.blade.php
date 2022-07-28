@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ Config::get('countries.'.$country.'.lang') }}">
 
 <head>
   <meta charset="utf-8">
@@ -56,5 +56,5 @@
 </head>
 
 
-<body class="home">
+<body class="{{ $meta['bodyclass'] }}">
   <div class="content-wrapper">
