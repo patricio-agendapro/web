@@ -19,7 +19,7 @@
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-light ">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
-            <a href="{{  url('') }}">
+            <a href="{{  url('') }}/{{  $id_country }}">
               <img src="/assets/img/logo.png" alt="" />
             </a>
           </div>
@@ -39,49 +39,49 @@
                           <h6 class="dropdown-header">Salud</h6>
                           <ul class="list-unstyled cc-2 pb-lg-1">
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/centros-de-estetica/software-para-centros-de-estetica">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centro-medico.png"></span>
                                 Centros médicos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/clinica/software-para-clinica">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Clinica.png"></span>
                                 Clínicas
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/fisioterapia/software-para-centro-de-fisioterapia">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Fisioterapia.png"></span>
                                 Centros de fisioterapia
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/kinesiologos/software-para-kinesiologos">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Kinesiologia.png"></span>
                                 Kinesiólogos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/psicologos/software-para-psicologos">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Psicologos.png"></span>
                                 Psicólogos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/consulta-medica/software-para-consulta-medica">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Consulta-medica.png"></span>
                                 Consulta médica
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/medicina-alternativa/software-de-medicina-alternativa">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Medicina-alternativa.png"></span>
                                 Medicina alternativa
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/podologia/software-para-centro-de-podologia">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Podologia.png"></span>
                                 Centro de podología
                               </a>
@@ -93,37 +93,37 @@
                           <h6 class="dropdown-header">Estética y Belleza</h6>
                           <ul class="list-unstyled cc-2">
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/centros-de-estetica/software-para-centros-de-estetica">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-de-estetica.png"></span>
                                 Centros de Estética
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/spa/software-para-spa">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Spas.png"></span>
                                 Spas
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/barberia/software-para-barberias/">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Barberia.png"></span>
                                 Barberías
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/peluqueria/software-para-peluquerias">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Peliqueria.png"></span>
                                 Peluquerías
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/salon-de-belleza/software-para-salon-de-belleza">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Salon-de-belleza.png"></span>
                                 Salones de belleza
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/manicure-y-pedicure/software-para-salon-de-manicure-y-pedicure">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-de-manicure-y-pedicure.png"></span>
                                 Manicure y pedicure
                               </a>
@@ -135,33 +135,33 @@
                           <h6 class="dropdown-header">Bienestar</h6>
                           <ul class="list-unstyled cc-2">
                           <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/centro-deportivo/software-para-centro-deportivo">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-deportivos.png"></span>
                                 Centros deportivos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/crossfit/software-para-centro-de-crossfit">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Crossfit.png"></span>
                                 Centros de crossfit
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/pilates/software-para-estudio-de-pilates">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Barberia.png"></span>
                                 Estudios de pilates
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/yoga/software-para-estudio-de-yoga">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Yoga.png"></span>
                                 Estudios de yoga
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/gimnasio/software-para-gimnasio">
                                 <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Gimnasio.png"></span>
-                                Estudios de yoga
+                                Gimnasios
                               </a>
                             </li>
                           </ul>
@@ -186,7 +186,7 @@
                         <div class="col-lg-4">
                           <h6 class="dropdown-header">Capta</h6>
                           <div class="d-none d-lg-block ap-mega-menu">
-                            <a href="#" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{  $id_country }}/agenda-online" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Agenda-online_2-3.png">
                               </div>
@@ -195,7 +195,7 @@
                                 <p class="mb-0 d-none d-xl-block">Digitaliza tu agenda y organiza tu día a día.</p>
                               </div>
                             </a>
-                            <a href="#" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{  $id_country }}/reservas-online" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2020/12/Reservas-Online_2-2.png">
                               </div>
@@ -204,7 +204,7 @@
                                 <p class="mb-0 d-none d-xl-block">Tus clientes estarán felices de lo fácil e intuitivo que es reservar.</p>
                               </div>
                             </a>
-                            <a href="#" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{  $id_country }}/marketing" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Marketing_4-1.png">
                               </div>
@@ -215,17 +215,17 @@
                             </a>
                             <ul class="list-unstyled cc-2 pb-lg-1">
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/agenda-medica">
                                   Agenda Médica
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/integracion-con-redes-sociales">
                                   Integración redes sociales
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/aplicacion-movil">
                                   Aplicación móvil
                                 </a>
                               </li>
@@ -236,32 +236,32 @@
 
                           <ul class="list-unstyled cc-2 pb-lg-1 d-block d-lg-none">
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/agenda-online">
                                 Agenda Online
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/reservas-online">
                                 Reservas Online
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/marketing">
                                 Marketing
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/agenda-medica">
                                 Agenda Médica
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/integracion-con-redes-sociales">
                                 Integración redes sociales
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/aplicacion-movil">
                                 Aplicación móvil
                               </a>
                             </li>
@@ -271,7 +271,7 @@
                         <div class="col-lg-4">
                           <h6 class="dropdown-header">Gestiona</h6>
                           <div class="d-none d-lg-block ap-mega-menu">
-                            <a href="#" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{  $id_country }}/recordatorios-automaticos" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automaticos.png">
                               </div>
@@ -280,7 +280,7 @@
                                 <p class="mb-0 d-none d-xl-block">Reduce tu tasa de inasistencias recordando las citas un día antes.</p>
                               </div>
                             </a>
-                            <a href="#" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{  $id_country }}/pago-online" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2020/12/Pago-online_3-9.png">
                               </div>
@@ -289,7 +289,7 @@
                                 <p class="mb-0 d-none d-xl-block">Ofrece a tus clientes una manera rápida y sencilla de pagar.</p>
                               </div>
                             </a>
-                            <a href="#" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{  $id_country }}/control-de-comisiones" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png">
                               </div>
@@ -300,52 +300,52 @@
                             </a>
                             <ul class="list-unstyled cc-2">
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/ficha-clinica">
                                   Ficha Clínica
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/gestion-de-presupuestos">
                                   Gestión de presupuestos
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/facturacion-electronica">
                                   Facturación electrónica
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/control-de-inventarios">
                                   Control de inventarios
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/almacenamiento-en-la-nube">
                                   Almacenamiento en la nube
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/teleconsulta">
                                   Teleconsulta
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/reportes-de-gestion">
                                   Reportes de gestión
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/integraciones-api">
                                   Integraciones / API
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/sistema-de-caja">
                                   Sistema de caja
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/docs/index.html">
+                                <a class="dropdown-item fs-13" href="/{{  $id_country }}/gestion-de-clientes">
                                   Gestión de clientes
                                 </a>
                               </li>
@@ -353,62 +353,62 @@
                           </div><!-- end div none-->
                           <ul class="list-unstyled cc-2 d-block d-lg-none">
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/recordatorios-automaticos">
                                 Recordatorios automáticos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/pago-online">
                                 Pago online
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/control-de-comisiones">
                                 Control de comisiones
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/ficha-clinica">
                                 Ficha Clínica
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/gestion-de-presupuestos">
                                 Gestión de presupuestos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/facturacion-electronica">
                                 Facturación electrónica
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/control-de-inventarios">
                                 Control de inventarios
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/almacenamiento-en-la-nube">
                                 Almacenamiento en la nube
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/teleconsulta">
                                 Teleconsulta
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/reportes-de-gestion">
                                 Reportes de gestión
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/integraciones-api">
                                 Integraciones / API
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/gestion-de-clientes">
                                 Gestión de clientes
                               </a>
                             </li>
@@ -418,7 +418,7 @@
                         <div class="col-lg-4">
                           <h6 class="dropdown-header">Retiene</h6>
                           <div class="d-none d-lg-block ap-mega-menu">
-                            <a href="#" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{  $id_country }}/encuesta-de-satisfaccion" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Encuestas-de-satisfaccio%CC%81n_2.png">
                               </div>
@@ -427,7 +427,7 @@
                                 <p class="mb-0 d-none d-xl-block">Optimiza tu negocio tomando en cuenta la opinión de tus clientes.</p>
                               </div>
                             </a>
-                            <a href="#" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{  $id_country }}/fidelizacion-de-clientes" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Fidelizacio%CC%81n-de-clientes_3-3.png">
                               </div>
@@ -436,7 +436,7 @@
                                 <p class="mb-0 d-none d-xl-block">Fideliza a tus clientes y conviertelos en frecuentes.</p>
                               </div>
                             </a>
-                            <a href="#" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{  $id_country }}/giftcards" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/04/Gift-cards-1_1@2x.png">
                               </div>
@@ -445,7 +445,7 @@
                                 <p class="mb-0 d-none d-xl-block">Comienza a ofrecer Giftcards a tus clientes y haz crecer tu negocio.</p>
                               </div>
                             </a>
-                            <a href="#" class="d-flex flex-row mb-6 px-4 mt-2 mt-lg-8">
+                            <a href="/{{  $id_country }}/charly" class="d-flex flex-row mb-6 px-4 mt-2 mt-lg-8">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Charly_4-1.png">
                               </div>
@@ -458,22 +458,22 @@
                           </div><!-- end div none-->
                           <ul class="list-unstyled cc-2 d-block d-lg-none">
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/encuesta-de-satisfaccion">
                                 Encuesta de satisfacción
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/fidelizacion-de-clientes">
                                 Fidelización de clientes
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/giftcards">
                                 Giftcards
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/docs/index.html">
+                              <a class="dropdown-item" href="/{{  $id_country }}/charly">
                                 Charly
                               </a>
                             </li>

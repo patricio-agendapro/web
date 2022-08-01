@@ -1,32 +1,30 @@
 <?php
 
 namespace App\Http\Controllers;
- 
+
+use Illuminate\Support\Facades\App;
 use App\Http\Controllers\Controller;
 use romanzipp\Seo\Facades\Seo;
 use romanzipp\Seo\Services\SeoService;
 
-
-
-
 class HomeController extends Controller
 {
-    public function home($country)
+    public function __construct()
     {
-        
-        $seo = seo();
-        $seo = app(SeoService::class);
-        $seo = Seo::make();
+        $this->seo = seo();
+        $this->seo = app(SeoService::class);
+        $this->seo = Seo::make();  
+    }
 
-        seo()->title('AgendaPro');
-        seo()->meta('description', 'AgendaPro FTW');
-
+    public function home($id_country)
+    {
+        App::setLocale(config('countries.'.$id_country.'lang_location'));
+        $this->seo->title('AgendaPro');
+        $this->seo->meta('description', 'AgendaPro FTW');
         $meta = array(
             'bodyclass' => 'home'
         );
-
-        return view('home', ['country' => $country, 'meta' => $meta]);
-
+        return view('home', ['id_country' => $id_country, 'meta' => $meta]);
     }
 
 }
