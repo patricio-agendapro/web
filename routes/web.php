@@ -34,6 +34,7 @@ Route::get('{country}/almacenamiento-en-la-nube', [FeatureController::class, 'al
 Route::get('{country}/teleconsulta', [FeatureController::class, 'teleconsulta']);
 Route::get('{country}/reportes-de-gestion', [FeatureController::class, 'reportes_de_gestion']);
 Route::get('{country}/integraciones-api', [FeatureController::class, 'integraciones_api']);
+Route::get('{country}/gestion-de-presupuestos', [FeatureController::class, 'gestion_presupuestos']);
 Route::get('{country}/encuesta-de-satisfaccion', [FeatureController::class, 'encuesta_de_satisfaccion']);
 Route::get('{country}/fidelizacion-de-clientes', [FeatureController::class, 'fidelizacion_de_clientes']);
 Route::get('{country}/charly', [FeatureController::class, 'charly']);

@@ -289,13 +289,13 @@
                                 <p class="mb-0 d-none d-xl-block">Ofrece a tus clientes una manera rápida y sencilla de pagar.</p>
                               </div>
                             </a>
-                            <a href="/{{ $locale }}/control-de-comisiones" class="d-flex flex-row mb-6 px-4">
+                            <a href="/{{ $locale }}/facturacion-electronica" class="d-flex flex-row mb-6 px-4">
                               <div>
                                 <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png">
                               </div>
                               <div>
-                                <h6 class="mb-1">Control de comisiones</h6>
-                                <p class="mb-0 d-none d-xl-block">Calcula automáticamente las comisiones de tus profesionales.</p>
+                                <h6 class="mb-1">Facturación electrónica</h6>
+                                <p class="mb-0 d-none d-xl-block">Envía facturas digitales de forma automática.</p>
                               </div>
                             </a>
                             <ul class="list-unstyled cc-2">
