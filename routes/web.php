@@ -41,3 +41,8 @@ Route::get('{country}/charly', [FeatureController::class, 'charly']);
 Route::get('{country}/giftcards', [FeatureController::class, 'giftcards']);
 
 Route::get('{country}', [HomeController::class, 'home']);
+
+Route::get('/', function () {
+    return redirect('/cl');
+});
+
