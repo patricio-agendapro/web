@@ -4,21 +4,21 @@
     <section class="wrapper clients-section">
       <div class="container pt-0 pb-0 pt-md-14 pb-md-0 text-center">
         <div class="row gx-lg-0 gx-xl-8 gy-10 gy-md-13 gy-lg-0 mb-14 mb-md-14 mb-lg-18 align-items-center">
-          <div class="col-lg-4 mt-lg-n10 text-center text-lg-start pt-12">
-            <h1 class="display-1 mb-5">Crea tu agenda online y haz <span class="underline-3 style-3 primary">crecer</span> tu negocio.</h1>
-            <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0">Gestiona tus citas, clientes y ventas en un mismo lugar.</p>
+          <div class="col-lg-5 mt-lg-n10 text-center text-lg-start pt-12">
+            <h1 class="display-3 mb-5">Crea tu agenda online y haz <span class="underline-3 style-3 primary">crecer</span> tu negocio</h1>
+            <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0">Gestiona tus citas, clientes y ventas en un mismo lugar</p>
             <div class="d-flex justify-content-center justify-content-lg-start">
               <span><a class="btn btn-green rounded">Prueba Gratis</a></span>
             </div>
           </div>
           <!--/column -->
-          <div class="col-md-9 offset-md-1 col-lg-7 offset-lg-1 position-relative order-lg-1">
+          <div class="col-md-9 offset-md-1 col-lg-7 offset-lg-0 position-relative order-lg-1">
             <figure class="rounded"><img src="/assets/img/web_1.png" alt="AgendaPro" /></figure>
           </div>
           <!--/column -->
         </div>
         <!-- /.row -->
-        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="fs-30">4.000</span> clientes confían en nosotros</h2>
+        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="fs-30">5.000</span> clientes confían en nosotros</h2>
         <div class="px-lg-5 mb-0 mb-md-16 clients">
           <div class="row gx-0 gx-md-8 gx-xl-6 gy-8 align-items-center">
             <div class="col-4 col-md-2">

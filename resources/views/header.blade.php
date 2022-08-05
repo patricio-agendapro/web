@@ -31,7 +31,7 @@
             <div class="offcanvas-body d-flex flex-column h-100 nav-agendapro-menu">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown dropdown-mega dropdown-merchants">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Para quién es</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Soluciones para</a>
                   <ul class="dropdown-menu mega-menu">
                     <li class="mega-menu-content">
                       <div class="row gx-0 gx-lg-3">
