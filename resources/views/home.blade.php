@@ -2,9 +2,9 @@
 @include('header')
 
     <section class="wrapper clients-section">
-      <div class="container pt-0 pb-0 pt-md-14 pb-md-0 text-center">
+      <div class="container pt-10 pb-0 pt-md-10 pt-lg-14 pb-md-0 text-center">
         <div class="row gx-lg-0 gx-xl-8 gy-10 gy-md-13 gy-lg-0 mb-14 mb-md-14 mb-lg-18 align-items-center">
-          <div class="col-lg-5 mt-lg-n10 text-center text-lg-start pt-12">
+          <div class="col-lg-5 text-center text-lg-start">
             <h1 class="display-3 mb-5">Crea tu agenda online y haz <span class="underline-3 style-3 primary">crecer</span> tu negocio</h1>
             <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0">Gestiona tus citas, clientes y ventas en un mismo lugar</p>
             <div class="d-flex justify-content-center justify-content-lg-start">
