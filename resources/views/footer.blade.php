@@ -5,7 +5,7 @@
       <div class="row mt-15 mb-8">
         <div class="col-md-4 col-lg-4">
           <div class="widget">
-            <img class="mb-4" src="/assets/img/logo@2x.png" srcset="/assets/img/logo@2x.png 2x" alt="" />
+            <img class="mb-4" width="240" src="/assets/img/logoapro.svg" alt="AgendaPro" />
             <nav class="nav social ">
               
               <span class="avatar bg-pale-primary text-primary w-9 h-9"><a href="#"><i class="uil text-green uil-instagram"></i></a></span>

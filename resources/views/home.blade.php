@@ -58,7 +58,7 @@
         <div class="row">
           <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
             <h2 class="fs-15 text-uppercase text-muted mb-3">La única forma de crecer es manteniendo el orden</h2>
-            <h3 class="display-4 mb-2 py-2"><mark>Simplifica tu día a día</mark> y haz crecer tu negocio</h3>
+            <h3 class="display-4 mb-2 py-2">Simplifica tu día a día y haz crecer tu negocio</h3>
           </div>
           <!-- /column -->
         </div>
@@ -235,7 +235,7 @@
         <div class="row text-center">
           <div class="col-lg-9 col-xl-8 mx-auto">
             <h2 class="fs-16 text-uppercase text-muted mb-3">Y aún tenemos mucho más para gestionar tu negocio.</h2>
-            <h3 class="display-4 mb-10 px-xxl-10"><mark>Automatiza y ahorra</mark> con las siguientes herramientas.</h3>
+            <h3 class="display-4 mb-10 px-xxl-10">Automatiza y ahorra con las siguientes herramientas.</h3>
           </div>
           <!-- /column -->
         </div>
