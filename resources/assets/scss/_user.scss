@@ -46,11 +46,6 @@ body.home .features-section .icon-list li {
     text-align: left;
 }
 
-body.home .process-wrapper.arrow [class*=col-]:before {
-    opacity: 1;
-    margin-top: 15px !important;
-}
-
 footer .image-wrapper.bg-full {
     background-size: 80%;
     background-position: center center;
@@ -177,7 +172,7 @@ footer .investors .logo{
 }
 
 .features-section .features-icons img{
-    height: 60px;
+    width: 100%;
 }
 
 body.home .clients-section .clients_qty{

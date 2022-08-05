@@ -22,7 +22,7 @@ Route::get('{country}/agenda-medica', [FeatureController::class, 'agenda_medica'
 Route::get('{country}/reservas-online', [FeatureController::class, 'reservas_online']);
 Route::get('{country}/aplicacion-movil', [FeatureController::class, 'aplicacion_movil']);
 Route::get('{country}/integracion-con-redes-sociales', [FeatureController::class, 'integracion_con_redes_sociales']);
-Route::get('{country}/marketing', [FeatureController::class, 'marketing']);
+//Route::get('{country}/marketing', [FeatureController::class, 'marketing']);
 Route::get('{country}/recordatorios-automaticos', [FeatureController::class, 'recordatorios_automaticos']);
 Route::get('{country}/ficha-clinica', [FeatureController::class, 'ficha_clinica']);
 Route::get('{country}/sistema-de-caja', [FeatureController::class, 'sistema_de_caja']);

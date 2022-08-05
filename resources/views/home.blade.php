@@ -2,13 +2,9 @@
 @include('header')
 
     <section class="wrapper clients-section">
-      <div class="container pt-10 pb-0 pt-md-16 pb-md-0 text-center">
+      <div class="container pt-0 pb-0 pt-md-14 pb-md-0 text-center">
         <div class="row gx-lg-0 gx-xl-8 gy-10 gy-md-13 gy-lg-0 mb-14 mb-md-14 mb-lg-18 align-items-center">
-          <div class="col-md-9 offset-md-1 col-lg-7 offset-lg-1 position-relative order-lg-2">
-            <figure class="rounded"><img src="https://agendapro.com/wp-content/uploads/2021/03/Home_-Crea-tu-agenda-online@2x-8.png" srcset="https://agendapro.com/wp-content/uploads/2021/03/Home_-Crea-tu-agenda-online@2x-8.png 2x" alt="" /></figure>
-          </div>
-          <!--/column -->
-          <div class="col-lg-4 mt-lg-n10 text-center text-lg-start">
+          <div class="col-lg-4 mt-lg-n10 text-center text-lg-start pt-12">
             <h1 class="display-1 mb-5">Crea tu agenda online y haz <span class="underline-3 style-3 primary">crecer</span> tu negocio.</h1>
             <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0">Gestiona tus citas, clientes y ventas en un mismo lugar.</p>
             <div class="d-flex justify-content-center justify-content-lg-start">
@@ -16,9 +12,13 @@
             </div>
           </div>
           <!--/column -->
+          <div class="col-md-9 offset-md-1 col-lg-7 offset-lg-1 position-relative order-lg-1">
+            <figure class="rounded"><img src="/assets/img/web_1.png" alt="AgendaPro" /></figure>
+          </div>
+          <!--/column -->
         </div>
         <!-- /.row -->
-        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="underline-3 style-1 green clients_qty">4.000</span> clientes confían en nosotros</h2>
+        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="fs-30">4.000</span> clientes confían en nosotros</h2>
         <div class="px-lg-5 mb-0 mb-md-16 clients">
           <div class="row gx-0 gx-md-8 gx-xl-6 gy-8 align-items-center">
             <div class="col-4 col-md-2">
@@ -65,18 +65,18 @@
         <!-- /.row -->
         <div class="row gx-lg-8 gx-xl-10 mb-lg-12 align-items-center">
           <div class="col-lg-12 features-icons">
-            <div class="row gx-lg-4 gx-xl-4 mt-10 mb-4 process-wrapper arrow text-center">
-              <div class="col-md-4"> <img src="https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja_4-2.png" class="mb-4" alt="" />
+            <div class="row gx-lg-4 gx-xl-4 mt-10 mb-4 process-wrapper text-center">
+              <div class="col-md-4"> <img src="/assets/img/web_2.png" class="mb-4 p-4" alt="" />
                 <h3 class="fs-18">Toma el control</h3>
                 <p>Mantén a tu agenda, equipo, clientes e ingresos en orden.</p>
               </div>
               <!--/column -->
-              <div class="col-md-4"> <img src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png" class="mb-4" alt="" />
+              <div class="col-md-4"> <img src="/assets/img/web_3.png" class="mb-4 p-4" alt="" />
                 <h3 class="fs-18">Ahorra tiempo</h3>
                 <p>Deja que tus clientes agenden por si mismos.</p>
               </div>
               <!--/column -->
-              <div class="col-md-4"> <img src="https://agendapro.com/wp-content/uploads/2020/12/Reportes-de-gestion_3.png" class="mb-4" alt="" />
+              <div class="col-md-4"> <img src="/assets/img/web_4.png" class="mb-4 p-4" alt="" />
                 <h3 class="fs-18">Aumenta ingresos</h3>
                 <p>Evita inasistencias con recordatorios.</p>
               </div>
@@ -197,7 +197,7 @@
         <div class="row gx-3 gy-10 gy-lg-0 mb-12 mb-md-17 align-items-center">
           <div class="col-lg-5 mx-auto order-lg-2">
             <div class="row gx-md-5 gy-5 position-relative">
-              <img src="/assets/img/crecer.png">
+              <img src="/assets/img/web_5.png">
               <!-- /column -->
             </div>
             <!-- /.row -->
@@ -243,18 +243,6 @@
           <div class="col-md-6 col-lg-4">
             <div class="d-flex flex-row">
               <div class="more-image">
-                <img src="https://agendapro.com/wp-content/uploads/2020/12/Fichas-clinicas.png" class="me-4" alt="" />
-              </div>
-              <div>
-                <h4 class="mb-1">Ficha/Historia Clínica</h4>
-                <p class="mb-0">Lleva toda la información de tus pacientes de forma segura y accesible en la nube.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-4">
-            <div class="d-flex flex-row">
-              <div class="more-image">
                 <img src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png" class="me-4" alt="" />
               </div>
               <div>
@@ -272,6 +260,18 @@
               <div>
                 <h4 class="mb-1">Sistema de inventario online</h4>
                 <p class="mb-0">Lleva el control de tu inventario en tiempo real.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div class="more-image">
+                <img src="https://agendapro.com/wp-content/uploads/2020/12/Fichas-clinicas.png" class="me-4" alt="" />
+              </div>
+              <div>
+                <h4 class="mb-1">Ficha/Historia Clínica</h4>
+                <p class="mb-0">Lleva toda la información de tus pacientes de forma segura y accesible en la nube.</p>
               </div>
             </div>
           </div>
