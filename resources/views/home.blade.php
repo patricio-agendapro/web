@@ -1,9 +1,28 @@
 @include('head')
+
+      <div class="bg-soft-aqua text-leaf fs-13 d-none d-lg-block">
+        <div class="container py-2 d-md-flex flex-md-row">
+          <div class="d-flex flex-row align-items-center">
+            <span>Desde nuestro Blog: <a class="link-leaf hover-3 more" href="https://blog.agendapro.com/centros-de-estetica/como-administrar-tu-salon-de-belleza-o-peluqueria">¿Cómo administrar tu salón de belleza o peluquería?</a></span>
+          </div>
+          <div class="d-flex flex-row align-items-center me-6 ms-auto">
+            <div class="icon text-leaf fs-18 mt-0 me-1"> <i class="uil uil-phone"></i></div>
+            <p class="mb-0">+562 2938 1145</p>
+          </div>
+          <div class="d-flex flex-row align-items-center">
+            <div class="icon text-leaf fs-18 mt-0 me-1"> <i class="uil uil-envelope-alt"></i></div>
+            <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-leaf hover">contacto@agendapro.com</a></p>
+          </div>
+        </div>
+        <!-- /.container -->
+      </div>
+
+
 @include('header')
 
     <section class="wrapper clients-section">
-      <div class="container pt-10 pb-0 pt-md-10 pt-lg-14 pb-md-0 text-center">
-        <div class="row gx-lg-0 gx-xl-8 gy-10 gy-md-13 gy-lg-0 mb-14 mb-md-14 mb-lg-18 align-items-center">
+      <div class="container pt-10 pb-0 pt-md-6 pt-lg-10 pt-xl-12 pt-xxl-12 pb-md-0 text-center">
+        <div class="row gx-lg-0 gx-xl-8 gy-10 gy-md-13 gy-lg-0 mb-14 mb-md-14 mb-lg-14 align-items-center">
           <div class="col-lg-5 text-center text-lg-start">
             <h1 class="display-3 mb-5">Crea tu agenda online y haz <span class="underline-3 style-3 primary">crecer</span> tu negocio</h1>
             <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0">Gestiona tus citas, clientes y ventas en un mismo lugar</p>
