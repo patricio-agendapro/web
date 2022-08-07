@@ -48,6 +48,7 @@
   </style>
   
   <link rel="stylesheet" href="/assets/css/style.css" rel="preload" as="style">
+  <link rel="preload" as="image" href="/assets/img/web_1.png">
 
 </head>
 
