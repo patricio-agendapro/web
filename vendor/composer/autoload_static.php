@@ -108,7 +108,11 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
+            'Spatie\\WelcomeNotification\\' => 27,
+            'Spatie\\WebhookClient\\' => 21,
             'Spatie\\SchemaOrg\\' => 17,
+            'Spatie\\LaravelPackageTools\\' => 27,
+            'Spatie\\BladeJavaScript\\' => 23,
         ),
         'R' => 
         array (
@@ -344,9 +348,25 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
         ),
+        'Spatie\\WelcomeNotification\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src',
+        ),
+        'Spatie\\WebhookClient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src',
+        ),
         'Spatie\\SchemaOrg\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/schema-org/src',
+        ),
+        'Spatie\\LaravelPackageTools\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-package-tools/src',
+        ),
+        'Spatie\\BladeJavaScript\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -4944,6 +4964,19 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/type/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/type/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Spatie\\BladeJavaScript\\BladeJavaScriptServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/BladeJavaScriptServiceProvider.php',
+        'Spatie\\BladeJavaScript\\Exceptions\\Untransformable' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Exceptions/Untransformable.php',
+        'Spatie\\BladeJavaScript\\Renderer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Renderer.php',
+        'Spatie\\BladeJavaScript\\Transformers\\ArrayTransformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/ArrayTransformer.php',
+        'Spatie\\BladeJavaScript\\Transformers\\BooleanTransformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/BooleanTransformer.php',
+        'Spatie\\BladeJavaScript\\Transformers\\NullTransformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/NullTransformer.php',
+        'Spatie\\BladeJavaScript\\Transformers\\NumericTransformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/NumericTransformer.php',
+        'Spatie\\BladeJavaScript\\Transformers\\ObjectTransformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/ObjectTransformer.php',
+        'Spatie\\BladeJavaScript\\Transformers\\StringTransformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/StringTransformer.php',
+        'Spatie\\BladeJavaScript\\Transformers\\Transformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/Transformer.php',
+        'Spatie\\LaravelPackageTools\\Exceptions\\InvalidPackage' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Exceptions/InvalidPackage.php',
+        'Spatie\\LaravelPackageTools\\Package' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Package.php',
+        'Spatie\\LaravelPackageTools\\PackageServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/PackageServiceProvider.php',
         'Spatie\\SchemaOrg\\AMRadioChannel' => __DIR__ . '/..' . '/spatie/schema-org/src/AMRadioChannel.php',
         'Spatie\\SchemaOrg\\APIReference' => __DIR__ . '/..' . '/spatie/schema-org/src/APIReference.php',
         'Spatie\\SchemaOrg\\AboutPage' => __DIR__ . '/..' . '/spatie/schema-org/src/AboutPage.php',
@@ -6726,6 +6759,27 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         'Spatie\\SchemaOrg\\WriteAction' => __DIR__ . '/..' . '/spatie/schema-org/src/WriteAction.php',
         'Spatie\\SchemaOrg\\XPathType' => __DIR__ . '/..' . '/spatie/schema-org/src/XPathType.php',
         'Spatie\\SchemaOrg\\Zoo' => __DIR__ . '/..' . '/spatie/schema-org/src/Zoo.php',
+        'Spatie\\WebhookClient\\Events\\InvalidWebhookSignatureEvent' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Events/InvalidWebhookSignatureEvent.php',
+        'Spatie\\WebhookClient\\Exceptions\\InvalidConfig' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Exceptions/InvalidConfig.php',
+        'Spatie\\WebhookClient\\Exceptions\\InvalidWebhookSignature' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Exceptions/InvalidWebhookSignature.php',
+        'Spatie\\WebhookClient\\Http\\Controllers\\WebhookController' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Http/Controllers/WebhookController.php',
+        'Spatie\\WebhookClient\\Jobs\\ProcessWebhookJob' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Jobs/ProcessWebhookJob.php',
+        'Spatie\\WebhookClient\\Models\\WebhookCall' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Models/WebhookCall.php',
+        'Spatie\\WebhookClient\\SignatureValidator\\DefaultSignatureValidator' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/SignatureValidator/DefaultSignatureValidator.php',
+        'Spatie\\WebhookClient\\SignatureValidator\\SignatureValidator' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/SignatureValidator/SignatureValidator.php',
+        'Spatie\\WebhookClient\\WebhookClientServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookClientServiceProvider.php',
+        'Spatie\\WebhookClient\\WebhookConfig' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookConfig.php',
+        'Spatie\\WebhookClient\\WebhookConfigRepository' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookConfigRepository.php',
+        'Spatie\\WebhookClient\\WebhookProcessor' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookProcessor.php',
+        'Spatie\\WebhookClient\\WebhookProfile\\ProcessEverythingWebhookProfile' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookProfile/ProcessEverythingWebhookProfile.php',
+        'Spatie\\WebhookClient\\WebhookProfile\\WebhookProfile' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookProfile/WebhookProfile.php',
+        'Spatie\\WebhookClient\\WebhookResponse\\DefaultRespondsTo' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookResponse/DefaultRespondsTo.php',
+        'Spatie\\WebhookClient\\WebhookResponse\\RespondsToWebhook' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookResponse/RespondsToWebhook.php',
+        'Spatie\\WelcomeNotification\\ReceivesWelcomeNotification' => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src/ReceivesWelcomeNotification.php',
+        'Spatie\\WelcomeNotification\\WelcomeController' => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src/WelcomeController.php',
+        'Spatie\\WelcomeNotification\\WelcomeNotification' => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src/WelcomeNotification.php',
+        'Spatie\\WelcomeNotification\\WelcomeNotificationServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src/WelcomeNotificationServiceProvider.php',
+        'Spatie\\WelcomeNotification\\WelcomesNewUsers' => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src/WelcomesNewUsers.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Bridge\\PsrHttpMessage\\ArgumentValueResolver\\PsrServerRequestResolver' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/ArgumentValueResolver/PsrServerRequestResolver.php',
         'Symfony\\Bridge\\PsrHttpMessage\\EventListener\\PsrResponseListener' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/EventListener/PsrResponseListener.php',
