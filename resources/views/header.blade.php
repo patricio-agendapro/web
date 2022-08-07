@@ -23,49 +23,49 @@
                           <ul class="list-unstyled cc-2 pb-lg-1">
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/centros-de-estetica/software-para-centros-de-estetica">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centro-medico.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centro-medico.png"></span>
                                 Centros médicos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/clinica/software-para-clinica">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Clinica.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Clinica.png"></span>
                                 Clínicas
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/fisioterapia/software-para-centro-de-fisioterapia">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Fisioterapia.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Fisioterapia.png"></span>
                                 Centros de fisioterapia
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/kinesiologos/software-para-kinesiologos">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Kinesiologia.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Kinesiologia.png"></span>
                                 Kinesiólogos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/psicologos/software-para-psicologos">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Psicologos.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Psicologos.png"></span>
                                 Psicólogos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/consulta-medica/software-para-consulta-medica">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Consulta-medica.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Consulta-medica.png"></span>
                                 Consulta médica
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/medicina-alternativa/software-de-medicina-alternativa">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Medicina-alternativa.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Medicina-alternativa.png"></span>
                                 Medicina alternativa
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/podologia/software-para-centro-de-podologia">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Podologia.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Podologia.png"></span>
                                 Centro de podología
                               </a>
                             </li>
@@ -77,37 +77,37 @@
                           <ul class="list-unstyled cc-2">
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/centros-de-estetica/software-para-centros-de-estetica">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-de-estetica.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-de-estetica.png"></span>
                                 Centros de Estética
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/spa/software-para-spa">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Spas.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Spas.png"></span>
                                 Spas
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/barberia/software-para-barberias/">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Barberia.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Barberia.png"></span>
                                 Barberías
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/peluqueria/software-para-peluquerias">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Peliqueria.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Peliqueria.png"></span>
                                 Peluquerías
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/salon-de-belleza/software-para-salon-de-belleza">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Salon-de-belleza.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Salon-de-belleza.png"></span>
                                 Salones de belleza
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/manicure-y-pedicure/software-para-salon-de-manicure-y-pedicure">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-de-manicure-y-pedicure.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-de-manicure-y-pedicure.png"></span>
                                 Manicure y pedicure
                               </a>
                             </li>
@@ -119,31 +119,31 @@
                           <ul class="list-unstyled cc-2">
                           <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/centro-deportivo/software-para-centro-deportivo">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-deportivos.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Centros-deportivos.png"></span>
                                 Centros deportivos
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/crossfit/software-para-centro-de-crossfit">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Crossfit.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Crossfit.png"></span>
                                 Centros de crossfit
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/pilates/software-para-estudio-de-pilates">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Barberia.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Barberia.png"></span>
                                 Estudios de pilates
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/yoga/software-para-estudio-de-yoga">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Yoga.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Yoga.png"></span>
                                 Estudios de yoga
                               </a>
                             </li>
                             <li class="item-agendapro-menu">
                               <a class="dropdown-item" href="/{{ $locale }}/gimnasio/software-para-gimnasio">
-                                <span class="d-none d-lg-block mb-1"><img height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Gimnasio.png"></span>
+                                <span class="d-none d-lg-block mb-1"><img loading="lazy" height="50" src="https://agendapro.com/wp-content/uploads/2020/12/Gimnasio.png"></span>
                                 Gimnasios
                               </a>
                             </li>
@@ -171,7 +171,7 @@
                           <div class="d-none d-lg-block ap-mega-menu">
                             <a href="/{{ $locale }}/agenda-online" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Agenda-online_2-3.png">
+                                <img class="me-5" loading="lazy" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Agenda-online_2-3.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Agenda Online</h6>
@@ -180,7 +180,7 @@
                             </a>
                             <a href="/{{ $locale }}/reservas-online" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2020/12/Reservas-Online_2-2.png">
+                                <img class="me-5" loading="lazy" width="60" src="https://agendapro.com/wp-content/uploads/2020/12/Reservas-Online_2-2.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Reservas Online</h6>
@@ -189,7 +189,7 @@
                             </a>
                             <a href="/{{ $locale }}/marketing" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Marketing_4-1.png">
+                                <img class="me-5" loading="lazy" width="60" src="https://agendapro.com/wp-content/uploads/2021/01/Marketing_4-1.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Marketing</h6>
@@ -256,7 +256,7 @@
                           <div class="d-none d-lg-block ap-mega-menu">
                             <a href="/{{ $locale }}/recordatorios-automaticos" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automaticos.png">
+                                <img class="me-5" width="50" loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automaticos.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Recordatorios automáticos</h6>
@@ -265,7 +265,7 @@
                             </a>
                             <a href="/{{ $locale }}/pago-online" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2020/12/Pago-online_3-9.png">
+                                <img class="me-5" width="50" loading="lazy" src="https://agendapro.com/wp-content/uploads/2020/12/Pago-online_3-9.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Pago online</h6>
@@ -274,7 +274,7 @@
                             </a>
                             <a href="/{{ $locale }}/facturacion-electronica" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png">
+                                <img class="me-5" width="50" loading="lazy" src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Facturación electrónica</h6>
@@ -403,7 +403,7 @@
                           <div class="d-none d-lg-block ap-mega-menu">
                             <a href="/{{ $locale }}/encuesta-de-satisfaccion" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Encuestas-de-satisfaccio%CC%81n_2.png">
+                                <img class="me-5" width="50" loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/Encuestas-de-satisfaccio%CC%81n_2.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Encuesta de satisfacción</h6>
@@ -412,7 +412,7 @@
                             </a>
                             <a href="/{{ $locale }}/fidelizacion-de-clientes" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Fidelizacio%CC%81n-de-clientes_3-3.png">
+                                <img class="me-5" width="50" loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/Fidelizacio%CC%81n-de-clientes_3-3.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Fidelización de clientes</h6>
@@ -421,7 +421,7 @@
                             </a>
                             <a href="/{{ $locale }}/giftcards" class="d-flex flex-row mb-6 px-4">
                               <div>
-                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/04/Gift-cards-1_1@2x.png">
+                                <img class="me-5" width="50" loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/04/Gift-cards-1_1@2x.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Giftcards</h6>
@@ -430,7 +430,7 @@
                             </a>
                             <a href="/{{ $locale }}/charly" class="d-flex flex-row mb-6 px-4 mt-2 mt-lg-8">
                               <div>
-                                <img class="me-5" width="50" src="https://agendapro.com/wp-content/uploads/2021/01/Charly_4-1.png">
+                                <img class="me-5" width="50" loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/Charly_4-1.png">
                               </div>
                               <div>
                                 <h6 class="mb-1">Charly: Tu experto en Marketing Inteligente</h6>
@@ -496,9 +496,9 @@
               <li class="nav-item dropdown language-select">
                 <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/cl-bandera.png" alt=""></a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" src="https://agendapro.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/co.png" alt=""> Colombia</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/mx-bandera.png" alt=""> México</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/ar-bandera.png" alt=""> Argentina</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" loading="lazy" src="https://agendapro.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/co.png" alt=""> Colombia</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" loading="lazy" src="https://agendapro.com/wp-content/uploads/flags/mx-bandera.png" alt=""> México</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" loading="lazy" src="https://agendapro.com/wp-content/uploads/flags/ar-bandera.png" alt=""> Argentina</a></li>
                 </ul>
               </li>
               <li class="nav-item d-none d-md-block">
