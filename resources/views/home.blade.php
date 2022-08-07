@@ -41,27 +41,27 @@
         <div class="px-lg-5 mb-0 mb-md-16 clients">
           <div class="row gx-0 gx-md-8 gx-xl-6 gy-8 align-items-center">
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img loading="lazy" src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_c4227e3319b972c4.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_c4227e3319b972c4.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img loading="lazy" src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_a3bbd07b19cc81e7.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_a3bbd07b19cc81e7.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img loading="lazy" src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_44b3d414e287d740.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_44b3d414e287d740.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img loading="lazy" src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_ee7e2d2aaa007684.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_ee7e2d2aaa007684.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img loading="lazy" src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_a9ed188ea9777b21.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_a9ed188ea9777b21.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img loading="lazy" src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_b0f3661469318162.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_b0f3661469318162.png" alt="" /></figure>
             </div>
             <!--/column -->
           </div>
@@ -85,17 +85,17 @@
         <div class="row gx-lg-8 gx-xl-10 mb-lg-12 align-items-center">
           <div class="col-lg-12 features-icons">
             <div class="row gx-lg-4 gx-xl-4 mt-10 mb-4 process-wrapper text-center">
-              <div class="col-md-4"> <img loading="lazy" src="/assets/img/web_2.png" class="mb-4" alt="" />
+              <div class="col-md-4"> <img data-src="/assets/img/web_2.png" class="mb-4 lazyload" alt="" />
                 <h3 class="fs-18">Toma el control</h3>
                 <p>Mantén a tu agenda, equipo, clientes e ingresos en orden.</p>
               </div>
               <!--/column -->
-              <div class="col-md-4"> <img loading="lazy" src="/assets/img/web_3.png" class="mb-4" alt="" />
+              <div class="col-md-4"> <img data-src="/assets/img/web_3.png" class="mb-4 lazyload" alt="" />
                 <h3 class="fs-18">Ahorra tiempo</h3>
                 <p>Deja que tus clientes agenden por si mismos.</p>
               </div>
               <!--/column -->
-              <div class="col-md-4"> <img loading="lazy" src="/assets/img/web_4.png" class="mb-4" alt="" />
+              <div class="col-md-4"> <img data-src="/assets/img/web_4.png" class="mb-4 lazyload" alt="" />
                 <h3 class="fs-18">Aumenta ingresos</h3>
                 <p>Evita inasistencias con recordatorios.</p>
               </div>
@@ -216,7 +216,7 @@
         <div class="row gx-3 gy-10 gy-lg-0 mb-12 mb-md-17 align-items-center">
           <div class="col-lg-5 mx-auto order-lg-2">
             <div class="row gx-md-5 gy-5 position-relative">
-              <img loading="lazy" src="/assets/img/web_5.png">
+              <img data-src="/assets/img/web_5.png" >
               <!-- /column -->
             </div>
             <!-- /.row -->
@@ -262,7 +262,7 @@
           <div class="col-md-6 col-lg-4">
             <div class="d-flex flex-row">
               <div class="more-image">
-                <img loading="lazy" src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png" class="me-4" alt="" />
+                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png" class="me-4 lazyload" alt="" />
               </div>
               <div>
                 <h4 class="mb-1">Control de comisiones</h4>
@@ -274,7 +274,7 @@
           <div class="col-md-6 col-lg-4">
             <div class="d-flex flex-row">
               <div class="more-image">
-                <img loading="lazy" src="https://agendapro.com/wp-content/uploads/2020/12/Control-de-inventarios_3.png" class="me-4" alt="" />
+                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Control-de-inventarios_3.png" class="me-4 lazyload" alt="" />
               </div>
               <div>
                 <h4 class="mb-1">Sistema de inventario online</h4>
@@ -286,7 +286,7 @@
           <div class="col-md-6 col-lg-4">
             <div class="d-flex flex-row">
               <div class="more-image">
-                <img loading="lazy" src="https://agendapro.com/wp-content/uploads/2020/12/Fichas-clinicas.png" class="me-4" alt="" />
+                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Fichas-clinicas.png" class="me-4 lazyload" alt="" />
               </div>
               <div>
                 <h4 class="mb-1">Ficha/Historia Clínica</h4>
@@ -298,7 +298,7 @@
           <div class="col-md-6 col-lg-4">
             <div class="d-flex flex-row">
               <div class="more-image">
-                <img loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja_4-2.png" class="me-4" alt="" />
+                <img  data-src="https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja_4-2.png" class="me-4 lazyload" alt="" />
               </div>
               <div>
                 <h4 class="mb-1">Control de caja</h4>
@@ -310,7 +310,7 @@
           <div class="col-md-6 col-lg-4">
             <div class="d-flex flex-row">
               <div class="more-image">
-                <img loading="lazy" src="https://agendapro.com/wp-content/uploads/2020/12/Pago-online_3.png" class="me-4" alt="" />
+                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Pago-online_3.png" class="me-4 lazyload" alt="" />
               </div>
               <div>
                 <h4 class="mb-1">Pago online</h4>
@@ -322,7 +322,7 @@
           <div class="col-md-6 col-lg-4">
             <div class="d-flex flex-row">
               <div class="more-image">
-                <img loading="lazy" src="https://agendapro.com/wp-content/uploads/2020/12/Reportes-de-gestion_3.png" class="me-4" alt="" />
+                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Reportes-de-gestion_3.png" class="me-4 lazyload" alt="" />
               </div>
               <div>
                 <h4 class="mb-1">Reportes y estadísticas</h4>

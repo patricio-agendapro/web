@@ -496,9 +496,9 @@
               <li class="nav-item dropdown language-select">
                 <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/cl-bandera.png" alt=""></a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" loading="lazy" src="https://agendapro.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/co.png" alt=""> Colombia</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" loading="lazy" src="https://agendapro.com/wp-content/uploads/flags/mx-bandera.png" alt=""> México</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" loading="lazy" src="https://agendapro.com/wp-content/uploads/flags/ar-bandera.png" alt=""> Argentina</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" class="lazyload" data-src="https://agendapro.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/co.png" alt=""> Colombia</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" class="lazyload" data-src="https://agendapro.com/wp-content/uploads/flags/mx-bandera.png" alt=""> México</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" class="lazyload" data-src="https://agendapro.com/wp-content/uploads/flags/ar-bandera.png" alt=""> Argentina</a></li>
                 </ul>
               </li>
               <li class="nav-item d-none d-md-block">

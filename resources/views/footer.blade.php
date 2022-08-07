@@ -44,7 +44,7 @@
           <!-- /.widget -->
           <div class="widget mobile_apps">
             <h4 class="widget-title mb-4">Descarga la app</h4>			
-            <a href="https://hubs.ly/H0rf2wQ0"><img loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/App-Store.png" alt="" width="149" height="50"></a> <a href="https://hubs.ly/H0rdYSd0"><img loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/Google-Play-1.png" alt="" width="149" height="50"></a>
+            <a href="https://hubs.ly/H0rf2wQ0"><img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/App-Store.png" alt="" width="149" height="50"></a> <a href="https://hubs.ly/H0rdYSd0"><img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/Google-Play-1.png" alt="" width="149" height="50"></a>
           </div>
         </div>
         <!-- /column -->
@@ -53,18 +53,18 @@
             <h4 class="widget-title mb-3">Nos están apoyando</h4>
             <div class="row">
               <div class="logo col-6">
-                <img loading="lazy" src="/assets/img/investors/ycombinator.png">
+                <img class="lazyload" data-src="/assets/img/investors/ycombinator.png">
               </div>
               <div class="logo col-6">
-                <img loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/Corfo.png">
+                <img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/Corfo.png">
               </div>
             </div>  
             <div class="row">
               <div class="logo col-6">
-                <img loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/Imagine-lab.png">
+                <img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/Imagine-lab.png">
               </div>
               <div class="logo col-6">
-                <img loading="lazy" src="https://agendapro.com/wp-content/uploads/2021/01/UDD-Ventures.png">
+                <img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/UDD-Ventures.png">
               </div>
             </div>  
           </div>
@@ -110,7 +110,7 @@
         <p class="mb-2 mb-lg-0">AgendaPro se hace con <i class="uil uil-heart text-red"></i> desde <span class="typer" data-words="Chile,Colombia,México,Argentina" data-delay="100" data-deleteDelay="1000"></span></p>
 
 
-        <span class="comodo"><img loading="lazy" src="/assets/img/comodo.png"></span>
+        <span class="comodo"><img class="lazyload" data-src="/assets/img/comodo.png"></span>
         <!-- /.social -->
       </div>
       <!-- /div -->
