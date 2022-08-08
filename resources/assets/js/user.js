@@ -16,4 +16,4 @@ function() {
     document.addEventListener('touchstart', lazyscript);
     document.addEventListener('scroll', lazyscript);
     document.addEventListener('keydown', lazyscript);
-}, 3000);
+}, 1000);
