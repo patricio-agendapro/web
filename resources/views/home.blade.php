@@ -73,7 +73,7 @@
     </section>
     <!-- /section -->
     <section class="wrapper bg-light features-section">
-      <div class="container py-8 py-md-0 mb-2 mb-md-14 mt-md-18">
+      <div class="container py-8 py-md-0 mb-2 mb-md-14 mt-12 mt-md-18">
         <div class="row">
           <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
             <h2 class="fs-15 text-uppercase text-muted mb-3">La única forma de crecer es manteniendo el orden</h2>
