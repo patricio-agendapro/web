@@ -32,7 +32,7 @@
           </div>
           <!--/column -->
           <div class="col-md-9 offset-md-1 col-lg-7 offset-lg-0 position-relative order-lg-1">
-            <figure class="rounded"><img src="/assets/img/web_1.png" alt="AgendaPro" /></figure>
+            <figure class="rounded"><img src="/assets/img/agendapro_home.webp" alt="AgendaPro" /></figure>
           </div>
           <!--/column -->
         </div>
