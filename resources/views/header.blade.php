@@ -148,14 +148,16 @@
                               </a>
                             </li>
                           </ul>
+                          <div class="card bg-soft-aqua shadow-lg rubro-otro">
+                            <div class="card-body">
+                              <h6 class="text-leaf">¿No encuentras tu negocio?</h6>
+                              <p class="text-leaf">AgendaPro se adapta a cualquier negocio que trabaje con citas.</p>
+                            </div>
+                          </div>
                         </div>
                         <!--/column -->
                       </div>
                       <!--/.row -->
-                      <div class="otro_negocio_text fs-md d-none d-lg-block">
-                        <h6>¿No encuentras tu negocio?</h6>
-                        <p>AgendaPro se adapta a cualquier <br>negocio que trabaje con citas.</p>
-                      </div>
                     </li>
                     <!--/.mega-menu-content-->
                   </ul>
@@ -196,19 +198,19 @@
                                 <p class="mb-0 d-none d-xl-block">Campañas de email marketing con métricas útiles y fáciles de usar.</p>
                               </div>
                             </a>
-                            <ul class="list-unstyled cc-2 pb-lg-1">
+                            <ul class="list-circle cc-2 pb-lg-1">
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/agenda-medica">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/agenda-medica">
                                   Agenda Médica
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/integracion-con-redes-sociales">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/integracion-con-redes-sociales">
                                   Integración redes sociales
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/aplicacion-movil">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/aplicacion-movil">
                                   Aplicación móvil
                                 </a>
                               </li>
@@ -281,54 +283,54 @@
                                 <p class="mb-0 d-none d-xl-block">Envía facturas digitales de forma automática.</p>
                               </div>
                             </a>
-                            <ul class="list-unstyled cc-2">
+                            <ul class="list-circle cc-2">
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/ficha-clinica">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/ficha-clinica">
                                   Ficha Clínica
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/gestion-de-presupuestos">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/gestion-de-presupuestos">
                                   Gestión de presupuestos
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/facturacion-electronica">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/facturacion-electronica">
                                   Facturación electrónica
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/control-de-inventarios">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/control-de-inventarios">
                                   Control de inventarios
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/almacenamiento-en-la-nube">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/almacenamiento-en-la-nube">
                                   Almacenamiento en la nube
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/teleconsulta">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/teleconsulta">
                                   Teleconsulta
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/reportes-de-gestion">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/reportes-de-gestion">
                                   Reportes de gestión
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/integraciones-api">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/integraciones-api">
                                   Integraciones / API
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/sistema-de-caja">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/sistema-de-caja">
                                   Sistema de caja
                                 </a>
                               </li>
                               <li class="item-agendapro-menu">
-                                <a class="dropdown-item fs-13" href="/{{ $locale }}/gestion-de-clientes">
+                                <a class="dropdown-item fs-13 otros" href="/{{ $locale }}/gestion-de-clientes">
                                   Gestión de clientes
                                 </a>
                               </li>

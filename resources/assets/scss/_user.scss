@@ -159,7 +159,7 @@ footer .investors .logo{
         color: $green;
     }
     .ap-mega-menu  .item-agendapro-menu .dropdown-item{
-        padding: .2rem 0.5rem;
+        padding: .2rem 0.5rem .2rem 0;
         white-space: nowrap;
     }
 
@@ -195,4 +195,49 @@ body.home .clients-section .clients_qty{
     position: absolute;
     bottom: 10px;
     right: 30px;
+}
+
+.dropdown-features .otros{
+    font-weight: 400;
+    letter-spacing: -.03rem;
+}
+
+.dropdown-features ul.list-circle{
+    list-style: circle;
+    padding-left: 1.6rem;
+}
+
+.dropdown-features ul.list-circle li{
+    display: list-item;
+}
+
+@media (min-width: 992px){
+    .nav-agendapro-menu .dropdown-header{
+        display: inline-block;
+        background-color: #24c388;
+        color: #fff;
+        padding: 3px 15px;
+        margin: 0 0 20px 25px;
+        border-radius: 10px 0 10px 0;
+        font-weight: 500;
+    }
+
+    .nav-agendapro-menu .rubro-otro .card-body{
+        padding: 20px 30px 20px 30px;
+        font-weight: normal;
+    }
+
+    .nav-agendapro-menu .rubro-otro .card-body h6{
+        font-weight: 400;
+        font-size: 16px;
+        color: #155d8d;
+        margin-bottom: 0px;
+    }
+    .nav-agendapro-menu .rubro-otro .card-body p{
+        font-weight: 400;
+        font-size: 13px;
+        color: #155d8d;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
 }

@@ -1,6 +1,6 @@
     <section class="wrapper bg-light cta-section mt-15 mb-0">
       <div class="container">
-        <div class="card image-wrapper bg-full bg-image signup_cta">
+        <div class="card image-wrapper bg-full bg-image signup_cta" data-image-src="/assets/img/photos/bg2.jpg">
           <div class="card-body p-9 py-xl-15">
             <div class="row align-items-center gy-6">
               <div class="col-lg-7">
