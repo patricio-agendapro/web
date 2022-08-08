@@ -9,12 +9,12 @@ var path = {
   src: {
     js: 'resources/assets/js/',
     vendorjs: 'resources/assets/js/vendor/*.*',
-    themejs: 'resources/assets/js/theme.js',
+    themejs: 'resources/assets/js/*.js',
     style: 'resources/assets/scss/style.scss',
     vendorcss: 'resources/assets/css/vendor/*.*'
   },
   watch: {
-    themejs: 'resources/assets/js/theme.js',
+    themejs: 'resources/assets/js/*.js',
     vendorjs: 'resources/assets/js/vendor/*.*',
     css: ['resources/assets/scss/**/*.scss'],
     vendorcss: 'resources/assets/css/vendor/*.*',

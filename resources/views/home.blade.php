@@ -216,7 +216,7 @@
         <div class="row gx-3 gy-10 gy-lg-0 mb-12 mb-md-17 align-items-center">
           <div class="col-lg-5 mx-auto order-lg-2">
             <div class="row gx-md-5 gy-5 position-relative">
-              <img data-src="/assets/img/web_5.png" >
+              <img class="lazyload" data-src="/assets/img/web_5.png" >
               <!-- /column -->
             </div>
             <!-- /.row -->

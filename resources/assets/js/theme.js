@@ -12,13 +12,13 @@ var theme = {
     theme.offCanvas();
     //theme.isotope();
     theme.onepageHeaderOffset();
-    theme.anchorSmoothScroll();
+    //theme.anchorSmoothScroll();
     theme.svgInject();
     theme.backgroundImage();
     theme.backgroundImageMobile();
     theme.imageHoverOverlay();
     //theme.rellax();
-    theme.scrollCue();
+    //theme.scrollCue();
     theme.swiperSlider();
     theme.lightbox();
     theme.plyr();
@@ -870,4 +870,5 @@ var theme = {
   // },
 }
 theme.init();
+
 
