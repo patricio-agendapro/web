@@ -34,8 +34,8 @@
         </div>  
         <div class="row gy-6 gy-lg-0 mt-14 mt-lg-20 mb-0">
           <div class="col-md-6 col-lg-6">
-            <h6 class="fs-24 mb-4">Soluciones para</h6>
-            <div class="row">
+            <span class="fs-24 underline-3 style-2 green text-dark">Soluciones para</span>
+            <div class="row mt-4">
               <div class="col-md-6 col-lg-6">
                 <div class="widget">
                   <h4 class="widget-title  mb-3">Estética</h4>
@@ -84,8 +84,8 @@
           </div>
           <!-- /column -->
           <div class="col-md-6 col-lg-6">
-            <h6 class="fs-24 mb-4">Funcionalidades</h6>
-            <div class="row">
+            <span class="fs-24 underline-3 style-2 green text-dark">Funcionalidades</span>
+            <div class="row mt-4">
               <div class="col-md-6 col-lg-6">
                 <div class="widget">
                   <h4 class="widget-title  mb-3">Capta</h4>
