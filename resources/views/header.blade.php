@@ -3,7 +3,7 @@
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="{{ url('') }}/{{ $locale }}">
-              <img class="logo" src="/assets/img/logoapro.svg" alt="" width="160"/>
+              <img class="logo" src="/assets/img/logoapro.svg" alt="" width="160" height="29.16"/>
             </a>
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -496,7 +496,7 @@
                 <a class="nav-link link-green" href="tel:56229381145">+562 2938 1145</a>
               </li>-->
               <li class="nav-item dropdown language-select">
-                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="24" src="https://agendapro.com/wp-content/uploads/flags/cl-bandera.png" alt=""></a>
+                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="24" height="15.7" src="https://agendapro.com/wp-content/uploads/flags/cl-bandera.png" alt=""></a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" class="lazyload" data-src="https://agendapro.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/co.png" alt=""> Colombia</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" class="lazyload" data-src="https://agendapro.com/wp-content/uploads/flags/mx-bandera.png" alt=""> México</a></li>
