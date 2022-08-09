@@ -241,3 +241,71 @@ body.home .clients-section .clients_qty{
         margin-top: 5px;
     }
 }
+
+.last-call-signup-img{
+    width: 100%;
+    margin-bottom: -78px;
+}
+
+.cta-section .button_lastcall_signup span a{
+    margin-bottom: 10px;
+}
+
+.cta-section .card-body{
+    padding: 2rem 1rem;
+}
+
+.cta-section .signup_cta{
+    overflow: hidden;
+}
+
+.last-call-signup-img{
+    width: 300px;
+    position: absolute;
+}
+
+.cta-section .wrapper_image_cta{
+    position: relative;
+}
+
+
+
+@media (min-width: 992px){
+    .last-call-signup-img{
+        width: 600px;
+        right: 10px;
+        bottom: -65px;
+        margin-bottom: 0;
+    }
+
+    .last-call-signup-wrapper{
+        height: 0px;
+    }
+
+    .cta-section .card-body{
+        padding: 2rem 2rem;
+    }
+
+}
+
+.cta-section .bg_circle_1{
+    background-color: #fff;
+    width: 340px;
+    height: 340px;
+    border-radius: 270px;
+    position: absolute;
+    opacity: 10%;
+    right: -90px;
+    top: -100px;
+}
+
+.cta-section .bg_circle_2{
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 270px;
+    position: absolute;
+    opacity: 10%;
+    right: 320px;
+    top: 100px;
+}
