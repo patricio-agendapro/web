@@ -41,27 +41,27 @@
         <div class="px-lg-5 mb-0 mb-md-16 clients">
           <div class="row gx-0 gx-md-8 gx-xl-6 gy-8 align-items-center">
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_c4227e3319b972c4.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyimglate" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_c4227e3319b972c4.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_a3bbd07b19cc81e7.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyimglate" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_a3bbd07b19cc81e7.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_44b3d414e287d740.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyimglate" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_44b3d414e287d740.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_ee7e2d2aaa007684.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyimglate" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_ee7e2d2aaa007684.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_a9ed188ea9777b21.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyimglate" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_a9ed188ea9777b21.png" alt="" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyload" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_b0f3661469318162.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyimglate" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_b0f3661469318162.png" alt="" /></figure>
             </div>
             <!--/column -->
           </div>

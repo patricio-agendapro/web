@@ -8,11 +8,18 @@ function lazyscript(){
         script.src = "/assets/js/lazyscripts.js";
         document.body.append(script);
         flag_lazyscript = 1;
+
+        const items = document.querySelectorAll('.lazyimglate');
+        for (const item of items) {
+            item.classList.add('lazyload');
+        }
+          
     }
 }
 
 setTimeout(
 function() {
+
     document.addEventListener('touchstart', lazyscript);
     document.addEventListener('scroll', lazyscript);
     document.addEventListener('keydown', lazyscript);
