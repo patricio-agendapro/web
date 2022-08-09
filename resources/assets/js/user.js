@@ -13,14 +13,20 @@ function lazyscript(){
         for (const item of items) {
             item.classList.add('lazyload');
         }
-          
     }
 }
 
 setTimeout(
-function() {
+    function() {
+        document.addEventListener('touchstart', lazyscript);
+        document.addEventListener('scroll', lazyscript);
+        document.addEventListener('keydown', lazyscript);
+        document.addEventListener('mousemove', lazyscript);
+    }, 1000);
 
-    document.addEventListener('touchstart', lazyscript);
-    document.addEventListener('scroll', lazyscript);
-    document.addEventListener('keydown', lazyscript);
-}, 1000);
+if(screen.width >= 992){
+    const items = document.querySelectorAll('.lazyimglate');
+    for (const item of items) {
+        item.classList.add('lazyload');
+    }
+}
