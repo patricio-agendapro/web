@@ -34,7 +34,7 @@
         </div>  
         <div class="row gy-6 gy-lg-0 mt-14 mt-lg-20 mb-0">
           <div class="col-md-6 col-lg-6">
-            <span class="fs-24 underline-3 style-2 green text-dark">Soluciones para</span>
+            <span class="fs-24 underline-2 green text-dark">Soluciones para</span>
             <div class="row mt-4">
               <div class="col-md-6 col-lg-6">
                 <div class="widget">
@@ -84,7 +84,7 @@
           </div>
           <!-- /column -->
           <div class="col-md-6 col-lg-6">
-            <span class="fs-24 underline-3 style-2 green text-dark">Funcionalidades</span>
+            <span class="fs-24 underline-2 green text-dark">Funcionalidades</span>
             <div class="row mt-4">
               <div class="col-md-6 col-lg-6">
                 <div class="widget">
