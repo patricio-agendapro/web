@@ -1,5 +1,9 @@
-
-
+function loadlazyimglate(){
+    const items = document.querySelectorAll('.lazyimglate');
+    for (const item of items) {
+        item.classList.add('lazyload');
+    }
+}
 
 var flag_lazyscript = 0;
 function lazyscript(){
@@ -9,10 +13,7 @@ function lazyscript(){
         document.body.append(script);
         flag_lazyscript = 1;
 
-        const items = document.querySelectorAll('.lazyimglate');
-        for (const item of items) {
-            item.classList.add('lazyload');
-        }
+        loadlazyimglate();
     }
 }
 
@@ -25,8 +26,5 @@ setTimeout(
     }, 1000);
 
 if(screen.width >= 992){
-    const items = document.querySelectorAll('.lazyimglate');
-    for (const item of items) {
-        item.classList.add('lazyload');
-    }
+    loadlazyimglate();
 }
