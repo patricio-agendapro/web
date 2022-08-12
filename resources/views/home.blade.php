@@ -117,19 +117,19 @@
           </div>
           <!-- /column -->
           <div class="col-lg-7 mt-lg-2">
-            <div class="row align-items-center counter-wrapper gy-6 text-center">
+            <div class="row align-items-center gy-6 text-center">
               <div class="col-md-4">
-                <h3 class="counter counter-md text-green">+30.000</h3>
+                <h3 class="fs-35 text-green">+30.000</h3>
                 <p class="text-leaf">Profesionales</p>
               </div>
               <!--/column -->
               <div class="col-md-4">
-                <h3 class="counter counter-md text-green">+4.000</h3>
+                <h3 class="fs-35 text-green">+4.000</h3>
                 <p class="text-leaf">Clientes</p>
               </div>
               <!--/column -->
               <div class="col-md-4">
-                <h3 class="counter counter-md text-green">+1.800.000</h3>
+                <h3 class="fs-35 text-green">+1.800.000</h3>
                 <p class="text-leaf">Reservas al mes</p>
               </div>
               <!--/column -->
@@ -226,14 +226,14 @@
             <h2 class="fs-16 text-uppercase text-leaf mb-3">¿Cómo hacemos crecer tu negocio?</h2>
             <h3 class="display-4 mb-5 pe-xxl-5">Nosotros nos encargamos de hacer crecer tu negocio.</h3>
             <p class="mb-6">Sabías qué el 80% de tus ingresos proviene del 20% de tus clientes, y el Rebound Marketing sabe cómo encontrarlos y hacerlos crece </p>
-            <div class="row align-items-center counter-wrapper gy-6">
+            <div class="row align-items-center gy-6">
               <div class="col-6">
-                <h3 class="counter counter-lg mb-1 text-green">+49%</h3>
+                <h3 class="fs-35 mb-1 text-green">+49%</h3>
                 <h6 class="fs-20 mb-1 text-leaf">12 Meses</h6>
               </div>
               <!--/column -->
               <div class="col-6">
-                <h3 class="counter counter-lg mb-1 text-green">+82%</h3>
+                <h3 class="fs-35 mb-1 text-green">+82%</h3>
                 <h6 class="fs-20 mb-1 text-leaf">24 Meses</h6>
               </div>
               <!--/column -->
