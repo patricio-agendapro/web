@@ -34,7 +34,7 @@
         <!-- /.row -->
         <div class="row gx-md-8 gy-8 text-center mb-0">
 
-        @foreach ($other_features as $feature)
+        @foreach ($business_features as $feature)
           <div class="col-md-6 col-lg-3">
             <div class="mb-5"> <img src="{{ $feature['image'] }}"> </div>
             <h4>{{ $feature['title'] }}</h4>

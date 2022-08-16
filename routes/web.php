@@ -41,7 +41,26 @@ Route::get('{country}/charly', [FeatureController::class, 'charly']);
 Route::get('{country}/giftcards', [FeatureController::class, 'giftcards']);
 
 //Rubros
-Route::get('{country}/gimnasio/software-para-gimnasio', [BusinessTypeController::class, 'gimnasio']);
+
+Route::get('{country}/centros-de-estetica/software-para-centros-de-estetica', [BusinessTypeController::class, 'centros_de_estetica']);
+Route::get('{country}/spa/software-para-spa', [BusinessTypeController::class, 'software_para_spa']);
+Route::get('{country}/barberia/software-para-barberias', [BusinessTypeController::class, 'software_para_barberias']);
+Route::get('{country}/peluqueria/software-para-peluquerias', [BusinessTypeController::class, 'software_para_peluquerias']);
+Route::get('{country}/salon-de-belleza/software-para-salon-de-belleza', [BusinessTypeController::class, 'software_para_salon_de_belleza']);
+Route::get('{country}/manicure-y-pedicure/software-para-salon-de-manicure-y-pedicure', [BusinessTypeController::class, 'software_para_salon_de_manicure_pedicure']);
+Route::get('{country}/centro-medico/software-para-centro-medico', [BusinessTypeController::class, 'software_para_centro_medico']);
+Route::get('{country}/clinica/software-para-clinica', [BusinessTypeController::class, 'software_para_clinica']);
+Route::get('{country}/fisioterapia/software-para-centro-de-fisioterapia', [BusinessTypeController::class, 'software_para_centro_de_fisioterapia']);
+Route::get('{country}/kinesiologos/software-para-kinesiologos', [BusinessTypeController::class, 'software_para_kinesiologos']);
+Route::get('{country}/psicologos/software-para-psicologos', [BusinessTypeController::class, 'software_para_psicologos']);
+Route::get('{country}/consulta-medica/software-para-consulta-medica', [BusinessTypeController::class, 'software_para_consulta_medica']);
+Route::get('{country}/medicina-alternativa/software-de-medicina-alternativa', [BusinessTypeController::class, 'software_de_medicina_alternativa']);
+Route::get('{country}/podologia/software-para-centro-de-podologia', [BusinessTypeController::class, 'software_para_centro_de_podologia']);
+Route::get('{country}/centro-deportivo/software-para-centro-deportivo', [BusinessTypeController::class, 'software_para_centro_deportivo']);
+Route::get('{country}/crossfit/software-para-centro-de-crossfit', [BusinessTypeController::class, 'software_para_centro_de_crossfit']);
+Route::get('{country}/pilates/software-para-estudio-de-pilates', [BusinessTypeController::class, 'software_para_estudio_de_pilates']);
+Route::get('{country}/yoga/software-para-estudio-de-yoga', [BusinessTypeController::class, 'software_para_estudio_de_yoga']);
+Route::get('{country}/gimnasio/software-para-gimnasio', [BusinessTypeController::class, 'software_para_gimnasio']);
 
 //Home
 Route::get('{country}', [HomeController::class, 'home']);
