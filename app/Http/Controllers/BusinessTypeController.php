@@ -689,39 +689,39 @@ class BusinessTypeController extends Controller
         $business_features[] = $this->features['agenda-medica'];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('AGENDA ONLINE'), 
+            'sub_title' => __('Organiza las reservas y atención de los prefesionales en una agenda online'), 
+            'text' => __('Con AgendaPro podrás tener una agenda organizada de manera automática, facilitando la gestión del día a día en tu centro de kinesiología.'), 
+            'text_mark' => __('Integra tu agenda con tus redes sociales'), 
+            'text_2' => __('Tendrás un sitio web de reservas y podrás integrarlo a tus redes sociales, en donde todos tus pacientes podrán reservar una hora en tu centro y tus profesionales sabrán quien es su próximo paciente.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Kinesiologos-1@2x.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('FICHAS CLÍNICAS ONLINE'), 
+            'sub_title' => __('Crea fichas personalizadas y mantén la información de tu paciente actualizada en la nube.'), 
+            'text' => __('Con las fichas Clínicas de AgendaPro podrás tener toda la información de tu paciente actualizada en un solo lugar.'), 
+            'text_mark' => __('Personaliza las fichas según las necesidades de tus pacientes'), 
+            'text_2' => __('Cada ficha es personalizable de acuerdo a las necesidades de tus pacientes, permitiendo adjuntar documentos y exámenes importantes a la ficha de cada paciente y visualizarla cuando y donde quieras.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Kinesiologos-2.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('RECORDATORIOS AUTOMÁTICOS'), 
+            'sub_title' => __('Reduce las inasistencias con recordatorios automáticos'), 
+            'text' => __('Envía recordatorios automáticos a través de Whatsapp o Email y evita que tus pacientes olviden sus citas de seguimiento.'), 
+            'text_mark' => __('Llena los espacios de citas canceladas a tiempo'), 
+            'text_2' => __('Una vez llegue el recordatorio podrán confirmar o cancelar sus citas, esto te permitirá llenar esos espacios vacios en tu agenda y de esta manera aumentarás los ingresos de tu consultorio.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Kinesiologos-3-8.png',
         ];
         
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('CONTROL DE CAJA'), 
+            'sub_title' => __('Lleva los pagos e ingresos que generas de manera ordenada'), 
+            'text' => __('Manten un registro actualizado y en tiempo real de tus ingresos y egresos. Maneja descuentos, envía presupuestos, cálcula tus impuestos y envía comprobantes de pagos digitales.'), 
+            'text_mark' => __('Flujo de caja actualizado día a día'), 
+            'text_2' => __('Todo lo necesario para mantener la administración de tu consultorio al día. Adicionalmente, al tener las proyecciones y el dinero en caja en tiempo real podrás manejar de una mejor manera las finanzas de tu negocio.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Kinesiologos-4.png',
         ];
 
         $other_features = [];
@@ -753,39 +753,39 @@ class BusinessTypeController extends Controller
         $business_features[] = $this->features['agenda-medica'];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('AGENDA ONLINE'), 
+            'sub_title' => __('Digitaliza la agenda de tu consulta'), 
+            'text' => __('Ofrece a tus pacientes una forma digital de agendar una hora en tu consulta a través de tus redes sociales o sitio web, podrán agendar aunque tu centro este cerrado ya que la agenda se encuentra activa 24/7 de manera online.'), 
+            'text_mark' => __('Información actualizada y en tiempo real'), 
+            'text_2' => __('Todas las reservas que realizan tus clientes se actualizarán automáticamente en tu calendario y de esta forma evitarás confusiones y pérdida de tiempo. ¡Únete a AgendaPro y simplifica tu día a día!'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Psicologos-1@2x.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('RECORDATORIOS AUTOMÁTICOS'), 
+            'sub_title' => __('Envía recordatorios de citas de forma automatizada'), 
+            'text' => __('Permite a tus pacientes confirmar o modificar su cita de forma anticipada, evitando así pérdidas de dinero y tiempo, además de desorganización en las agendas de tus profesionales.'), 
+            'text_mark' => __('Aumenta la tasa de asistencia a tu centro'), 
+            'text_2' => __('Podrás aplicar estrategias para ocupar las horas que fueron canceladas, lo cual se traduce directamente en más ingresos.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Psicologos-2.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('FICHA CLÍNICA'), 
+            'sub_title' => __('Actualiza la forma de llevar la información de tus pacientes'), 
+            'text' => __('Lleva organizada la información de tus pacientes con fichas personalizadas y de forma digital. Tendrás en el perfil del paciente todas las consultas y reservas realizadas, sus exámenes y cualquier dato que sea relevante para su terapia.'), 
+            'text_mark' => __('Historial de pacientes alojados en la nube'), 
+            'text_2' => __('Podrás hacer un seguimiento continuo y tener todo el historial y evolución de tus pacientes guardado en la nube, permitiendo ver toda la información desde cualquier computador. La ficha clínica de AgendaPro cumple con las normativas de tu país y es la más segura del mercado.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Psicologos-3-8.png',
         ];
         
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('PAGO ONLINE'), 
+            'sub_title' => __('Integra pago online a tus reservas'), 
+            'text' => __('Permite a tus pacientes pagar sus reservas de forma anticipada a través de una plataforma segura con AgendaPro.'), 
+            'text_mark' => __('Experiencia completamente digital'), 
+            'text_2' => __('Tus pacientes podrán agendar a través de tu sitio de reservas y pagar al instante, aumentando la tasa de asistencia al asegurar el pago. Olvídate de perseguir a tus pacientes para que realicen el pago, únete a AgendaPro y simplifica tu día a día.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Psicologos-4.png',
         ];
 
         $other_features = [];
@@ -817,39 +817,39 @@ class BusinessTypeController extends Controller
         $business_features[] = $this->features['agenda-medica'];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('AGENDA ONLINE'), 
+            'sub_title' => __('Automatiza tu agenda y organiza tus citas'), 
+            'text' => __('Entendemos que tu recurso más importante es el tiempo. Por eso con AgendaPro ahorrarás muchas horas que antes invertías en la organización de tu consulta.'), 
+            'text_mark' => __('Web de reservas integrado'), 
+            'text_2' => __('Tus pacientes podrán agendar directamente desde tu web de reservas y automáticamente se actualizará en tu agenda. Podrás consultar tus reservas desde cualquier dispositivo con acceso a internet y realizar cualquier modificación que consideres necesaria. Únete a nosotros y comienza a invertir tu tiempo en lo más importante, tus pacientes.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Consulta-medica-1-8.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('FICHA CLÍNICA'), 
+            'sub_title' => __('Obtén fichas modernas y personalizadas que se adaptan a tu negocio'), 
+            'text' => __('Nuestras fichas te ayudarán a tener un mejor control de la información de tus pacientes. Podrás anexar archivos e imágenes y además cumplen con las normativas de tu país.'), 
+            'text_mark' => __('Actualízate y lleva tus fichas al mundo digital'), 
+            'text_2' => __('No pierdas tiempo escribiendo en papel largas fichas que ocupan espacio y pueden ser extraviadas. Con AgendaPro toda la información de tus pacientes estará en la nube y accesible desde cualquier lugar con internet.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Consulta-medica-2-8.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('RECORDATORIOS AUTOMÁTICOS'), 
+            'sub_title' => __('Reduce las inasistencias con recordatorios automáticos'), 
+            'text' => __('Envía recordatorios automáticos a través de Whatsapp o Email y evita que tus pacientes olviden sus citas de seguimiento.'), 
+            'text_mark' => __('Llena los espacios de citas canceladas a tiempo'), 
+            'text_2' => __('Una vez llegue el recordatorio podrán confirmar o cancelar sus citas, esto te permitirá llenar esos espacios vacios en tu agenda y de esta manera aumentarás los ingresos de tu consultorio.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Consulta-medica-3-8.png',
         ];
         
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('SISTEMA DE CAJA'), 
+            'sub_title' => __('Mantén actualizado todos los ingresos y egresos de tu centro en tiempo real'), 
+            'text' => __('Lleva el control de tu caja en tiempo real, permitiendo ver el detalle de las recaudaciones por medio y forma de pago que se realizan en tu negocio.'), 
+            'text_mark' => __('Toma decisiones inteligentes consultando tu flujo de caja'), 
+            'text_2' => __('Tener el flujo de caja claro en todo momento te ayudará a tomar decisiones relevantes de forma rápida y segura. Mira cómo está la salud de tu negocio viendo los movimientos de dinero en tiempo real.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Consulta-medica-4-8.png',
         ];
 
         $other_features = [];
@@ -881,39 +881,39 @@ class BusinessTypeController extends Controller
         $business_features[] = $this->features['agenda-medica'];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('AGENDA ONLINE'), 
+            'sub_title' => __('Automatiza la agenda de tu centro'), 
+            'text' => __('Crea tu agenda online para que tus pacientes reserven en tu centro y observa cómo se llena automáticamente tu calendario.'), 
+            'text_mark' => __('Tu agenda enlazada con tus redes'), 
+            'text_2' => __('Podrás integrar tu agenda con tus redes sociales y tu página web. Esta es la mejor forma de llevar tu centro de Medicina Alternativa al mundo digital.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Medicina-alternativa-1@2x.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('FICHA CLÍNICA'), 
+            'sub_title' => __('Lleva la información de tus pacientes de manera online y segura'), 
+            'text' => __('Nuestra Ficha clínica te permite agregar todos los campos que necesites según las características de tus pacientes y las necesidades de tu centro.'), 
+            'text_mark' => __('Ficha clínica alojada en la nube'), 
+            'text_2' => __('Nuestra ficha está alojada en la nube y por esta razón es más segura y accesible que cualquier otra. Podrás tener todos los datos de las reservas, pagos, diagnósticos y cualquier exámen de tus pacientes de manera online.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Medicina-alternativa-2.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('RECORDATORIOS DE CITAS'), 
+            'sub_title' => __('Disminuye la tasa de inasistencias de tu centro'), 
+            'text' => __('Envía recordatorios automáticos a tus pacientes a través del correo o de Whatsapp para que puedan confirmar o posponer sus citas. Esto disminuirá la tasa de inasistencias a tu centro.'), 
+            'text_mark' => __('Llena tu calendario con estrategias de marketing'), 
+            'text_2' => __('En el caso que tengas citas canceladas podrás utilizar diferentes estrategias de marketing para llenar esas horas y de esta manera maximizar tus ingresos.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Medicina-alternativa-3-8.png',
         ];
         
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('FLUJO DE CAJA ORGANIZADO'), 
+            'sub_title' => __('Conoce tus ingresos y egresos en tiempo real'), 
+            'text' => __('Lleva un seguimiento detallado de cómo está tu flujo de caja, de esta manera podrás tomar decisiones que beneficien las finanzas de tu negocio.'), 
+            'text_mark' => __('Información detallada en cualquier período de tiempo'), 
+            'text_2' => __('Además puedes ver el total de tus recaudaciones diarias, semanales o mensuales. Podrás enviar presupuestos y comprobantes de pago a todos tus clientes.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Medicina-alternativa-4.png',
         ];
 
         $other_features = [];
@@ -945,39 +945,39 @@ class BusinessTypeController extends Controller
         $business_features[] = $this->features['agenda-medica'];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('AGENDA ONLINE'), 
+            'sub_title' => __('Mantén toda tu agenda organizada de manera automática'), 
+            'text' => __('Todos tus pacientes podrán agendar una hora de manera online a través de tus redes sociales o tu página web. Cada hora agendada se actualizará automáticamente en el calendario de tu centro con todos los datos necesarios.'), 
+            'text_mark' => __('Control total de tu negocio'), 
+            'text_2' => __('Con AgendaPro puedes manejar todo tu negocio desde un solo lugar, permitiendo realizar proyecciones para tomar mejores decisiones y simplificar tu trabajo, dejando tiempo libre para dedicarte a tus pacientes.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Podologia-1@2x.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('RECORDATORIOS AUTOMÁTICOS DE CITAS'), 
+            'sub_title' => __('Envía recordatorio a través de WhatsApp y correo electrónico'), 
+            'text' => __('Asegura la asistencia de tus pacientes al centro con los recordatorios automáticos de AgendaPro, enviando un correo o mensaje de WhatsApp con el detalle de su cita.'), 
+            'text_mark' => __('Evita perdidas de dinero'), 
+            'text_2' => __('Con la confirmación de horas podrás completar las horas canceladas con anticipación, evitando perdidas de dinero, horas en blanco de tu agenda y profesionales sin pacientes.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Podologia-2.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('HISTORIA CLÍNICA ONLINE'), 
+            'sub_title' => __('Lleva toda la información de tus pacientes de manera online'), 
+            'text' => __('Digitaliza todos los documentos de tus pacientes y maneja toda la información en las fichas personalizables de AgendaPro, para mantener todos esos documentos actualizados y así lograr una correcta atención del paciente.'), 
+            'text_mark' => __('Enlazada con la agenda Online'), 
+            'text_2' => __('Las historias clínicas están enlazada a la agenda y caja de tu centro, de esta manera tendrás toda la información de reservas y pagos consolidada en un mismo lugar. Todo almacenado en la nube de forma segura y accesible desde cualquier computadora con acceso a internet ¡Mantén el control de centro estés donde estés!.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Podologia-3-8.png',
         ];
         
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('SISTEMA DE CAJA'), 
+            'sub_title' => __('Conoce todos tus ingresos y egresos en tiempo real'), 
+            'text' => __('Con nuestra caja automatizada podrás ver el estado de pago de tus citas o reservas en tiempo real, además de todos los gastos de tu centro de podología para que tomes decisiones acertadas y al instante. La caja está enlazada directamente a tu agenda, así podrás ver cuánto dinero tienes proyectado y cuánto está realmente cobrado.'), 
+            'text_mark' => __('Comisiones automatizadas'), 
+            'text_2' => __('Con AgendaPro se calculan automáticamente las comisiones de tus profesionales, entregando la seguridad en los cálculos que tus profesionales se merecen por el trabajo que desempeñan día adía. ¡Evita errores y llevar los cálculos manual!.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Podologia-4.png',
         ];
 
         $other_features = [];
@@ -1009,39 +1009,39 @@ class BusinessTypeController extends Controller
         $business_features[] = $this->features['agenda-medica'];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('AGENDA ONLINE'), 
+            'sub_title' => __('Recibe reservas online desde tus redes sociales o sitio web'), 
+            'text' => __('Mantén tu agenda organizada automáticamente con las reservas que realizan tus clientes en la web de agendamiento. Con AgendaPro podrás tener una web de reservas en donde tus clientes podrán conocer y agendar tus servicios desde cualquier dispositivo.'), 
+            'text_mark' => __('Agenda conectada con toda la gestión de tu negocio'), 
+            'text_2' => __('La organización es primordial para el éxito de tu centro, con AgendaPro podrás manejar clientes, ventas, inventarios, marketing todo esto para facilitar tu día a día y lograr el crecimiento de tu negocio.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Deportivos-1@2x.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('CONTROL DE PAGOS'), 
+            'sub_title' => __('Identifica automáticamente quien ha pagado sus clases en todo momento'), 
+            'text' => __('Muchas veces el seguimiento de los pagos, de las personas que asisten a cada clase es un dolor de cabeza. Con AgendaPro tienes control total en el seguimiento de los pagos de cada clases de tu centro deportivo, más nunca dejes que se pase alguien sin pagar tus clases.'), 
+            'text_mark' => __('Flujo de caja en tiempo real'), 
+            'text_2' => __('AgendaPro te permite mantener un control de caja de manera sencilla y efectiva, permitiendo ver cuales son los ingresos y los egresos de tu negocio en tiempo real, calculando automáticamente las comisiones de tus profesionales, aplicar descuentos y revisar las recaudaciones desde cualquier lugar.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Deportivos-2.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('SISTEMA DE CAJA'), 
+            'sub_title' => __('Controla y automatiza los ingresos y egresos de tu centro'), 
+            'text' => __('Mira cómo está el flujo de caja de tu negocio y toma decisiones inteligentes que te ayuden a optimizar tu centro. Evita los gastos fuertes en los momentos de crisis y espera tener liquidez para realizar las compras necesarias.'), 
+            'text_mark' => __('Reportes digitales automatizados'), 
+            'text_2' => __('Obtén un resumen automático de la caja de tu negocio en el periodo de tiempo que desees, conociendo todos los ingresos, egresos, productos y servicios más vendidos en tu negocio etc. ¡Olvídate de calcular en Excel y actualiza la forma de llevar tus ventas!.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/03/Control-de-pagos-AgendaPro-1.png',
         ];
         
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('CÁLCULO DE COMISIONES AUTOMÁTICAS'), 
+            'sub_title' => __('Automatiza el calculo de comisiones de todos los instructores de tu centro'), 
+            'text' => __('No pierdas tiempo calculando manualmente las comisiones y haciendo que cuadren con toda las clases impartidas en tu centro.'), 
+            'text_mark' => __('Información en tiempo real'), 
+            'text_2' => __('Con AgendaPro tendrás comisiones calculadas automáticamente y relacionadas directamente con cada clase y su respectivo instructor.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Deportivos-4.png',
         ];
 
         $other_features = [];
@@ -1073,39 +1073,39 @@ class BusinessTypeController extends Controller
         $business_features[] = $this->features['agenda-medica'];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('AGENDAMIENTO ONLINE DE TUS CLIENTES'), 
+            'sub_title' => __('Crea tu Web de reservas para tus clases'), 
+            'text' => __('No pierdas tiempo organizando tu agenda, solo preocúpate por la felicidad de tus clientes. Con AgendaPro mejorarás la experiencia de tus clientes ofreciéndole la oportunidad de agendar en tus clases a través de internet.'), 
+            'text_mark' => __('Sincronización de las reservas online con tu agenda'), 
+            'text_2' => __('Estas reservas se sincronizan automáticamente con tu agenda mostrando solo los cupos disponibles. Podrás hacer seguimiento de los inscritos y aplicar técnicas de marketing para llenar tus clases que veas con menos asistentes. Todo eso y más desde AgendaPro.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Crossfit-1@2x.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('CONTROL DE PAGOS'), 
+            'sub_title' => __('Conoce quién ha pagado tu clase'), 
+            'text' => __('Te ha pasado que asisten a tu centro y no llevas control de quién ha pagado y quién no. Con AgendaPro nunca tendrás este problema, tendrás todos los pagos directamente asociados a las reservas.'), 
+            'text_mark' => __('Acceso sencillo y desde cualquier lugar'), 
+            'text_2' => __('Fácilmente podrás consultar quienes faltan por pagar y podrás hacer el mach mensual con las asistencias. Ten el control total de tus recaudaciones y simplifica tu día a día con nosotros.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Crossfit-2.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('CONTROL DE CAJA'), 
+            'sub_title' => __('Visualiza todos tus ingresos y egresos en tiempo real'), 
+            'text' => __('Conoce el flujo de caja de tu negocio en todo momento y toma cualquier decisión con los datos correctos.'), 
+            'text_mark' => __('La caja está enlazada automáticamente con el sistema de agendamiento'), 
+            'text_2' => __('Gracias a esto podrás ver tus ingresos en tiempo real, así como las proyecciones de reservas futuras. Recupera el control de las finanzas de tu centro con AgendaPro.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Crossfit-3-8.png',
         ];
         
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('CONTROL DE COMISIONES'), 
+            'sub_title' => __('Calcula las comisiones de tus instructores a un click'), 
+            'text' => __('Obtén en tiempo récord el cálculo de comisiones de todos los instructores de tu centro de crossfit.'), 
+            'text_mark' => __('Ten en todo momento un reporte de comisiones de tus prestadores'), 
+            'text_2' => __('Las comisiones están enlazadas con la asistencia de los alumnos a tus clases. De esta manera no tendrás que invertir tiempo haciendo el cálculo y no habrá confusiones con los instructores.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Crossfit-4.png',
         ];
 
         $other_features = [];
@@ -1137,39 +1137,39 @@ class BusinessTypeController extends Controller
         $business_features[] = $this->features['agenda-medica'];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('AGENDA ONLINE'), 
+            'sub_title' => __('Automatiza la organización de tus clases'), 
+            'text' => __('Tu agenda se actualizará automáticamente con las horas agendadas desde tu sitio de reservas o redes sociales, de esta manera podrás organizar simultáneamente todas las agendas de tus instructores y tus clientes podrán ver solo los horarios que tienes disponibles para cada una de tus clases.'), 
+            'text_mark' => __('Aumenta el factor de ocupación'), 
+            'text_2' => __('Mantén siempre tu agenda disponible para tus clientes, así aumentarás tu factor de ocupación y por lo tanto también tus ingresos. ¡Únete a nosotros y comienza a hacer crecer tu estudio!.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Pilates-1-8.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('MANEJO DE PAGOS'), 
+            'sub_title' => __('Conoce al instante quién falta por pagar tu clase'), 
+            'text' => __('Te ha pasado que después de cada clase que das cuenta que falta mucha gente por pagar, aparte al final de mes no cuadran tus cuentas y faltando dinero en tu caja. Hemos observado este dolor en muchos estudios de pilates y queremos ayudarte.'), 
+            'text_mark' => __('Estado de pagos en tiempo real'), 
+            'text_2' => __('Con AgendaPro puedes seguir en tiempo real el estado de pagos de tus clases agendadas, de esta manera no quedarán alumnos sin pagar y podrás llevar un control sencillo del flujo de caja.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Pilates-2.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('SISTEMA DE CAJA'), 
+            'sub_title' => __('Lleva el flujo de caja de manera automática'), 
+            'text' => __('Mira tus ingresos y egresos en tiempo real y desde cualquier dispositivo con acceso a internet, así podrás tener un especial cuidado con los gastos de tu día a día para evitar malos ratos.'), 
+            'text_mark' => __('Reportes de caja automatizados'), 
+            'text_2' => __('Consulta tus ingresos en el período que prefieras: días, semanas o meses. Ingresa abonos y crea promociones dentro del sistema sin mayores complicaciones. ¡Todos los datos que necesitas directamente en AgendaPro!.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Pilates-3-8.png',
         ];
         
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('CÁLCULO DE COMISIONES AUTOMÁTICAS'), 
+            'sub_title' => __('Evita perder el tiempo calculando comisiones de forma manual'), 
+            'text' => __('Con el cálculo de comisiones automático no tendrás que preocuparte por perder tiempo haciendo cálculos innecesarios, ajusta directamente el % de comisión que quieres utilizar para cada instructor y AgendaPro hará el resto.'), 
+            'text_mark' => __('Reporte de comisiones'), 
+            'text_2' => __('Por cada pago realizado registrado en AgendaPro automáticamente el sistema lo acumula en la cuenta de comisiones del instructor que impartió la clase. De esta manera al final de mes o cuando consideres necesario podrás sacar un reporte de comisiones y tendrás el total de comisiones a pagar.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Pilates-4.png',
         ];
 
         $other_features = [];
@@ -1201,39 +1201,39 @@ class BusinessTypeController extends Controller
         $business_features[] = $this->features['agenda-medica'];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('AGENDA ONLINE'), 
+            'sub_title' => __('Organiza todas tus citas de manera automática'), 
+            'text' => __('Agendamiento online que te permitirá tener tu agenda organizada de forma automática y permitir a tus clientes agendar desde tus redes sociales y/o página web.'), 
+            'text_mark' => __('Genera una experiencia agradable e intuitiva a tus clientes'), 
+            'text_2' => __('La agenda online de AgendaPro te proporciona una manera de llegar a tus clientes de manera digital generando una experiencia intuitiva y accesible desde cualquier dispositivo con acceso a internet. Tus clientes podrán reservar a cualquier hora del día, sin que estés preocupado de hacer un seguimiento o llenar una lista manualmente. Todo es automatizado y sencillo.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Yoga-1@2x.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('CONTROL DE PAGOS'), 
+            'sub_title' => __('Lleva tus recaudaciones en tiempo real'), 
+            'text' => __('No permitas que el cobro de tus clases te quite la tranquilidad. Mira quienes faltan por pagar y organiza todas tus recaudaciones en tiempo real.'), 
+            'text_mark' => __('Control total sobre los cobros'), 
+            'text_2' => __('En AgendaPro todos los pagos están asociados de forma automática con las reservas en tu agenda, de esta forma evitarás que alguien olvidé su pago y mantendrás el control de tu estudio. Respira profundo y deja que AgendaPro haga el trabajo.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Yoga-2.png',
         ];
 
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('SISTEMA DE CAJA'), 
+            'sub_title' => __('Mantén actualizado automáticamente todos tus ingresos'), 
+            'text' => __('Debes conocer cuales son tus ingresos y tus egresos en tiempo real para mantener el equilibro de tus finanzas.'), 
+            'text_mark' => __('AgendaPro te ayuda a tener tu flujo de caja al día'), 
+            'text_2' => __('Con AgendaPro tendrás toda la información necesaria para tomar decisiones financieras de manera inteligente tomando en cuenta tu flujo de caja actualizado en tiempo real. Podrás mantener tu estudio bien administrado mientras tu te dedicas a tus alumnos.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Yoga-3-8.png',
         ];
         
         $features_content[] = [
-            'title' => __('xxxx'), 
-            'sub_title' => __('xxxx'), 
-            'text' => __('xxxx'), 
-            'text_mark' => __('xxxx'), 
-            'text_2' => __('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'), 
-            'image' => 'xxxxx',
+            'title' => __('COMISIONES AUTOMATIZADAS'), 
+            'sub_title' => __('Evita perder tiempo con el cálculo de comisiones'), 
+            'text' => __('Mantén el cálculo de comisiones de todos tus instructores de forma instantánea y evita errores en el pago. Con AgendaPro podrás tener No perderás ni un segundo realizando el cálculo y el mach entre los asistentes a la clase y los pagos realizados.'), 
+            'text_mark' => __('Reporte de comisiones'), 
+            'text_2' => __('Filtra las comisiones de tus profesiones por el periodo que desees visualizar, actualizándose automáticamente y accediendo a toda la información en tiempo real.'), 
+            'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Yoga-4.png',
         ];
 
         $other_features = [];
