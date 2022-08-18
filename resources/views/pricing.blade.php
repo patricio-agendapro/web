@@ -42,7 +42,7 @@
                       <option value="3">3 profesionales</option>
                     </select>
                   </div>
-                  <a href="#" class="btn btn-soft-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                  <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
                   <span class="fs-16 text-dark">Incluye</span>
                   <ul class="icon-list bullet-green mt-2 mb-0">
                     <li><i class="uil uil-check"></i><span><strong>Agenda online</strong> de citas y clases ilimitadas</span></li>
@@ -79,7 +79,7 @@
                       <option value="3">3 profesionales</option>
                     </select>
                   </div>
-                  <a href="#" class="btn btn-soft-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                  <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
                   <span class="fs-16 text-dark">Incluye</span>
                   <ul class="icon-list bullet-green mt-2 mb-0">
                     <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de individual, más:</span></li>
@@ -97,6 +97,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="pricing card bg-soft-aqua">
                 <div class="card-body">
+                  <span class="btn-bestchoise btn btn-secondary rounded-pill fs-14"><i class="uil uil-star"></i> Más popular</span>
                   <h4 class="card-title ls-sm">Premium</h4>
                   <p>Para empresas que buscan tener el control y llevar un seguimiento de pacientes/ clientes personalizable.</p>
                   <span class="text-dark">Desde:</span>
@@ -112,7 +113,7 @@
                       <option value="3">3 profesionales</option>
                     </select>
                   </div>
-                  <a href="#" class="btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                  <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
                   <span class="fs-16 text-dark">Incluye</span>
                   <ul class="icon-list bullet-green mt-2 mb-0">
                     <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de básico, más:</span></li>
@@ -148,7 +149,7 @@
                       <option value="3">3 profesionales</option>
                     </select>
                   </div>
-                  <a href="#" class="btn btn-soft-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                  <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
                   <span class="fs-16 text-dark">Incluye</span>
                   <ul class="icon-list bullet-green mt-2 mb-0">
                     <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades del premium, más:</span></li>
@@ -235,7 +236,7 @@
         </div>
         <!--/.row -->
         <h2 class="display-4 mb-3 text-center">Clientes felices</h2>
-        <p class="lead text-center mb-6 px-md-16 px-lg-0">Nuestra satisfacción es ver a nuestros clientes crecer. Mira lo que nuestros clientes dicen sobre AgendaPro.</p>
+        <p class="lead text-center mb-6 px-md-16 px-lg-0">Nuestra satisfacción es ver a nuestros clientes crecer. Mira lo que dicen sobre AgendaPro.</p>
         <div class="grid">
           <div class="row isotope gy-6">
             <div class="item col-md-6 col-xl-4">
