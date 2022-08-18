@@ -13,16 +13,25 @@
           <!-- /column -->
         </div>
         <!-- /.row -->
+
+        <div class="pricing-switcher-wrapper mt-4">
+          <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
+            <li class="nav-item"> 
+              <a class="nav-link active" data-bs-toggle="tab">
+                <span>Mensual</span>
+              </a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" data-bs-toggle="tab">
+                <span>Anual</span>
+              </a> 
+            </li>
+          </ul>
+          <!-- /.nav-tabs -->
+        </div>  
+        <p class="mb-10 mt-2 annual_text"><mark>Paga todo el año y obtén 2 meses Gratis</mark></p>
+
         <div class="pricing-wrapper mb-10 mt-4 mb-md-14 ">
-          <div class="pricing-switcher-wrapper switcher mt-10">
-            <p class="mb-0 pe-3 text-dark fs-17">Mensual</p>
-            <div class="pricing-switchers">
-              <div class="pricing-switcher pricing-switcher-active"></div>
-              <div class="pricing-switcher"></div>
-              <div class="switcher-button bg-primary"></div>
-            </div>
-            <p class="mb-0 ps-3 text-dark fs-17">Paga Anual <mark>y obtén 2 meses Gratis</mark></p>
-          </div>
           <div class="pricing-wrapper-mobile mb-10 mt-6 mb-md-14 d-block d-md-none">
             <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
               <li class="nav-item"> 

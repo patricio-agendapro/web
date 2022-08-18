@@ -374,3 +374,47 @@ body.pricing .pricing-wrapper-mobile .nav-pills .nav-link.active, .nav-pills .sh
     color: #fff;
     background-color: $leaf;
 }
+
+body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills .nav-link{
+    margin: 0;
+}
+
+@media (max-width: 767px){
+    body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills, .nav-tabs.nav-tabs-basic {
+        flex-direction: row;
+    }
+
+}
+
+body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills .nav-item, .nav-tabs.nav-tabs-basic .nav-item {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+body.pricing .pricing-switcher-wrapper .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: $green;
+}
+
+body.pricing .pricing-switcher-wrapper ul.tabs_pricing .nav-link {
+    padding: 10px 15px;
+    margin: 0;
+    border-radius: 30px;
+    font-size: .75rem;
+    font-weight: 500 !important;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+body.pricing .pricing-switcher-wrapper ul.tabs_pricing {
+    justify-content: center;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+body.pricing .annual_text{
+    width: 100%;
+    text-align: center;
+}
