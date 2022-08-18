@@ -15,13 +15,13 @@
         <!-- /.row -->
         <div class="pricing-wrapper mb-10 mt-10 mb-md-14">
           <div class="pricing-switcher-wrapper switcher">
-            <p class="mb-0 pe-3">Mensual</p>
+            <p class="mb-0 pe-3 text-dark fs-17">Mensual</p>
             <div class="pricing-switchers">
               <div class="pricing-switcher pricing-switcher-active"></div>
               <div class="pricing-switcher"></div>
               <div class="switcher-button bg-primary"></div>
             </div>
-            <p class="mb-0 ps-3">Paga Anual y obtén 2 meses Gratis</p>
+            <p class="mb-0 ps-3 text-dark fs-17">Paga Anual <mark>y obtén 2 meses Gratis</mark></p>
           </div>
           <div class="row gy-6 mt-3 mt-md-5">
             <div class="col-md-6 col-lg-3">
