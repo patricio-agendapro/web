@@ -6,15 +6,15 @@
     <section class="wrapper">
       <div class="container py-14">
         <div class="row text-center">
-          <div class="col-md-10 col-lg-10 mx-auto">
+          <div class="col-md-12 col-lg-12 mx-auto">
             <h3 class="display-3 ls-sm mb-4 px-xl-15">Optimiza tu tiempo y digitaliza tu negocio.</h3>
             <h4 class="fs-20">Miles de negocios en Latinoamérica han optimizado su gestión con AgendaPro, ¿Eres tú el próximo?</h4>
           </div>
           <!-- /column -->
         </div>
         <!-- /.row -->
-        <div class="pricing-wrapper mb-10 mt-10 mb-md-14">
-          <div class="pricing-switcher-wrapper switcher">
+        <div class="pricing-wrapper mb-10 mt-4 mb-md-14">
+          <div class="pricing-switcher-wrapper switcher mb-10">
             <p class="mb-0 pe-3 text-dark fs-17">Mensual</p>
             <div class="pricing-switchers">
               <div class="pricing-switcher pricing-switcher-active"></div>
@@ -45,14 +45,14 @@
                   <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
                   <span class="fs-16 text-dark">Incluye</span>
                   <ul class="icon-list bullet-green mt-2 mb-0">
-                    <li><i class="uil uil-check"></i><span><strong>Agenda online</strong> de citas y clases ilimitadas</span></li>
-                    <li><i class="uil uil-check"></i><span>Gestión de clientes y <strong>CRM</strong></span></li>
-                    <li><i class="uil uil-check"></i><span>Recordatorios <strong>automáticos</strong></span></li>
+                    <li><i class="uil uil-check"></i><span>Agenda online de citas y clases ilimitadas</span></li>
+                    <li><i class="uil uil-check"></i><span>Gestión de clientes y CRM</span></li>
+                    <li><i class="uil uil-check"></i><span>Recordatorios automáticos</span></li>
                     <li><i class="uil uil-check"></i><span><strong>50</strong> correos mensuales de marketing</span></li>
                     <li><i class="uil uil-check"></i><span><strong>1000</strong> correos mensuales de marketing</span></li>
-                    <li><i class="uil uil-check"></i><span>Reportes de <strong>gestión</strong></span></li>
-                    <li><i class="uil uil-check"></i><span>Notificaciones y <strong>alertas diarias</strong></span></li>
-                    <li><i class="uil uil-check"></i><span>Pagos <strong>online</strong></span></li>
+                    <li><i class="uil uil-check"></i><span>Reportes de gestión</span></li>
+                    <li><i class="uil uil-check"></i><span>Notificaciones y alertas diarias</span></li>
+                    <li><i class="uil uil-check"></i><span>Pagos online</span></li>
                   </ul>
                   
                 </div>
@@ -85,8 +85,8 @@
                     <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de individual, más:</span></li>
                     <li><i class="uil uil-check"></i><span><strong>50</strong> confirmaciones de Whatsapp</span></li>
                     <li><i class="uil uil-check"></i><span><strong>5000</strong> correos mensuales de marketing</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>Inventario</strong></span></li>
-                    <li><i class="uil uil-check"></i><span><strong>Comisiones</strong></span></li>
+                    <li><i class="uil uil-check"></i><span>Inventario</span></li>
+                    <li><i class="uil uil-check"></i><span>Comisiones</span></li>
                   </ul>
                 </div>
                 <!--/.card-body -->
@@ -97,7 +97,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="pricing card bg-soft-aqua">
                 <div class="card-body">
-                  <span class="btn-bestchoise btn btn-secondary rounded-pill fs-14"><i class="uil uil-star"></i> Más popular</span>
+                  <span class="btn-bestchoise btn btn-secondary rounded-pill fs-14"><i class="uil uil-star me-1"></i> Más popular</span>
                   <h4 class="card-title ls-sm">Premium</h4>
                   <p>Para empresas que buscan tener el control y llevar un seguimiento de pacientes/ clientes personalizable.</p>
                   <span class="text-dark">Desde:</span>
@@ -119,11 +119,11 @@
                     <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de básico, más:</span></li>
                     <li><i class="uil uil-check"></i><span><strong>100</strong> confirmaciones de Whatsapp</span></li>
                     <li><i class="uil uil-check"></i><span><strong>10000</strong> correos mensuales de marketing</span></li>
-                    <li><i class="uil uil-check"></i><span>Encuestas de <strong>satisfacción</strong></span></li>
-                    <li><i class="uil uil-check"></i><span><strong>Fichas</strong> personalizables</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>Personalización</strong> de diseño</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>Giftcards</strong></span></li>
-                    <li><i class="uil uil-check"></i><span><strong>Presupuestos</strong></span></li>
+                    <li><i class="uil uil-check"></i><span>Encuestas de satisfacción</span></li>
+                    <li><i class="uil uil-check"></i><span>Fichas personalizables</span></li>
+                    <li><i class="uil uil-check"></i><span>Personalización de diseño</span></li>
+                    <li><i class="uil uil-check"></i><span>Giftcards</span></li>
+                    <li><i class="uil uil-check"></i><span>Presupuestos</span></li>
                   </ul>
                 </div>
                 <!--/.card-body -->
@@ -155,8 +155,8 @@
                     <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades del premium, más:</span></li>
                     <li><i class="uil uil-check"></i><span><strong>200</strong> confirmaciones de Whatsapp</span></li>
                     <li><i class="uil uil-check"></i><span><strong>20000</strong> correos mensuales de marketing</span></li>
-                    <li><i class="uil uil-check"></i><span>Acceso a <strong>API</strong></span></li>
-                    <li><i class="uil uil-check"></i><span><strong>Soporte</strong> personalizado por teléfono</span></li>
+                    <li><i class="uil uil-check"></i><span>Acceso a API</span></li>
+                    <li><i class="uil uil-check"></i><span>Soporte personalizado por teléfono</span></li>
                   </ul>
                 </div>
                 <!--/.card-body -->
