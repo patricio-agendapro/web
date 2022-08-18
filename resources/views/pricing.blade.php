@@ -60,7 +60,7 @@
               <div class="tab-pane fade" id="tab1-1">
                 <div class="pricing card shadow-none">
                   <div class="card-body">
-                    <h4 class="card-title ls-sm">Individual</h4>
+                    <h4 class="card-title ls-sm d-none">Individual</h4>
                     <p>Para independientes que necesitan de un aliado para controlar y hacer crecer su negocio.</p>
                     <span class="text-dark">Desde:</span>
                     <div class="prices text-dark">
@@ -97,7 +97,7 @@
               <div class="tab-pane fade" id="tab1-2">
                 <div class="pricing card shadow-none">
                   <div class="card-body">
-                    <h4 class="card-title ls-sm">Básico</h4>
+                    <h4 class="card-title ls-sm d-none">Básico</h4>
                     <p>Para negocios que buscan organizarse, controlar su administración y hacer crecer sus ventas.</p>
                     <span class="text-dark">Desde:</span>
                     <div class="prices text-dark">
@@ -130,7 +130,7 @@
               <div class="tab-pane fade show active" id="tab1-3">
                 <div class="pricing card shadow-none">
                   <div class="card-body">
-                    <h4 class="card-title ls-sm">Premium</h4>
+                    <h4 class="card-title ls-sm d-none">Premium</h4>
                     <p>Para empresas que buscan tener el control y llevar un seguimiento de pacientes/ clientes personalizable.</p>
                     <span class="text-dark">Desde:</span>
                     <div class="prices text-dark">
@@ -166,7 +166,7 @@
               <div class="tab-pane fade" id="tab1-4">
                 <div class="pricing card shadow-none">
                   <div class="card-body">
-                    <h4 class="card-title ls-sm">Pro</h4>
+                    <h4 class="card-title ls-sm d-none">Pro</h4>
                     <p>Para empresas que requieren integrar sistemas y utilizar todo el poder de AgendaPro para llegar al último nivel.</p>
                     <span class="text-dark">Desde:</span>
                     <div class="prices text-dark">
