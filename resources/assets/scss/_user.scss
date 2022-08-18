@@ -340,6 +340,37 @@ body.pricing .pricing-wrapper .card-body .btn-bestchoise{
     z-index: 1;
 }
 
-// body.pricing .pricing-switchers {
-//     background-color: rgba(26,26,26,.17);
-// }
+body.pricing .pricing-wrapper-mobile ul.tabs_pricing {
+    flex: auto;
+    flex-wrap: none;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+body.pricing .pricing-wrapper-mobile ul.tabs_pricing .nav-link {
+    padding: 10px 15px;
+    margin: 0;
+    border-radius: 30px;
+    font-size: .75rem;
+    font-weight: 500 !important;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+body.pricing .pricing-wrapper-mobile ul.tabs_pricing .nav-item {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body.pricing .pricing-wrapper-mobile .tab-content{
+    margin-top: 0;
+}
+
+body.pricing .pricing-wrapper-mobile .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: $leaf;
+}

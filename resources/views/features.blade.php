@@ -3,7 +3,7 @@
 
     <section class="wrapper">
       <div class="container pt-0 pb-12 pt-md-6 pb-md-12 text-center">
-        <div class="card bg-soft-primary rounded-4 mt-2 mb-14 mb-md-14">
+        <div class="card bg-soft-aqua rounded-4 mt-2 mb-14 mb-md-14">
           <div class="card-body py-10 px-0">
             <div class="row gx-lg-8 gx-xl-0 gy-10 align-items-center">
               <div class="col-lg-6 order-lg-2 d-flex position-relative">

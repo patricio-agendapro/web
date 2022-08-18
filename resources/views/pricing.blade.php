@@ -13,8 +13,8 @@
           <!-- /column -->
         </div>
         <!-- /.row -->
-        <div class="pricing-wrapper mb-10 mt-4 mb-md-14">
-          <div class="pricing-switcher-wrapper switcher mb-10">
+        <div class="pricing-wrapper mb-10 mt-4 mb-md-14 ">
+          <div class="pricing-switcher-wrapper switcher mt-10">
             <p class="mb-0 pe-3 text-dark fs-17">Mensual</p>
             <div class="pricing-switchers">
               <div class="pricing-switcher pricing-switcher-active"></div>
@@ -23,148 +23,317 @@
             </div>
             <p class="mb-0 ps-3 text-dark fs-17">Paga Anual <mark>y obtén 2 meses Gratis</mark></p>
           </div>
-          <div class="row gy-6 mt-3 mt-md-5">
-            <div class="col-md-6 col-lg-3">
-              <div class="pricing card shadow-none">
-                <div class="card-body">
-                  <h4 class="card-title ls-sm">Individual</h4>
-                  <p>Para independientes que necesitan de un aliado para controlar y hacer crecer su negocio.</p>
-                  <span class="text-dark">Desde:</span>
-                  <div class="prices text-dark">
-                    <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">19.990</span></div>
+          <div class="pricing-wrapper-mobile mb-10 mt-6 mb-md-14 d-block d-md-none">
+            <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
+              <li class="nav-item"> 
+                <a class="nav-link" data-bs-toggle="tab" href="#tab1-1">
+                  <span>Individual</span>
+                </a>
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link" data-bs-toggle="tab" href="#tab1-2">
+                  <span>Básico</span>
+                </a> 
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link active" data-bs-toggle="tab" href="#tab1-3">
+                  <span>Premium</span>
+                </a> 
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link" data-bs-toggle="tab" href="#tab1-4">
+                  <span>Pro</span>
+                </a> 
+              </li>
+            </ul>
+            <!-- /.nav-tabs -->
+            <div class="tab-content">
+              <div class="tab-pane fade" id="tab1-1">
+                <div class="pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">Individual</h4>
+                    <p>Para independientes que necesitan de un aliado para controlar y hacer crecer su negocio.</p>
+                    <span class="text-dark">Desde:</span>
+                    <div class="prices text-dark">
+                      <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">19.990</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / CLP + IVA</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad">
+                        <option value="1" selected>1 profesional</option>
+                        <option value="2">2 profesionales</option>
+                        <option value="3">3 profesionales</option>
+                      </select>
+                    </div>
+                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                    <span class="fs-16 text-dark">Incluye</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li><i class="uil uil-check"></i><span>Agenda online de citas y clases ilimitadas</span></li>
+                      <li><i class="uil uil-check"></i><span>Gestión de clientes y CRM</span></li>
+                      <li><i class="uil uil-check"></i><span>Recordatorios automáticos</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>50</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>1000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Reportes de gestión</span></li>
+                      <li><i class="uil uil-check"></i><span>Notificaciones y alertas diarias</span></li>
+                      <li><i class="uil uil-check"></i><span>Pagos online</span></li>
+                    </ul>
+                    
                   </div>
-                  <!--/.prices -->
-                  <span class="text-dark">mes / CLP + IVA</span>
-                  <div class="form-select-wrapper mt-2">
-                    <select class="form-select" aria-label="Elija cantidad">
-                      <option value="1" selected>1 profesional</option>
-                      <option value="2">2 profesionales</option>
-                      <option value="3">3 profesionales</option>
-                    </select>
-                  </div>
-                  <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
-                  <span class="fs-16 text-dark">Incluye</span>
-                  <ul class="icon-list bullet-green mt-2 mb-0">
-                    <li><i class="uil uil-check"></i><span>Agenda online de citas y clases ilimitadas</span></li>
-                    <li><i class="uil uil-check"></i><span>Gestión de clientes y CRM</span></li>
-                    <li><i class="uil uil-check"></i><span>Recordatorios automáticos</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>50</strong> correos mensuales de marketing</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>1000</strong> correos mensuales de marketing</span></li>
-                    <li><i class="uil uil-check"></i><span>Reportes de gestión</span></li>
-                    <li><i class="uil uil-check"></i><span>Notificaciones y alertas diarias</span></li>
-                    <li><i class="uil uil-check"></i><span>Pagos online</span></li>
-                  </ul>
-                  
+                  <!--/.card-body -->
                 </div>
-                <!--/.card-body -->
+                <!--/.pricing -->
               </div>
-              <!--/.pricing -->
-            </div>
-            <!--/column -->
-            <div class="col-md-6 col-lg-3">
-              <div class="pricing card shadow-none">
-                <div class="card-body">
-                  <h4 class="card-title ls-sm">Básico</h4>
-                  <p>Para negocios que buscan organizarse, controlar su administración y hacer crecer sus ventas.</p>
-                  <span class="text-dark">Desde:</span>
-                  <div class="prices text-dark">
-                    <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">29.900</span></div>
+              <!--/.tab-pane -->
+              <div class="tab-pane fade" id="tab1-2">
+                <div class="pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">Básico</h4>
+                    <p>Para negocios que buscan organizarse, controlar su administración y hacer crecer sus ventas.</p>
+                    <span class="text-dark">Desde:</span>
+                    <div class="prices text-dark">
+                      <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">29.900</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / CLP + IVA</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad">
+                        <option value="1" selected>2 profesional</option>
+                        <option value="2">2 profesionales</option>
+                        <option value="3">3 profesionales</option>
+                      </select>
+                    </div>
+                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                    <span class="fs-16 text-dark">Incluye</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de individual, más:</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>50</strong> confirmaciones de Whatsapp</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>5000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Inventario</span></li>
+                      <li><i class="uil uil-check"></i><span>Comisiones</span></li>
+                    </ul>
                   </div>
-                  <!--/.prices -->
-                  <span class="text-dark">mes / CLP + IVA</span>
-                  <div class="form-select-wrapper mt-2">
-                    <select class="form-select" aria-label="Elija cantidad">
-                      <option value="1" selected>2 profesional</option>
-                      <option value="2">2 profesionales</option>
-                      <option value="3">3 profesionales</option>
-                    </select>
-                  </div>
-                  <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
-                  <span class="fs-16 text-dark">Incluye</span>
-                  <ul class="icon-list bullet-green mt-2 mb-0">
-                    <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de individual, más:</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>50</strong> confirmaciones de Whatsapp</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>5000</strong> correos mensuales de marketing</span></li>
-                    <li><i class="uil uil-check"></i><span>Inventario</span></li>
-                    <li><i class="uil uil-check"></i><span>Comisiones</span></li>
-                  </ul>
+                  <!--/.card-body -->
                 </div>
-                <!--/.card-body -->
+                <!--/.pricing -->
               </div>
-              <!--/.pricing -->
-            </div>
-            <!--/column -->
-            <div class="col-md-6 col-lg-3">
-              <div class="pricing card bg-soft-aqua">
-                <div class="card-body">
-                  <span class="btn-bestchoise btn btn-secondary rounded-pill fs-14"><i class="uil uil-star me-1"></i> Más popular</span>
-                  <h4 class="card-title ls-sm">Premium</h4>
-                  <p>Para empresas que buscan tener el control y llevar un seguimiento de pacientes/ clientes personalizable.</p>
-                  <span class="text-dark">Desde:</span>
-                  <div class="prices text-dark">
-                    <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">49.900</span></div>
+              <!--/.tab-pane -->
+              <div class="tab-pane fade show active" id="tab1-3">
+                <div class="pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">Premium</h4>
+                    <p>Para empresas que buscan tener el control y llevar un seguimiento de pacientes/ clientes personalizable.</p>
+                    <span class="text-dark">Desde:</span>
+                    <div class="prices text-dark">
+                      <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">49.900</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / CLP + IVA</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad">
+                        <option value="1" selected>5 profesional</option>
+                        <option value="2">2 profesionales</option>
+                        <option value="3">3 profesionales</option>
+                      </select>
+                    </div>
+                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                    <span class="fs-16 text-dark">Incluye</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de básico, más:</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>100</strong> confirmaciones de Whatsapp</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>10000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Encuestas de satisfacción</span></li>
+                      <li><i class="uil uil-check"></i><span>Fichas personalizables</span></li>
+                      <li><i class="uil uil-check"></i><span>Personalización de diseño</span></li>
+                      <li><i class="uil uil-check"></i><span>Giftcards</span></li>
+                      <li><i class="uil uil-check"></i><span>Presupuestos</span></li>
+                    </ul>
                   </div>
-                  <!--/.prices -->
-                  <span class="text-dark">mes / CLP + IVA</span>
-                  <div class="form-select-wrapper mt-2">
-                    <select class="form-select" aria-label="Elija cantidad">
-                      <option value="1" selected>5 profesional</option>
-                      <option value="2">2 profesionales</option>
-                      <option value="3">3 profesionales</option>
-                    </select>
-                  </div>
-                  <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
-                  <span class="fs-16 text-dark">Incluye</span>
-                  <ul class="icon-list bullet-green mt-2 mb-0">
-                    <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de básico, más:</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>100</strong> confirmaciones de Whatsapp</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>10000</strong> correos mensuales de marketing</span></li>
-                    <li><i class="uil uil-check"></i><span>Encuestas de satisfacción</span></li>
-                    <li><i class="uil uil-check"></i><span>Fichas personalizables</span></li>
-                    <li><i class="uil uil-check"></i><span>Personalización de diseño</span></li>
-                    <li><i class="uil uil-check"></i><span>Giftcards</span></li>
-                    <li><i class="uil uil-check"></i><span>Presupuestos</span></li>
-                  </ul>
+                  <!--/.card-body -->
                 </div>
-                <!--/.card-body -->
+                <!--/.pricing -->
               </div>
-              <!--/.pricing -->
-            </div>
-            <!--/column -->
-            <div class="col-md-6 col-lg-3">
-              <div class="pricing card shadow-none">
-                <div class="card-body">
-                  <h4 class="card-title ls-sm">Pro</h4>
-                  <p>Para empresas que requieren integrar sistemas y utilizar todo el poder de AgendaPro para llegar al último nivel.</p>
-                  <span class="text-dark">Desde:</span>
-                  <div class="prices text-dark">
-                    <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">129.900</span></div>
+              <!--/.tab-pane -->
+              <div class="tab-pane fade" id="tab1-4">
+                <div class="pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">Pro</h4>
+                    <p>Para empresas que requieren integrar sistemas y utilizar todo el poder de AgendaPro para llegar al último nivel.</p>
+                    <span class="text-dark">Desde:</span>
+                    <div class="prices text-dark">
+                      <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">129.900</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / CLP + IVA</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad">
+                        <option value="1" selected>15 profesional</option>
+                        <option value="2">2 profesionales</option>
+                        <option value="3">3 profesionales</option>
+                      </select>
+                    </div>
+                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                    <span class="fs-16 text-dark">Incluye</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades del premium, más:</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>200</strong> confirmaciones de Whatsapp</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>20000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Acceso a API</span></li>
+                      <li><i class="uil uil-check"></i><span>Soporte personalizado por teléfono</span></li>
+                    </ul>
                   </div>
-                  <!--/.prices -->
-                  <span class="text-dark">mes / CLP + IVA</span>
-                  <div class="form-select-wrapper mt-2">
-                    <select class="form-select" aria-label="Elija cantidad">
-                      <option value="1" selected>15 profesional</option>
-                      <option value="2">2 profesionales</option>
-                      <option value="3">3 profesionales</option>
-                    </select>
-                  </div>
-                  <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
-                  <span class="fs-16 text-dark">Incluye</span>
-                  <ul class="icon-list bullet-green mt-2 mb-0">
-                    <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades del premium, más:</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>200</strong> confirmaciones de Whatsapp</span></li>
-                    <li><i class="uil uil-check"></i><span><strong>20000</strong> correos mensuales de marketing</span></li>
-                    <li><i class="uil uil-check"></i><span>Acceso a API</span></li>
-                    <li><i class="uil uil-check"></i><span>Soporte personalizado por teléfono</span></li>
-                  </ul>
+                  <!--/.card-body -->
                 </div>
-                <!--/.card-body -->
+                <!--/.pricing -->
               </div>
-              <!--/.pricing -->
+              <!--/.tab-pane -->
             </div>
+            <!-- /.tab-content -->
           </div>
-          <!--/.row -->
+          <div class="d-none d-md-block">
+            <div class="row gy-6 mt-3 mt-md-5">
+              <div class="col-md-6 col-lg-3">
+                <div class="pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">Individual</h4>
+                    <p>Para independientes que necesitan de un aliado para controlar y hacer crecer su negocio.</p>
+                    <span class="text-dark">Desde:</span>
+                    <div class="prices text-dark">
+                      <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">19.990</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / CLP + IVA</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad">
+                        <option value="1" selected>1 profesional</option>
+                        <option value="2">2 profesionales</option>
+                        <option value="3">3 profesionales</option>
+                      </select>
+                    </div>
+                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                    <span class="fs-16 text-dark">Incluye</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li><i class="uil uil-check"></i><span>Agenda online de citas y clases ilimitadas</span></li>
+                      <li><i class="uil uil-check"></i><span>Gestión de clientes y CRM</span></li>
+                      <li><i class="uil uil-check"></i><span>Recordatorios automáticos</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>50</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>1000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Reportes de gestión</span></li>
+                      <li><i class="uil uil-check"></i><span>Notificaciones y alertas diarias</span></li>
+                      <li><i class="uil uil-check"></i><span>Pagos online</span></li>
+                    </ul>
+                    
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-lg-3">
+                <div class="pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">Básico</h4>
+                    <p>Para negocios que buscan organizarse, controlar su administración y hacer crecer sus ventas.</p>
+                    <span class="text-dark">Desde:</span>
+                    <div class="prices text-dark">
+                      <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">29.900</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / CLP + IVA</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad">
+                        <option value="1" selected>2 profesional</option>
+                        <option value="2">2 profesionales</option>
+                        <option value="3">3 profesionales</option>
+                      </select>
+                    </div>
+                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                    <span class="fs-16 text-dark">Incluye</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de individual, más:</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>50</strong> confirmaciones de Whatsapp</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>5000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Inventario</span></li>
+                      <li><i class="uil uil-check"></i><span>Comisiones</span></li>
+                    </ul>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-lg-3">
+                <div class="pricing card bg-soft-aqua">
+                  <div class="card-body">
+                    <span class="btn-bestchoise btn btn-secondary rounded-pill fs-14"><i class="uil uil-star me-1"></i> Más popular</span>
+                    <h4 class="card-title ls-sm">Premium</h4>
+                    <p>Para empresas que buscan tener el control y llevar un seguimiento de pacientes/ clientes personalizable.</p>
+                    <span class="text-dark">Desde:</span>
+                    <div class="prices text-dark">
+                      <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">49.900</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / CLP + IVA</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad">
+                        <option value="1" selected>5 profesional</option>
+                        <option value="2">2 profesionales</option>
+                        <option value="3">3 profesionales</option>
+                      </select>
+                    </div>
+                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                    <span class="fs-16 text-dark">Incluye</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de básico, más:</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>100</strong> confirmaciones de Whatsapp</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>10000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Encuestas de satisfacción</span></li>
+                      <li><i class="uil uil-check"></i><span>Fichas personalizables</span></li>
+                      <li><i class="uil uil-check"></i><span>Personalización de diseño</span></li>
+                      <li><i class="uil uil-check"></i><span>Giftcards</span></li>
+                      <li><i class="uil uil-check"></i><span>Presupuestos</span></li>
+                    </ul>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-lg-3">
+                <div class="pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">Pro</h4>
+                    <p>Para empresas que requieren integrar sistemas y utilizar todo el poder de AgendaPro para llegar al último nivel.</p>
+                    <span class="text-dark">Desde:</span>
+                    <div class="prices text-dark">
+                      <div class="price justify-content-start"><span class="price-currency">$</span><span class="price-value">129.900</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / CLP + IVA</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad">
+                        <option value="1" selected>15 profesional</option>
+                        <option value="2">2 profesionales</option>
+                        <option value="3">3 profesionales</option>
+                      </select>
+                    </div>
+                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">Prueba Gratis</a>
+                    <span class="fs-16 text-dark">Incluye</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades del premium, más:</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>200</strong> confirmaciones de Whatsapp</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>20000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Acceso a API</span></li>
+                      <li><i class="uil uil-check"></i><span>Soporte personalizado por teléfono</span></li>
+                    </ul>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
+            </div>
+            <!--/.row -->
+          </div>  
         </div>
         <!--/.pricing-wrapper -->
         
