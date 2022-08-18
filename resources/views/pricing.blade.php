@@ -29,7 +29,7 @@
           </ul>
           <!-- /.nav-tabs -->
         </div>  
-        <p class="mb-10 mt-2 annual_text"><mark>Paga todo el año y obtén 2 meses Gratis</mark></p>
+        <p class="mb-0 mb-md-8 mt-2 annual_text"><mark>Paga todo el año y obtén 2 meses Gratis</mark></p>
 
         <div class="pricing-wrapper mb-10 mt-4 mb-md-14 ">
           <div class="pricing-wrapper-mobile mb-10 mt-6 mb-md-14 d-block d-md-none">
