@@ -3,6 +3,7 @@
 use App\Http\Controllers\BusinessTypeController;
 use App\Http\Controllers\FeatureController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PricingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -62,6 +63,8 @@ Route::get('{country}/pilates/software-para-estudio-de-pilates', [BusinessTypeCo
 Route::get('{country}/yoga/software-para-estudio-de-yoga', [BusinessTypeController::class, 'software_para_estudio_de_yoga']);
 Route::get('{country}/gimnasio/software-para-gimnasio', [BusinessTypeController::class, 'software_para_gimnasio']);
 
+//precios
+Route::get('{country}/planes', [PricingController::class, 'pricing']);
 //Home
 Route::get('{country}', [HomeController::class, 'home']);
 Route::get('/', function () {

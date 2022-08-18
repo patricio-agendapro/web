@@ -473,7 +473,7 @@
                   <!--/.dropdown-menu -->
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" data-bs-toggle="dropdown">Precios</a>
+                  <a class="nav-link" href="/{{ $locale }}/planes">Precios</a>
                 </li>
                 
               </ul>

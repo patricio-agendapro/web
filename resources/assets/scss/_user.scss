@@ -309,3 +309,23 @@ body.home .clients-section .clients_qty{
     right: 320px;
     top: 100px;
 }
+
+body.pricing .pricing-wrapper .prices .price-value {
+    font-size: 1.8rem !important;
+}
+
+body.pricing .pricing-wrapper .card-body {
+    padding: 2rem 1rem !important;
+}
+
+body.pricing .pricing-wrapper .card-body .btn{
+    width: 100%;
+}
+
+body.pricing .pricing-wrapper .form-select{
+    padding: .25rem 2rem .25rem 1rem !important;
+}
+
+body.pricing .pricing-wrapper .pricing.card .prices {
+    height: 1.8rem;
+}
