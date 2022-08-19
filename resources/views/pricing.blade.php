@@ -4,7 +4,7 @@
 
 
     <section class="wrapper">
-      <div class="container py-14">
+      <div class="container pb-14 pt-4 pt-md-14">
         <div class="row text-center">
           <div class="col-md-12 col-lg-12 mx-auto">
             <h3 class="display-3 ls-sm mb-4 px-xl-15">Optimiza tu tiempo y digitaliza tu negocio.</h3>
