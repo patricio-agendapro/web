@@ -48,7 +48,7 @@
               </li>
               <li class="nav-item"> 
                 <a class="nav-link active" data-bs-toggle="tab" href="#tab1-3">
-                  <span><i class="uil uil-star me-1 fs-14"></i>Premium</span>
+                  <span>Premium</span>
                 </a>
               </li>
               <li class="nav-item"> 
