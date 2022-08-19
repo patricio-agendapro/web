@@ -33,7 +33,6 @@
         
 
         <div class="pricing-wrapper mb-10 mt-8 mb-md-14 ">
-          <span class="text-selection-plan d-block d-md-none ps-2 text-dark">Elige el plan a tu medida</span>
           <div class="pricing-wrapper-mobile mb-10 mt-2 mb-md-14 d-block d-md-none">
             <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
               <li class="nav-item"> 
@@ -47,8 +46,9 @@
                 </a> 
               </li>
               <li class="nav-item"> 
+                <span class="badge-most-popular badge bg-leaf rounded-pill">Más popular</span>
                 <a class="nav-link active" data-bs-toggle="tab" href="#tab1-3">
-                  <span><i class="uil uil-star me-1 fs-14"></i>Premium</span>
+                  <span>Premium</span>
                 </a>
               </li>
               <li class="nav-item"> 

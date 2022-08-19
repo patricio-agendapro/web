@@ -354,7 +354,7 @@ body.pricing .pricing-wrapper-mobile ul.tabs_pricing .nav-link {
     margin: 0;
     border-radius: 30px;
     font-size: .75rem;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     background: none;
     border: none;
     box-shadow: none;
@@ -372,7 +372,7 @@ body.pricing .pricing-wrapper-mobile .tab-content{
 
 body.pricing .pricing-wrapper-mobile .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: $leaf;
+    background-color: $green;
 }
 
 body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills .nav-link{
@@ -443,18 +443,7 @@ body.pricing .annual_text::after {
     margin-top: 22px;
 }
 
-body.pricing .text-selection-plan::before {
-    content: "";
-    background-image: url('data:image/svg+xml;utf8,<svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 5L21 10L16 15" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 10H13C7.47715 10 3 14.4772 3 20V21" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 130% 130%;
+body.pricing .badge-most-popular{
     position: absolute;
-    width: 6rem;
-    height: 1rem;
-    z-index: 1;
-    transform: rotate(58deg) scale(1,-1);
-    margin-left: -72px;
-    margin-top: 24px;
-
+    margin-top: -22px;
 }
