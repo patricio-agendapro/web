@@ -383,7 +383,10 @@ body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills .nav-link{
     body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills, .nav-tabs.nav-tabs-basic {
         flex-direction: row;
     }
-
+    body.pricing .pricing-wrapper .pricing.card .prices {
+        height: 48px;
+        margin-top: -10px;
+    }
 }
 
 body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills .nav-item, .nav-tabs.nav-tabs-basic .nav-item {
