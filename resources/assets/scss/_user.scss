@@ -334,10 +334,12 @@ body.pricing .pricing-wrapper .pricing.card .prices {
 
 body.pricing .pricing-wrapper .card-body .btn-bestchoise{
     position: absolute;
-    top: 34px;
-    height: 35px;
+    top: 40px;
+    height: 25px;
     z-index: 1;
-    left: 111px;
+    left: 109px;
+    font-size: 12px !important;
+    padding: 0 10px;
 }
 
 body.pricing .pricing-wrapper-mobile ul.tabs_pricing {
