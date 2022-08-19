@@ -32,8 +32,8 @@
         </div>  
         
 
-        <div class="pricing-wrapper mb-10 mt-8 mb-md-14 ">
-          <span class="text-selection-plan d-block d-md-none ps-2 text-dark">Elige el plan a tu medida</span>
+        <div class="pricing-wrapper mb-10 mt-6 mb-md-14 ">
+          <span class="text-selection-plan d-block d-md-none ps-2 text-dark">Elige un plan a tu medida</span>
           <div class="pricing-wrapper-mobile mb-10 mt-2 mb-md-14 d-block d-md-none">
             <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
               <li class="nav-item"> 
