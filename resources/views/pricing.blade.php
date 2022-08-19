@@ -14,6 +14,7 @@
         </div>
         <!-- /.row -->
 
+        <p class="mb-0 mb-md-0 mt-4 annual_text"><mark>Paga anual y obtén 2 meses Gratis</mark></p>
         <div class="pricing-switcher-wrapper mt-4">
           <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
             <li class="nav-item"> 
@@ -29,10 +30,11 @@
           </ul>
           <!-- /.nav-tabs -->
         </div>  
-        <p class="mb-0 mb-md-8 mt-2 annual_text"><mark>Paga anual y obtén 2 meses Gratis</mark></p>
+        
 
         <div class="pricing-wrapper mb-10 mt-4 mb-md-14 ">
-          <div class="pricing-wrapper-mobile mb-10 mt-8 mb-md-14 d-block d-md-none">
+          <span class="text-selection-plan d-block d-md-none"><mark>Elije el plan a tu medida</mark></span>
+          <div class="pricing-wrapper-mobile mb-10 mt-2 mb-md-14 d-block d-md-none">
             <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
               <li class="nav-item"> 
                 <a class="nav-link" data-bs-toggle="tab" href="#tab1-1">

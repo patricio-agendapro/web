@@ -425,4 +425,33 @@ body.pricing .mobile_most_popular_plan{
     margin-left: 1px;
 }
 
+body.pricing .annual_text::after {
+    content: "";
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 5L3 10L8 15" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 10H11C16.5228 10 21 14.4772 21 20V21" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60% 80%;
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    z-index: 1;
+    transform: rotate(349deg) scale(1,-1);
+    margin-left: -62px;
+    margin-top: 16px;
+}
 
+body.pricing .text-selection-plan::before {
+    content: "";
+    background-image: url('data:image/svg+xml;utf8,<svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 5L3 10L8 15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 10H11C16.5228 10 21 14.4772 21 20V21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    position: absolute;
+    width: 6rem;
+    height: 1rem;
+    z-index: 1;
+    transform: rotate(90deg) scale(1,-1);
+    margin-left: -90px;
+    margin-top: 41px;
+
+}
