@@ -29,10 +29,10 @@
           </ul>
           <!-- /.nav-tabs -->
         </div>  
-        <p class="mb-0 mb-md-8 mt-2 annual_text"><mark>Paga todo el año y obtén 2 meses Gratis</mark></p>
+        <p class="mb-0 mb-md-8 mt-2 annual_text"><mark>Paga anual y obtén 2 meses Gratis</mark></p>
 
         <div class="pricing-wrapper mb-10 mt-4 mb-md-14 ">
-          <div class="pricing-wrapper-mobile mb-10 mt-6 mb-md-14 d-block d-md-none">
+          <div class="pricing-wrapper-mobile mb-10 mt-8 mb-md-14 d-block d-md-none">
             <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
               <li class="nav-item"> 
                 <a class="nav-link" data-bs-toggle="tab" href="#tab1-1">
@@ -46,8 +46,8 @@
               </li>
               <li class="nav-item"> 
                 <a class="nav-link active" data-bs-toggle="tab" href="#tab1-3">
-                  <span>Premium</span>
-                </a> 
+                  <span><i class="uil uil-star me-1 fs-14"></i>Premium</span>
+                </a>
               </li>
               <li class="nav-item"> 
                 <a class="nav-link" data-bs-toggle="tab" href="#tab1-4">
