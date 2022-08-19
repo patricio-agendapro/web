@@ -443,6 +443,12 @@ body.pricing .annual_text::after {
     margin-top: 22px;
 }
 
+@media (max-width: 767px){
+    body.pricing .annual_text::after {
+        background-image: none;
+    }
+}
+
 body.pricing .badge-most-popular{
     position: absolute;
     margin-top: -22px;
