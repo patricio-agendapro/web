@@ -342,6 +342,12 @@ body.pricing .pricing-wrapper .card-body .btn-bestchoise{
     padding: 0 10px;
 }
 
+body.pricing .pricing-wrapper-mobile {
+    border-radius: 30px 30px 10px 10px;
+    border: 1px solid $gray-200;
+    box-shadow: 0 0 0 0.05rem rgb(8 60 130 / 6%), 0 0 1.25rem rgb(26 26 26 / 4%);
+}
+
 body.pricing .pricing-wrapper-mobile ul.tabs_pricing {
     flex: auto;
     flex-wrap: none;
