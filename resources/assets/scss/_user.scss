@@ -375,6 +375,7 @@ body.pricing .pricing-wrapper-mobile .tab-content{
 body.pricing .pricing-wrapper-mobile .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: $green;
+    box-shadow: 0 0 0.2rem rgb(0 0 0 / 20%);
 }
 
 body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills .nav-link{
@@ -400,6 +401,7 @@ body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills .nav-item, .nav-tabs.
 body.pricing .pricing-switcher-wrapper .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: $green;
+    box-shadow: 0 0 0.2rem rgb(0 0 0 / 20%);
 }
 
 body.pricing .pricing-switcher-wrapper ul.tabs_pricing .nav-link {
