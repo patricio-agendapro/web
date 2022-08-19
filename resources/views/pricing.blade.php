@@ -8,7 +8,7 @@
         <div class="row text-center">
           <div class="col-md-12 col-lg-12 mx-auto">
             <h3 class="display-3 ls-sm mb-4 px-xl-15">Optimiza tu tiempo y digitaliza tu negocio.</h3>
-            <p class="fs-20">Miles de negocios en Latinoamérica han optimizado su gestión con AgendaPro, ¿Eres tú el próximo?</p>
+            <p class="fs-20 d-none d-md-block">Miles de negocios en Latinoamérica han optimizado su gestión con AgendaPro, ¿Eres tú el próximo?</p>
           </div>
           <!-- /column -->
         </div>
