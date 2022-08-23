@@ -5931,140 +5931,6 @@
             "install-path": "../spatie/laravel-blade-javascript"
         },
         {
-            "name": "spatie/laravel-package-tools",
-            "version": "1.12.1",
-            "version_normalized": "1.12.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/laravel-package-tools.git",
-                "reference": "09f80fa240d44fafb1c70657c74ee44ffa929357"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/09f80fa240d44fafb1c70657c74ee44ffa929357",
-                "reference": "09f80fa240d44fafb1c70657c74ee44ffa929357",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "^7.0|^8.0|^9.0",
-                "php": "^7.4|^8.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.4",
-                "orchestra/testbench": "^5.0|^6.23|^7.0",
-                "phpunit/phpunit": "^9.4",
-                "spatie/test-time": "^1.2"
-            },
-            "time": "2022-06-28T14:29:26+00:00",
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\LaravelPackageTools\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Freek Van der Herten",
-                    "email": "freek@spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Tools for creating Laravel packages",
-            "homepage": "https://github.com/spatie/laravel-package-tools",
-            "keywords": [
-                "laravel-package-tools",
-                "spatie"
-            ],
-            "support": {
-                "issues": "https://github.com/spatie/laravel-package-tools/issues",
-                "source": "https://github.com/spatie/laravel-package-tools/tree/1.12.1"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
-            "install-path": "../spatie/laravel-package-tools"
-        },
-        {
-            "name": "spatie/laravel-webhook-client",
-            "version": "3.1.2",
-            "version_normalized": "3.1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/laravel-webhook-client.git",
-                "reference": "59ff7228c9a71ab25b5dd20f249dc722f6bf8bce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-webhook-client/zipball/59ff7228c9a71ab25b5dd20f249dc722f6bf8bce",
-                "reference": "59ff7228c9a71ab25b5dd20f249dc722f6bf8bce",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/bus": "^8.50|^9.0",
-                "illuminate/database": "^8.50|^9.0",
-                "illuminate/support": "^8.50|^9.0",
-                "php": "^8.0",
-                "spatie/laravel-package-tools": "^1.11"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^6.0|^7.0",
-                "phpunit/phpunit": "^9.3",
-                "spatie/laravel-ray": "^1.24"
-            },
-            "time": "2022-04-07T22:44:43+00:00",
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Spatie\\WebhookClient\\WebhookClientServiceProvider"
-                    ]
-                }
-            },
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\WebhookClient\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Freek Van der Herten",
-                    "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Receive webhooks in Laravel apps",
-            "homepage": "https://github.com/spatie/laravel-webhook-client",
-            "keywords": [
-                "laravel-webhook-client",
-                "spatie"
-            ],
-            "support": {
-                "issues": "https://github.com/spatie/laravel-webhook-client/issues",
-                "source": "https://github.com/spatie/laravel-webhook-client/tree/3.1.2"
-            },
-            "funding": [
-                {
-                    "url": "https://spatie.be/open-source/support-us",
-                    "type": "custom"
-                }
-            ],
-            "install-path": "../spatie/laravel-webhook-client"
-        },
-        {
             "name": "spatie/laravel-welcome-notification",
             "version": "2.3.1",
             "version_normalized": "2.3.1.0",
@@ -8770,6 +8636,69 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.4"
             },
             "install-path": "../tijsverkoyen/css-to-inline-styles"
+        },
+        {
+            "name": "vemcogroup/laravel-translation",
+            "version": "3.0.7",
+            "version_normalized": "3.0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vemcogroup/laravel-translation.git",
+                "reference": "273cb5db83f335faadb06589909d743905592332"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vemcogroup/laravel-translation/zipball/273cb5db83f335faadb06589909d743905592332",
+                "reference": "273cb5db83f335faadb06589909d743905592332",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^6.3|^7.0",
+                "laravel/framework": "^6.0|^7.0|^8.0|^9.0",
+                "php": "^7.3|^8.0",
+                "symfony/finder": "^4.3|^5.0|^6.0"
+            },
+            "time": "2022-02-10T09:59:00+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Vemcogroup\\Translation\\TranslationServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Vemcogroup\\Translation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Henrik B Hansen",
+                    "email": "hbh@vemcount.com",
+                    "homepage": "https://www.vemcogroup.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Translation package for Laravel to scan for localisations and up/download to poeditor",
+            "homepage": "https://github.com/vemcogroup/laravel-translation",
+            "keywords": [
+                "Poeditor",
+                "i18n",
+                "laravel",
+                "translations"
+            ],
+            "support": {
+                "issues": "https://github.com/vemcogroup/laravel-translation/issues",
+                "source": "https://github.com/vemcogroup/laravel-translation/tree/3.0.7"
+            },
+            "install-path": "../vemcogroup/laravel-translation"
         },
         {
             "name": "vlucas/phpdotenv",

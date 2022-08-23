@@ -7,24 +7,24 @@
       <div class="container pb-14 pt-4 pt-md-14">
         <div class="row text-center">
           <div class="col-md-12 col-lg-12 mx-auto">
-            <h3 class="display-3 ls-sm mb-4 px-xl-15">Optimiza tu tiempo y digitaliza tu negocio.</h3>
-            <p class="fs-20 d-none d-md-block">Miles de negocios en Latinoamérica han optimizado su gestión con AgendaPro, ¿Eres tú el próximo?</p>
+            <h3 class="display-3 ls-sm mb-4 px-xl-15">{{ __('Optimiza tu tiempo y digitaliza tu negocio.') }}</h3>
+            <p class="fs-20 d-none d-md-block">{{ __('Miles de negocios en Latinoamérica han optimizado su gestión con AgendaPro, ¿Eres tú el próximo?') }}</p>
           </div>
           <!-- /column -->
         </div>
         <!-- /.row -->
 
-        <p class="mb-0 mb-md-0 mt-2 annual_text"><mark>Paga anual y obtén 2 meses Gratis</mark></p>
+        <p class="mb-0 mb-md-0 mt-2 annual_text"><mark class="me-0 me-md-8">Paga anual y obtén 2 meses Gratis</mark></p>
         <div class="pricing-switcher-wrapper mt-2">
           <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
             <li class="nav-item"> 
               <a class="nav-link active" data-bs-toggle="tab">
-                <span>Mensual</span>
+                <span>{{ __('Mensual') }}</span>
               </a>
             </li>
             <li class="nav-item"> 
               <a class="nav-link" data-bs-toggle="tab">
-                <span>Anual</span>
+                <span>{{ __('Anual') }}</span>
               </a> 
             </li>
           </ul>
@@ -33,27 +33,27 @@
         
 
         <div class="pricing-wrapper mb-10 mt-6 mb-md-14 ">
-          <span class="text-selection-plan d-block d-md-none ps-2 text-dark">Elige un plan a tu medida</span>
+          <span class="text-selection-plan d-block d-md-none ps-2 text-dark">{{ __('Elige un plan a tu medida') }}</span>
           <div class="pricing-wrapper-mobile mb-10 mt-2 mb-md-14 d-block d-md-none bg-soft-ash">
             <ul class="tabs_pricing nav nav-tabs nav-pills bg-soft-ash">
               <li class="nav-item"> 
                 <a class="nav-link" data-bs-toggle="tab" href="#tab1-1">
-                  <span>Individual</span>
+                  <span>{{ __('Individual') }}</span>
                 </a>
               </li>
               <li class="nav-item"> 
                 <a class="nav-link" data-bs-toggle="tab" href="#tab1-2">
-                  <span>Básico</span>
+                  <span>{{ __('Básico') }}</span>
                 </a> 
               </li>
               <li class="nav-item"> 
                 <a class="nav-link active" data-bs-toggle="tab" href="#tab1-3">
-                  <span>Premium</span>
+                  <span>{{ __('Premium') }}</span>
                 </a>
               </li>
               <li class="nav-item"> 
                 <a class="nav-link" data-bs-toggle="tab" href="#tab1-4">
-                  <span>Pro</span>
+                  <span>{{ __('Pro') }}</span>
                 </a> 
               </li>
             </ul>

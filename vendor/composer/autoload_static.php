@@ -12,8 +12,8 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
@@ -25,8 +25,13 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
-        '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        '265b4faa2b3a9766332744949e83bf97' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections/helpers.php',
+        'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
+        'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
+        '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '07d7f1a47144818725fd8d91a907ac57' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/create_uploaded_file.php',
         'da94ac5d3ca7d2dbab84ce561ce72bfd' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_headers_from_sapi.php',
         '3d97c8dcdfba8cb85d3b34f116bb248b' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/marshal_method_from_sapi.php',
@@ -43,14 +48,9 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         'cc8e14526dc240491e17a838cb78508c' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_server.legacy.php',
         '786bf90caabc9e09b6ad4cc5ca8f0e30' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/normalize_uploaded_files.legacy.php',
         '751a5a3f463e4be759be31748b61737c' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/parse_cookie_header.legacy.php',
-        '265b4faa2b3a9766332744949e83bf97' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections/helpers.php',
-        'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
-        'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
-        '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
-        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         '62e517984161e60fe2bf84a4da229cda' => __DIR__ . '/..' . '/romanzipp/laravel-seo/src/helpers.php',
         'd21d43db5f6e840ee7b10744ec7fdf66' => __DIR__ . '/../..' . '/app/Helpers/helpers.php',
@@ -73,6 +73,10 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         array (
             'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
+        ),
+        'V' => 
+        array (
+            'Vemcogroup\\Translation\\' => 23,
         ),
         'T' => 
         array (
@@ -109,9 +113,7 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'Spatie\\WelcomeNotification\\' => 27,
-            'Spatie\\WebhookClient\\' => 21,
             'Spatie\\SchemaOrg\\' => 17,
-            'Spatie\\LaravelPackageTools\\' => 27,
             'Spatie\\BladeJavaScript\\' => 23,
         ),
         'R' => 
@@ -231,6 +233,10 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Vemcogroup\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vemcogroup/laravel-translation/src',
         ),
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
@@ -352,17 +358,9 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         array (
             0 => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src',
         ),
-        'Spatie\\WebhookClient\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src',
-        ),
         'Spatie\\SchemaOrg\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/schema-org/src',
-        ),
-        'Spatie\\LaravelPackageTools\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/spatie/laravel-package-tools/src',
         ),
         'Spatie\\BladeJavaScript\\' => 
         array (
@@ -587,11 +585,14 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
     );
 
     public static $classMap = array (
+        'App\\Console\\Commands\\locize_download_all_lang' => __DIR__ . '/../..' . '/app/Console/Commands/locize_download_all_lang.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\BusinessTypeController' => __DIR__ . '/../..' . '/app/Http/Controllers/BusinessTypeController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\FeatureController' => __DIR__ . '/../..' . '/app/Http/Controllers/FeatureController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\PricingController' => __DIR__ . '/../..' . '/app/Http/Controllers/PricingController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -4974,9 +4975,6 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         'Spatie\\BladeJavaScript\\Transformers\\ObjectTransformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/ObjectTransformer.php',
         'Spatie\\BladeJavaScript\\Transformers\\StringTransformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/StringTransformer.php',
         'Spatie\\BladeJavaScript\\Transformers\\Transformer' => __DIR__ . '/..' . '/spatie/laravel-blade-javascript/src/Transformers/Transformer.php',
-        'Spatie\\LaravelPackageTools\\Exceptions\\InvalidPackage' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Exceptions/InvalidPackage.php',
-        'Spatie\\LaravelPackageTools\\Package' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/Package.php',
-        'Spatie\\LaravelPackageTools\\PackageServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-package-tools/src/PackageServiceProvider.php',
         'Spatie\\SchemaOrg\\AMRadioChannel' => __DIR__ . '/..' . '/spatie/schema-org/src/AMRadioChannel.php',
         'Spatie\\SchemaOrg\\APIReference' => __DIR__ . '/..' . '/spatie/schema-org/src/APIReference.php',
         'Spatie\\SchemaOrg\\AboutPage' => __DIR__ . '/..' . '/spatie/schema-org/src/AboutPage.php',
@@ -6759,22 +6757,6 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         'Spatie\\SchemaOrg\\WriteAction' => __DIR__ . '/..' . '/spatie/schema-org/src/WriteAction.php',
         'Spatie\\SchemaOrg\\XPathType' => __DIR__ . '/..' . '/spatie/schema-org/src/XPathType.php',
         'Spatie\\SchemaOrg\\Zoo' => __DIR__ . '/..' . '/spatie/schema-org/src/Zoo.php',
-        'Spatie\\WebhookClient\\Events\\InvalidWebhookSignatureEvent' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Events/InvalidWebhookSignatureEvent.php',
-        'Spatie\\WebhookClient\\Exceptions\\InvalidConfig' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Exceptions/InvalidConfig.php',
-        'Spatie\\WebhookClient\\Exceptions\\InvalidWebhookSignature' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Exceptions/InvalidWebhookSignature.php',
-        'Spatie\\WebhookClient\\Http\\Controllers\\WebhookController' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Http/Controllers/WebhookController.php',
-        'Spatie\\WebhookClient\\Jobs\\ProcessWebhookJob' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Jobs/ProcessWebhookJob.php',
-        'Spatie\\WebhookClient\\Models\\WebhookCall' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/Models/WebhookCall.php',
-        'Spatie\\WebhookClient\\SignatureValidator\\DefaultSignatureValidator' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/SignatureValidator/DefaultSignatureValidator.php',
-        'Spatie\\WebhookClient\\SignatureValidator\\SignatureValidator' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/SignatureValidator/SignatureValidator.php',
-        'Spatie\\WebhookClient\\WebhookClientServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookClientServiceProvider.php',
-        'Spatie\\WebhookClient\\WebhookConfig' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookConfig.php',
-        'Spatie\\WebhookClient\\WebhookConfigRepository' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookConfigRepository.php',
-        'Spatie\\WebhookClient\\WebhookProcessor' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookProcessor.php',
-        'Spatie\\WebhookClient\\WebhookProfile\\ProcessEverythingWebhookProfile' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookProfile/ProcessEverythingWebhookProfile.php',
-        'Spatie\\WebhookClient\\WebhookProfile\\WebhookProfile' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookProfile/WebhookProfile.php',
-        'Spatie\\WebhookClient\\WebhookResponse\\DefaultRespondsTo' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookResponse/DefaultRespondsTo.php',
-        'Spatie\\WebhookClient\\WebhookResponse\\RespondsToWebhook' => __DIR__ . '/..' . '/spatie/laravel-webhook-client/src/WebhookResponse/RespondsToWebhook.php',
         'Spatie\\WelcomeNotification\\ReceivesWelcomeNotification' => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src/ReceivesWelcomeNotification.php',
         'Spatie\\WelcomeNotification\\WelcomeController' => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src/WelcomeController.php',
         'Spatie\\WelcomeNotification\\WelcomeNotification' => __DIR__ . '/..' . '/spatie/laravel-welcome-notification/src/WelcomeNotification.php',
@@ -7591,6 +7573,14 @@ class ComposerStaticInitc494d6ef688036e131f245ffb41f9d1a
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'Vemcogroup\\Translation\\Commands\\AddTerms' => __DIR__ . '/..' . '/vemcogroup/laravel-translation/src/Commands/AddTerms.php',
+        'Vemcogroup\\Translation\\Commands\\CreateJs' => __DIR__ . '/..' . '/vemcogroup/laravel-translation/src/Commands/CreateJs.php',
+        'Vemcogroup\\Translation\\Commands\\Download' => __DIR__ . '/..' . '/vemcogroup/laravel-translation/src/Commands/Download.php',
+        'Vemcogroup\\Translation\\Commands\\Scan' => __DIR__ . '/..' . '/vemcogroup/laravel-translation/src/Commands/Scan.php',
+        'Vemcogroup\\Translation\\Commands\\Upload' => __DIR__ . '/..' . '/vemcogroup/laravel-translation/src/Commands/Upload.php',
+        'Vemcogroup\\Translation\\Exceptions\\POEditorException' => __DIR__ . '/..' . '/vemcogroup/laravel-translation/src/Exceptions/POEditorException.php',
+        'Vemcogroup\\Translation\\Translation' => __DIR__ . '/..' . '/vemcogroup/laravel-translation/src/Translation.php',
+        'Vemcogroup\\Translation\\TranslationServiceProvider' => __DIR__ . '/..' . '/vemcogroup/laravel-translation/src/TranslationServiceProvider.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Webmozart\\Assert\\InvalidArgumentException' => __DIR__ . '/..' . '/webmozart/assert/src/InvalidArgumentException.php',
         'Webmozart\\Assert\\Mixin' => __DIR__ . '/..' . '/webmozart/assert/src/Mixin.php',

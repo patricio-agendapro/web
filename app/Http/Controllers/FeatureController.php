@@ -10,6 +10,7 @@ class FeatureController extends Controller
 {
     public function __construct()
     {
+
         $this->seo = seo();
         $this->seo = app(SeoService::class);
         $this->seo = Seo::make();
@@ -45,6 +46,7 @@ class FeatureController extends Controller
 
     public function agenda_online($locale)
     {
+
         $this->seo->title(__('Agenda Online') . " - AgendaPro");
         $this->seo->meta('description', __('Accede a tu Agenda Online desde cualquier lugar y ordena tus citas de forma fácil e intuitiva con AgendaPro. Click acá y pide tu demo personalizada.'));
 
@@ -771,6 +773,7 @@ class FeatureController extends Controller
 
     public function almacenamiento_en_la_nube($locale)
     {
+
         $this->seo->title(__('Almacenamiento en la nube') . " - AgendaPro");
         $this->seo->meta('description', __('Accede a tu agenda, reportes, caja y pagos desde cualquier lugar con el almacenamiento en la nube de AgendaPro. Haz click aquí y pide tu demo gratis.'));
 
@@ -1246,47 +1249,5 @@ class FeatureController extends Controller
         
     }
 
-    // public function lalalalalalalala($locale)
-    // {
-    //     $this->seo->title(__('') . " - AgendaPro");
-    //     $this->seo->meta('description', __(''));
-
-    //     $meta = array(
-    //         "bodyclass" => "features",
-    //     );
-
-    //     $content = array(
-    //         "h1" => __(""),
-    //         "h1_sub" => __(""),
-    //         "h2" => __(""),
-    //         "h2_sub" => __(""),
-    //         "image_header" => "",
-    //     );
-
-    //     $features_content[] = [
-    //         'title' => __(''), 
-    //         'sub_title' => __(''), 
-    //         'text' => __(''), 
-    //         'text_mark' => __(''), 
-    //         'text_2' => __(''), 
-    //         'image' => '',
-    //     ];
-
-    //     $features_content[] = [
-    //         'title' => __(''), 
-    //         'sub_title' => __(''), 
-    //         'text' => __(''), 
-    //         'text_mark' => __(''), 
-    //         'text_2' => __(''), 
-    //         'image' => '',
-    //     ];
-
-    //     $other_features[] = $this->features['reservas-online'];
-    //     $other_features[] = $this->features['gestion-de-clientes'];
-    //     $other_features[] = $this->features['control-de-inventarios'];
-    //     $other_features[] = $this->features['agenda-medica'];
-
-    //     return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
-        
-    // }
 }
+

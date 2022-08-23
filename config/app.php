@@ -61,7 +61,7 @@ return [
 
     'url' => env('APP_URL'),
 
-    'asset_url' => env('ASSET_URL', env('APP_URL').'/market_assets'),
+    'asset_url' => env('ASSET_URL', env('APP_URL') . '/market_assets'),
 
     /*
     |--------------------------------------------------------------------------
@@ -100,7 +100,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'es-419',
 
     /*
     |--------------------------------------------------------------------------
