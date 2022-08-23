@@ -6,8 +6,6 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PricingController;
 use Illuminate\Support\Facades\Route;
 
-////se setea el locale para el lenguaje
-set_locale();
 /*
 |--------------------------------------------------------------------------
 | Web Routes
