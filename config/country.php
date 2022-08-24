@@ -1,23 +1,103 @@
 <?php
 
 return [
-    'es' => [
-        'title' => 'Chile',
+    'ar' => [
+        'title' => 'Argentina',
         'currency' => 'CLP',
         'lang' => 'es',
         'lang_location' => 'es',
+        'img' => 'ar.svg',
+    ],
+    'au' => [
+        'title' => 'Australia',
+        'currency' => 'CLP',
+        'lang' => 'es',
+        'lang_location' => 'es-CL',
+        'img' => 'au.svg',
+    ],
+    'br' => [
+        'title' => 'Brasil',
+        'currency' => 'MXN',
+        'lang' => 'pt',
+        'lang_location' => 'pt-BR',
+        'img' => 'br.svg',
+    ],
+    'ca' => [
+        'title' => 'Canada',
+        'currency' => 'MXN',
+        'lang' => 'es',
+        'lang_location' => 'en-CA',
+        'img' => 'ca.svg',
     ],
     'cl' => [
         'title' => 'Chile',
         'currency' => 'CLP',
         'lang' => 'es',
         'lang_location' => 'es-CL',
+        'img' => 'cl.svg',
+    ],
+    'co' => [
+        'title' => 'Colombia',
+        'currency' => 'MXN',
+        'lang' => 'es',
+        'lang_location' => 'es-CO',
+        'img' => 'co.svg',
+    ],
+    'ec' => [
+        'title' => 'Ecuador',
+        'currency' => 'MXN',
+        'lang' => 'es',
+        'lang_location' => 'es-EC',
+        'img' => 'ec.svg',
     ],
     'mx' => [
         'title' => 'México',
         'currency' => 'MXN',
         'lang' => 'es',
         'lang_location' => 'es-MX',
+        'img' => 'mx.svg',
+    ],
+    'es-es' => [
+        'title' => 'España',
+        'currency' => 'MXN',
+        'lang' => 'es',
+        'lang_location' => 'es-ES',
+        'img' => 'es.svg',
+    ],
+    'pa' => [
+        'title' => 'Panamá',
+        'currency' => 'MXN',
+        'lang' => 'es',
+        'lang_location' => 'es-PA',
+        'img' => 'pa.svg',
+    ],
+    'pe' => [
+        'title' => 'Perú',
+        'currency' => 'MXN',
+        'lang' => 'es',
+        'lang_location' => 'es-PE',
+        'img' => 'pe.svg',
+    ],
+    'uk' => [
+        'title' => 'UK',
+        'currency' => 'MXN',
+        'lang' => 'en',
+        'lang_location' => 'en-GB',
+        'img' => 'gb.svg',
+    ],
+    'us' => [
+        'title' => 'US',
+        'currency' => 'USD',
+        'lang' => 'es',
+        'lang_location' => 'en-US',
+        'img' => 'us.svg',
+    ],
+    'es-us' => [
+        'title' => 'US Español',
+        'currency' => 'USD',
+        'lang' => 'es',
+        'lang_location' => 'es-US',
+        'img' => 'us.svg',
     ],
 
 ];

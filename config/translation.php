@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'base_language' => 'es-base',
+    'base_language' => 'base',
 
     /*
     |--------------------------------------------------------------------------
@@ -68,6 +68,6 @@ return [
     |
     */
 
-    'url_project_locize' => 'https://api.locize.app/18e31444-c326-47a3-8a70-d4e6148d060e/latest/',
+    'url_project_locize' => 'https://api.locize.app/952ef1ff-709c-4a31-a0a1-dfc3d9a69ac9/latest/',
 
 ];

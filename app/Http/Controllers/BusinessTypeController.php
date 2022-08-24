@@ -10,6 +10,9 @@ class BusinessTypeController extends Controller
 {
     public function __construct()
     {
+        ////se setea el locale para el lenguaje
+        set_locale();
+
         $this->seo = seo();
         $this->seo = app(SeoService::class);
         $this->seo = Seo::make();

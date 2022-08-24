@@ -10,12 +10,13 @@ class PricingController extends Controller
 {
     public function __construct()
     {
+        ////se setea el locale para el lenguaje
+        set_locale();
+
         $this->seo = seo();
         $this->seo = app(SeoService::class);
         $this->seo = Seo::make();
-
         
-
     }
 
     public function pricing($locale)
@@ -28,5 +29,5 @@ class PricingController extends Controller
         return view('pricing', ['locale' => $locale, 'meta' => $meta]);
         
     }
-    
+
 }

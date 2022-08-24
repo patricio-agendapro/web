@@ -492,15 +492,14 @@
           <!-- /.navbar-collapse -->
           <div class="navbar-other w-100 d-flex ms-auto">
             <ul class="navbar-nav flex-row align-items-center ms-auto">
-              <!--<li class="nav-item d-none d-md-block">
-                <a class="nav-link link-green" href="tel:56229381145">+562 2938 1145</a>
-              </li>-->
               <li class="nav-item dropdown language-select">
-                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="24" height="15.7" src="https://agendapro.com/wp-content/uploads/flags/cl-bandera.png" alt=""></a>
+                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img width="24" height="15.7" src="/assets/img/flags/{{ Config::get('country.'.$locale.'.img') }}" alt=""></a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" class="lazyload" data-src="https://agendapro.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/co.png" alt=""> Colombia</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" class="lazyload" data-src="https://agendapro.com/wp-content/uploads/flags/mx-bandera.png" alt=""> México</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="#"><img width="24" class="lazyload" data-src="https://agendapro.com/wp-content/uploads/flags/ar-bandera.png" alt=""> Argentina</a></li>
+                @foreach (Config::get('country') as $key=>$country)
+                
+                  <li class="nav-item"><a class="dropdown-item" href="/{{ $key }}"><img width="16" class="lazyload" data-src="/assets/img/flags/{{ $country['img'] }}" alt=""> {{ $country['title'] }}</a></li>
+                  
+                @endforeach
                 </ul>
               </li>
               <li class="nav-item d-none d-md-block">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ Config::get('countries.'.$locale.'.lang') }}">
+<html lang="{{ Config::get('country.'.$locale.'.lang') }}">
 
 <head>
   <meta charset="utf-8">

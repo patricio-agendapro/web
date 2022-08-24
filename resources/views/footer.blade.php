@@ -17,7 +17,7 @@
             <!-- /.social -->
           </div>  
           <div class="widget">  
-            <h4 class="widget-title mt-6">Contacto</h4>
+            <h4 class="widget-title mt-6">{{ __('Contacto') }}</h4>
             <ul class="list-unstyled text-reset mb-4 mt-2">
               <li><i class="uil uil-envelope-alt"></i> <a href="#">contacto@agendapro.com</a></li>
               <li><i class="uil uil-phone"></i> <a href="#">Chile: +56 2 2938 1145</a></li>
@@ -32,25 +32,25 @@
         
         <div class="col-md-4 col-lg-4">
           <div class="widget">
-            <h4 class="widget-title  mb-3">Más en AgendaPro</h4>
+            <h4 class="widget-title  mb-3">{{ __('Más en AgendaPro') }}</h4>
             <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Ayuda</a></li>
-              <li><a href="#">Marketplace</a></li>
-              <li><a href="#">Políticas de privacidad</a></li>
-              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">{{ __('Blog') }}</a></li>
+              <li><a href="#">{{ __('Ayuda') }}</a></li>
+              <li><a href="#">{{ __('Marketplace') }}</a></li>
+              <li><a href="#">{{ __('Políticas de privacidad') }}</a></li>
+              <li><a href="#">{{ __('Términos y condiciones') }}</a></li>
             </ul>
           </div>
           <!-- /.widget -->
           <div class="widget mobile_apps">
-            <h4 class="widget-title mb-4">Descarga la app</h4>			
+            <h4 class="widget-title mb-4">{{ __('Descarga la app') }}</h4>			
             <a href="https://hubs.ly/H0rf2wQ0"><img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/App-Store.png" alt="" width="149" height="50"></a> <a href="https://hubs.ly/H0rdYSd0"><img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/Google-Play-1.png" alt="" width="149" height="50"></a>
           </div>
         </div>
         <!-- /column -->
         <div class="col-md-4 col-lg-4">
           <div class="widget investors">
-            <h4 class="widget-title mb-3">Nos están apoyando</h4>
+            <h4 class="widget-title mb-3">{{ __('Nos están apoyando') }}</h4>
             <div class="row">
               <div class="logo col-6">
                 <img class="lazyload" data-src="/assets/img/investors/ycombinator.png">
@@ -69,8 +69,8 @@
             </div>  
           </div>
           <div class="widget">
-            <h4 class="widget-title mt-6">Subscribete a nuestro newsletter</h4>
-            <p class="mb-3">Te enviaremos las últimas noticias, ofertas y promociones.</p>
+            <h4 class="widget-title mt-6">{{ __('Subscribete a nuestro newsletter') }}</h4>
+            <p class="mb-3">{{ __('Te enviaremos las últimas noticias, ofertas y promociones.') }}</p>
             <div class="newsletter-wrapper">
               <!-- Begin Mailchimp Signup Form -->
               <div id="mc_embed_signup2">
@@ -107,7 +107,7 @@
   <section class="wrapper bg-soft-aqua sub-footer">
     <div class="container mt-4 pb-7">
       <div class="d-md-flex align-items-center justify-content-between">
-        <p class="mb-2 mb-lg-0">AgendaPro se hace con <i class="uil uil-heart text-red"></i> desde <span class="typer" data-words="Chile,Colombia,México,Argentina" data-delay="100" data-deleteDelay="1000"></span></p>
+        <p class="mb-2 mb-lg-0">{{ __('AgendaPro se hace con ') }}<i class="uil uil-heart text-red"></i> desde <span class="typer" data-words="Chile,Colombia,México,Argentina" data-delay="100" data-deleteDelay="1000"></span></p>
 
 
         <span class="comodo"><img class="lazyload" data-src="/assets/img/comodo.png"></span>
