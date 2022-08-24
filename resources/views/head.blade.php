@@ -49,16 +49,6 @@
   
   <link rel="stylesheet" href="/assets/css/style.css" rel="preload" as="style">
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F7NH5TV3ZY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-F7NH5TV3ZY');
-</script>
-
 </head>
 
 
