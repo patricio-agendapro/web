@@ -478,3 +478,16 @@ body.pricing .text-selection-plan::before {
     margin-top: 24px;
 
 }
+
+.btn-outline-light:hover{
+    color: $leaf !important;
+}
+
+body.pricing .pricing .normal_price{
+    text-decoration: line-through;
+    position: absolute;
+    left: 64px;
+    top: -23px;
+    font-size: 18px;
+    color: $ash;
+}

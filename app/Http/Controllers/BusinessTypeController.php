@@ -62,10 +62,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Gimnasios@3x-8-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Seguimiento de pagos'), 
+                'text' => __('¿No sabes que miembros han pagado y cuales no?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-15.png',
+            ],
+            [
+                'title' => __('Agenda organizada'), 
+                'text' => __('¿No sabes quien va a tus clases, ni cuantos cupos te quedan?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-16.png',
+            ],
+            [
+                'title' => __('Orden total de caja'), 
+                'text' => __('¿No sabes cuales son tus ingresos?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-17.png',
+            ],
+            [
+                'title' => __('Comsiones automatizadas'), 
+                'text' => __('¿No tienes una herramienta que calcule de manera automática las comisiones?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-18.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('MEMBRESÍAS O PLANES'), 
@@ -126,10 +144,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Banner-Mobile_-Centros-de-estetica-50-1.jpg",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Controla al 100% los tratamientos'), 
+                'text' => __('¿El registro de uso y pago de los tratamientos es confuso y desordenado?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Mantén un registro digital'), 
+                'text' => __('¿Pierdes tiempo buscando las fichas del paciente que estás atendiendo?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Ficha-clinica-1.png',
+            ],
+            [
+                'title' => __('Evita las inasistencias de pacientes'), 
+                'text' => __('¿Tus pacientes olvidan y no completan sus tratamientos lo que repercute en una mala experiencia?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Integra tu agenda con redes sociales'), 
+                'text' => __('¿Tienes poca interacción con redes sociales, y con tus pacientes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-18.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('CONTROL DE TRATAMIENTOS'), 
@@ -190,10 +226,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Banner-Mobile_-Spa@3x-8-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Mantén el orden de tu agenda'), 
+                'text' => __('¿Rompes la experiencia de tu Spa al cometer errores como citas duplicadas a la misma hora?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Comunícate con tus clientes'), 
+                'text' => __('¿Pierdes contacto con tus clientes luego de su visita y no encuentras la forma de hacerlos volver?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Fidelizacio%CC%81n-de-Clientes-1.png',
+            ],
+            [
+                'title' => __('Evita las inasistencias de clientes'), 
+                'text' => __('¿Tus clientes simplemente faltan a sus citas o reagendan a último minuto y te hacen perder dinero?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Atrae más clientes a tu spa'), 
+                'text' => __('¿Estás buscando la manera de atraer y retener más clientes fieles y frecuentes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Marketing.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDAMIENTO DE CITAS ONLINE'), 
@@ -254,10 +308,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Banner-Mobile_-Barberia-50-1.jpg",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Mantén el orden de tu agenda'), 
+                'text' => __('¿Pierdes clientes por errores al momento de agendar?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Calcula las comisiones automáticamente'), 
+                'text' => __('¿Cometes errores y pierdes tiempo al calcular las comisiones de tus barberos cada semana?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones-5.png',
+            ],
+            [
+                'title' => __('Consigue más reservas'), 
+                'text' => __('¿Te faltan clientes, y además los que agendan olvidan asistir a sus citas?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Controla tu stock de productos'), 
+                'text' => __('Se acaba tu stock de productos sin que te des cuenta'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Control-de-Inventarios-2.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA DE CITAS ONLINE'), 
@@ -318,10 +390,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Peluqueria@3x-8-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Digitaliza tu agenda'), 
+                'text' => __('¿No tienes control de tu agenda, y pierdes clientes por problemas de agendar?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Automatiza las comisiones'), 
+                'text' => __('¿Pierdes mucho tiempo calculando las comisiones de lo/as estilistas de tu peluquería?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones-5.png',
+            ],
+            [
+                'title' => __('Consigue más reservas'), 
+                'text' => __('¿Tus clientes no asisten a su cita sin previo aviso?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Stock de productos en línea'), 
+                'text' => __('¿No tienes el control de tu inventario de productos y pierdes ventas por quiebres de stock?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-18.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -382,10 +472,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Banner-Mobile_-Salones-de-belleza-50-1.jpg",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Ordena tu agenda'), 
+                'text' => __('Tu agenda está desorganizada y pierdes clientes'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-15.png',
+            ],
+            [
+                'title' => __('Comisiones automáticas'), 
+                'text' => __('No sabes que le corresponde a cada uno y pagas de manera errónea'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-16.png',
+            ],
+            [
+                'title' => __('Consigue más reservas'), 
+                'text' => __('¿Tus clientes te dejan esperando o simplemente no llegan a sus citas?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-17.png',
+            ],
+            [
+                'title' => __('Controla tu inventario'), 
+                'text' => __('¿Te has quedado sin productos en el momento de una venta o no sabes que productos hacen faltan?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/09/Group-18.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('RESERVAS ONLINE'), 
@@ -446,10 +554,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Salones-de-manos-y-pies@3x-8-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Mantén el orden de tu agenda'), 
+                'text' => __('¿Utilizas lapiz y papel para organizar tu agenda y las reservas de tu centro?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Agenda-Online-10.png',
+            ],
+            [
+                'title' => __('Calcula comisiones automáticamente'), 
+                'text' => __('¿Pierdes tiempo calculando las comisiones y tiendes a cometer errores?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones-5.png',
+            ],
+            [
+                'title' => __('Evita inasistencias'), 
+                'text' => __('¿Pierdes horas de trabajo y mucho dinero por las inasistencias?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Retiene a tus clientes'), 
+                'text' => __('¿Ninguno de tus clientes vuelve a tu Salón en busca de nuevos servicios?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Fidelizacio%CC%81n-de-Clientes-1.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -510,10 +636,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Banner-Mobile_-Centros-medico-50-1.jpg",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Organiza tu agenda online'), 
+                'text' => __('¿Sufres constantemente con el desorden de citas de tus pacientes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Ficha clínica electrónica'), 
+                'text' => __('¿No puedes acceder a la información de la ficha de tus pacientes desde cualquier lugar?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Ficha-clinica-1.png',
+            ],
+            [
+                'title' => __('Evita las inasistencias'), 
+                'text' => __('¿Tus pacientes faltan usualmente a sus citas y te generan una pérdida de tiempo y dinero?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Controla los ingresos y egresos'), 
+                'text' => __('¿Buscas una manera simple de llevar los ingresos y egresos de tus pacientes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -556,10 +700,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Banner-Mobile_-Clinica-50-1-1.jpg",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Agenda virtual'), 
+                'text' => __('¿Sientes que pierdes el control de las citas de tus pacientes, y agenda de profesionales?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Historia Clínica'), 
+                'text' => __('¿Sufres de perder tiempo buscando el historial clínico de pacientes, o siempre está desactualizado?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Ficha-clinica-1.png',
+            ],
+            [
+                'title' => __('Evita inasistencias'), 
+                'text' => __('¿Tus pacientes faltan a sus citas sin previo aviso generando una pérdida monetaria para tu clínica?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Calidad de atención'), 
+                'text' => __('¿Desconoces lo que opinan tus pacientes sobre la calidad de atención de tu clínica?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Fidelizacio%CC%81n-de-Clientes-1.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDAMIENTO ONLINE'), 
@@ -620,10 +782,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Fisioterapia@3x-8-1-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Agenda online actualizada'), 
+                'text' => __('¿No sabes cuando y a que hora agendaste a tus pacientes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Evolución e historial de pacientes actualizados'), 
+                'text' => __('¿No llevas el control de los tratamientos de tus pacientes de forma digitalizada y actualizados?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Ficha-clinica-1.png',
+            ],
+            [
+                'title' => __('Disminuye las inasistencias de tus pacientes'), 
+                'text' => __('¿Tus pacientes faltan reiteradas veces a sus sesiones generándote una perdida de tiempo y dinero?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Inasistencias-de-clientes.png',
+            ],
+            [
+                'title' => __('Flujo de caja automatizado'), 
+                'text' => __('¿Llevas los cálculos de tu negocio de forma manual, generándote muchas horas de trabajo?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -686,10 +866,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Kinesiologia@3x-8-1-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Agenda virtual organizada'), 
+                'text' => __('¿No tienes el control de las reservas y horas de atención de los profesionales en tu centro de kinesiología?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Fichas clínica'), 
+                'text' => __('¿No llevas de forma organizada el seguimiento y evolución de los tratamientos de tus pacientes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Ficha-clinica-1.png',
+            ],
+            [
+                'title' => __('Reduce las inasistencias'), 
+                'text' => __('¿La inasistencia de pacientes sin previo aviso te genera perdidas de dinero y desorganización en tu centro?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Organiza tu caja'), 
+                'text' => __('¿Tienes un desorden en la caja por la gran cantidad de tratamientos y pago por sesiones que esto conlleva?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -750,10 +948,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Psicologos@3x-8-1-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Agenda actualizada de forma automática'), 
+                'text' => __('¿No tienes claridad cuando viene cada paciente y con que profesional se atiende?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Evita inasistencias'), 
+                'text' => __('¿Tus paciente faltan seguido a su consulta sin previo aviso, generando perdidas en tu negocio?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Inasistencias-de-clientes.png',
+            ],
+            [
+                'title' => __('Fichas clínicas online'), 
+                'text' => __('¿Te cuesta encontrar la ficha de tu paciente entre tantas carpetas y papeles con información importante?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Ficha-clinica-1.png',
+            ],
+            [
+                'title' => __('Control total de los ingresos'), 
+                'text' => __('¿Anotas en papel los ingresos de tu negocio y sumas con calculadora al finalizar el día, perdiendo horas de trabajo?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -814,10 +1030,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Banner-Mobile_-Consulta-medica-50-1.jpg",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Mantén el orden de tu agenda'), 
+                'text' => __('Agenda desordenada y poco colaborativa con tus profesionales'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Me%CC%81dica-1.png',
+            ],
+            [
+                'title' => __('Ordena la información'), 
+                'text' => __('Tienes poco control de la información, historiales y expedientes de tus pacientes'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Ficha-clinica-1.png',
+            ],
+            [
+                'title' => __('Recordatorios automáticos'), 
+                'text' => __('Tus pacientes faltan sin avisar y pierdes horas de trabajo'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Control de ingresos'), 
+                'text' => __('Desorden en tus cobranzas y facturación'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -878,10 +1112,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Medicina-alternativa@3x-8-1-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Agenda actualizada de forma automática'), 
+                'text' => __('¿Te cuesta tener al día el agendamiento de tus pacientes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Fichas clínicas'), 
+                'text' => __('¿Tienes las fichas clíinicas desorganizadas y en algunos casos no las encuentras?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Ficha-clinica-1.png',
+            ],
+            [
+                'title' => __('Evita inasistencias'), 
+                'text' => __('¿Tus clientes no asisten a tus reservas?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Manejo automático de ingresos'), 
+                'text' => __('¿Tienes errores en el manejo de los pagos y las comisiones?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -942,10 +1194,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Podologos@3x-8-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Agenda organizada y digital'), 
+                'text' => __('¿Se te dificulta llevar una agenda ordenada y no tienes forma que te agenden de manera online?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Evita las inasistencia de tus pacientes'), 
+                'text' => __('¿Pierdes tiempo y dinero con las inasistencias recurrente de tus pacientes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Recordatorios-automa%CC%81ticos.png',
+            ],
+            [
+                'title' => __('Historia Clínica actualizada'), 
+                'text' => __('¿Te cuesta encontrar las historias clínicas y mantener el orden de todos los documentos?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Ficha-clinica-1.png',
+            ],
+            [
+                'title' => __('Flujo de caja automatizado'), 
+                'text' => __('¿Pierdes dinero por no tener un total control de tu caja?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -1006,10 +1276,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Centro-de-deportes@3x-8-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Digitaliza la agenda de tu negocio'), 
+                'text' => __('¿Pierdes la cuenta de quienes te agendan y no llevas el control de tus horarios?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Control en los pagos'), 
+                'text' => __('¿No tienes un seguimiento de quiénes han pagado sus clases?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Control-de-pagos-3.png',
+            ],
+            [
+                'title' => __('Flujo de caja actualizado'), 
+                'text' => __('¿No sabes cómo va el flujo de caja de tu negocio?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+            [
+                'title' => __('Comisiones automatizadas'), 
+                'text' => __('¿Pierdes mucho tiempo realizando el cálculo de las comisiones y nunca te cuadra?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones-5.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -1070,10 +1358,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Crossfit@3x-8-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Agenda virtual organizada'), 
+                'text' => __('¿Tienes tu agenda organizada en un Excel y pierdes tiempo llenando tus clases?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Control de pagos'), 
+                'text' => __('¿Se te dificulta saber quien ha pagado tus clases y no llevas un seguimiento de los pagos en tu centro?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Control-de-pagos-3.png',
+            ],
+            [
+                'title' => __('Flujo de caja organizada y actualizada'), 
+                'text' => __('¿Desconoces cuales son tus ingresos y egresos de tu negocio, perdiendo mucho tiempo cuadrando la caja a fin de mes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+            [
+                'title' => __('Comisiones automatizadas'), 
+                'text' => __('¿Pierdes muchas horas realizando el cálculo de comisiones de forma manual?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones-5.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDAMIENTO ONLINE DE TUS CLIENTES'), 
@@ -1134,10 +1440,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Pilates@3x-8-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Agenda online para tu negocio'), 
+                'text' => __('¿Aún llevas la agenda de tu negocio con lápiz y papel, perdiendo tiempo y confusiones en las reservas?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Agenda-Online-10.png',
+            ],
+            [
+                'title' => __('Registro automatizado'), 
+                'text' => __('¿Pierdes dinero al no llevar un seguimiento automático de los pagos en tu negocio?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Control-de-pagos-3.png',
+            ],
+            [
+                'title' => __('Controla ingresos y egresos'), 
+                'text' => __('¿No sabes cuánto ganas y cuánto gastas en el día a día?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+            [
+                'title' => __('Comisiones automatizadas'), 
+                'text' => __('¿Inviertes mucho tiempo calculando las comisiones y en muchos casos no cuadran?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones-5.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 
@@ -1198,10 +1522,28 @@ class BusinessTypeController extends Controller
             "image_header" => "https://agendapro.com/wp-content/uploads/2021/03/Mobile_-Yoga@3x-8-1.png",
         );
 
-        $business_features[] = $this->features['reservas-online'];
-        $business_features[] = $this->features['gestion-de-clientes'];
-        $business_features[] = $this->features['control-de-inventarios'];
-        $business_features[] = $this->features['agenda-medica'];
+        $business_features = [
+            [
+                'title' => __('Mantén tu agenda organizada y digitalizada'), 
+                'text' => __('¿Aún llevas tu agenda con lápiz y papel, perdiendo gran parte de tu tiempo organizando todas tus clases?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Agenda-Online-1.png',
+            ],
+            [
+                'title' => __('Control total de los ingresos'), 
+                'text' => __('¿No tienes el control y seguimiento de los pagos de tus clientes?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Control-de-pagos-3.png',
+            ],
+            [
+                'title' => __('Flujo de caja automatizada'), 
+                'text' => __('¿Desconoces el detalle de los ingresos totales y cuánto dinero está egresando de tu negocio?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja.png',
+            ],
+            [
+                'title' => __('Comisiones automatizadas'), 
+                'text' => __('¿Cometes errores y pierdes mucho tiempo calculando las comisiones de tus instructores?'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones-5.png',
+            ],
+        ];
 
         $features_content[] = [
             'title' => __('AGENDA ONLINE'), 

@@ -36,10 +36,9 @@
 
         @foreach ($business_features as $feature)
           <div class="col-md-6 col-lg-3">
-            <div class="mb-5"> <img src="{{ $feature['image'] }}"> </div>
-            <h4>{{ $feature['title'] }}</h4>
+            <div class="mb-5"> <img width="100" src="{{ $feature['image'] }}"> </div>
+            <h3 class="fs-18">{{ $feature['title'] }}</h3>
             <p class="mb-3">{{ $feature['text'] }}</p>
-            <a href="{{ $feature['url'] }}" class="more hover">{{ __('Saber más') }}</a>
           </div>
           <!--/column -->
         @endforeach

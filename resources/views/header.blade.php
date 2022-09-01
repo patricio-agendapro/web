@@ -22,7 +22,7 @@
                           <h6 class="dropdown-header">Salud</h6>
                           <ul class="list-unstyled cc-2 pb-lg-1">
                             <li class="item-agendapro-menu">
-                              <a class="dropdown-item" href="/{{ $locale }}/centros-de-estetica/software-para-centros-de-estetica">
+                              <a class="dropdown-item" href="/{{ $locale }}/centro-medico/software-para-centro-medico">
                                 <span class="d-none d-lg-block mb-1"><img class="lazyload" height="50" data-src="https://agendapro.com/wp-content/uploads/2020/12/Centro-medico.png"></span>
                                 Centros médicos
                               </a>
@@ -151,7 +151,7 @@
                           <div class="card bg-soft-aqua shadow-lg rubro-otro">
                             <div class="card-body">
                               <h6 class="text-leaf">¿No encuentras tu negocio?</h6>
-                              <p class="text-leaf">AgendaPro se adapta a cualquier negocio que trabaje con citas.</p>
+                              <p class="text-leaf">AgendaPro se adapta a <a href="/{{ $locale }}/negocios/software-para-negocios">cualquier negocio</a> que trabaje con citas.</p>
                             </div>
                           </div>
                         </div>

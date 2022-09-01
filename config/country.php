@@ -7,6 +7,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es',
         'img' => 'ar.svg',
+        'id_pricing' => 'ar',
     ],
     'au' => [
         'title' => 'Australia',
@@ -14,6 +15,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es-CL',
         'img' => 'au.svg',
+        'id_pricing' => 'au',
     ],
     'br' => [
         'title' => 'Brasil',
@@ -21,6 +23,7 @@ return [
         'lang' => 'pt',
         'lang_location' => 'pt-BR',
         'img' => 'br.svg',
+        'id_pricing' => 'global_eur',
     ],
     'ca' => [
         'title' => 'Canada',
@@ -28,6 +31,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'en-CA',
         'img' => 'ca.svg',
+        'id_pricing' => 'ca',
     ],
     'cl' => [
         'title' => 'Chile',
@@ -35,6 +39,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es-CL',
         'img' => 'cl.svg',
+        'id_pricing' => 'cl',
     ],
     'co' => [
         'title' => 'Colombia',
@@ -42,6 +47,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es-CO',
         'img' => 'co.svg',
+        'id_pricing' => 'co',
     ],
     'ec' => [
         'title' => 'Ecuador',
@@ -49,6 +55,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es-EC',
         'img' => 'ec.svg',
+        'id_pricing' => 'global_usd',
     ],
     'mx' => [
         'title' => 'México',
@@ -56,6 +63,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es-MX',
         'img' => 'mx.svg',
+        'id_pricing' => 'mx',
     ],
     'es-es' => [
         'title' => 'España',
@@ -63,6 +71,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es-ES',
         'img' => 'es.svg',
+        'id_pricing' => 'global_eur',
     ],
     'pa' => [
         'title' => 'Panamá',
@@ -70,6 +79,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es-PA',
         'img' => 'pa.svg',
+        'id_pricing' => 'global_usd',
     ],
     'pe' => [
         'title' => 'Perú',
@@ -77,6 +87,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es-PE',
         'img' => 'pe.svg',
+        'id_pricing' => 'pe',
     ],
     'uk' => [
         'title' => 'UK',
@@ -84,6 +95,7 @@ return [
         'lang' => 'en',
         'lang_location' => 'en-GB',
         'img' => 'gb.svg',
+        'id_pricing' => 'uk',
     ],
     'us' => [
         'title' => 'US',
@@ -91,6 +103,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'en-US',
         'img' => 'us.svg',
+        'id_pricing' => 'global_usd',
     ],
     'es-us' => [
         'title' => 'US Español',
@@ -98,6 +111,7 @@ return [
         'lang' => 'es',
         'lang_location' => 'es-US',
         'img' => 'us.svg',
+        'id_pricing' => 'global_usd',
     ],
 
 ];

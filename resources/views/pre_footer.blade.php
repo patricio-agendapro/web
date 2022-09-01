@@ -40,19 +40,19 @@
                 <div class="widget">
                   <h4 class="widget-title  mb-3">Estética</h4>
                   <ul class="list-unstyled text-reset mb-4">
-                    <li><a href="#">Centros de estética</a></li>
-                    <li><a href="#">Spas</a></li>
+                    <li><a href="/{{ $locale }}/centros-de-estetica/software-para-centros-de-estetica">Centros de estética</a></li>
+                    <li><a href="/{{ $locale }}/spa/software-para-spa">Spas</a></li>
                   </ul>
                   <h4 class="widget-title  mb-3">Salud</h4>
                   <ul class="list-unstyled text-reset mb-4">
-                    <li><a href="#">Centros médicos</a></li>
-                    <li><a href="#">Clínicas</a></li>
-                    <li><a href="#">Centros de fisioterapia</a></li>
-                    <li><a href="#">Kinesiólogos</a></li>
-                    <li><a href="#">Psicólogos</a></li>
-                    <li><a href="#">Consulta médica particular</a></li>
-                    <li><a href="#">Medicina alternativa</a></li>
-                    <li><a href="#">Centros de podología</a></li>
+                    <li><a href="/{{ $locale }}/centro-medico/software-para-centro-medico">Centros médicos</a></li>
+                    <li><a href="/{{ $locale }}/clinica/software-para-clinica">Clínicas</a></li>
+                    <li><a href="/{{ $locale }}/fisioterapia/software-para-centro-de-fisioterapia">Centros de fisioterapia</a></li>
+                    <li><a href="/{{ $locale }}/kinesiologos/software-para-kinesiologos">Kinesiólogos</a></li>
+                    <li><a href="/{{ $locale }}/psicologos/software-para-psicologos">Psicólogos</a></li>
+                    <li><a href="/{{ $locale }}/consulta-medica/software-para-consulta-medica">Consulta médica particular</a></li>
+                    <li><a href="/{{ $locale }}/medicina-alternativa/software-de-medicina-alternativa">Medicina alternativa</a></li>
+                    <li><a href="/{{ $locale }}/podologia/software-para-centro-de-podologia">Centros de podología</a></li>
                   </ul>
                 </div>
                 <!-- /.widget -->
@@ -61,21 +61,22 @@
                 <div class="widget">
                   <h4 class="widget-title  mb-3">Belleza</h4>
                   <ul class="list-unstyled text-reset mb-4">
-                    <li><a href="#">Barberías</a></li>
-                    <li><a href="#">Peluquerías</a></li>
-                    <li><a href="#">Salones de belleza</a></li>
-                    <li><a href="#">Salones de manicure</a></li>
+                    <li><a href="/{{ $locale }}/barberia/software-para-barberias/">Barberías</a></li>
+                    <li><a href="/{{ $locale }}/peluqueria/software-para-peluquerias">Peluquerías</a></li>
+                    <li><a href="/{{ $locale }}/salon-de-belleza/software-para-salon-de-belleza">Salones de belleza</a></li>
+                    <li><a href="/{{ $locale }}/manicure-y-pedicure/software-para-salon-de-manicure-y-pedicure">Salones de manicure</a></li>
                   </ul>
                   <h4 class="widget-title  mb-3">Bienestar</h4>
                   <ul class="list-unstyled text-reset mb-4">
-                    <li><a href="#">Centros deportivos</a></li>
-                    <li><a href="#">Centros de crossfit</a></li>
-                    <li><a href="#">Estudios de yoga</a></li>
-                    <li><a href="#">Gimnasios</a></li>
+                    <li><a href="/{{ $locale }}/centro-deportivo/software-para-centro-deportivo">Centros deportivos</a></li>
+                    <li><a href="/{{ $locale }}/crossfit/software-para-centro-de-crossfit">Centros de crossfit</a></li>
+                    <li><a href="/{{ $locale }}/pilates/software-para-estudio-de-pilates">Estudio de Pilates</a></li>
+                    <li><a href="/{{ $locale }}/yoga/software-para-estudio-de-yoga">Estudios de yoga</a></li>
+                    <li><a href="/{{ $locale }}/gimnasio/software-para-gimnasio">Gimnasios</a></li>
                   </ul>
                   <h4 class="widget-title  mb-3">Negocios</h4>
                   <ul class="list-unstyled text-reset mb-4">
-                    <li><a href="#">Otros negocios</a></li>
+                    <li><a href="/{{ $locale }}/negocios/software-para-negocios">Otros negocios</a></li>
                   </ul>
                 </div>
                 <!-- /.widget -->
@@ -90,19 +91,19 @@
                 <div class="widget">
                   <h4 class="widget-title  mb-3">Capta</h4>
                   <ul class="list-unstyled text-reset mb-4">
-                    <li><a href="#">Agenda Online</a></li>
-                    <li><a href="#">Agenda Médica</a></li>
-                    <li><a href="#">Reservas Online</a></li>
-                    <li><a href="#">Aplicación móvil</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Integración con redes sociales</a></li>
+                    <li><a href="/{{ $locale }}/agenda-online">Agenda Online</a></li>
+                    <li><a href="/{{ $locale }}/agenda-medica">Agenda Médica</a></li>
+                    <li><a href="/{{ $locale }}/reservas-online">Reservas Online</a></li>
+                    <li><a href="/{{ $locale }}/aplicacion-movil">Aplicación móvil</a></li>
+                    <li><a href="/{{ $locale }}/marketing">Marketing</a></li>
+                    <li><a href="/{{ $locale }}/integracion-con-redes-sociales">Integración con redes sociales</a></li>
                   </ul>
                   <h4 class="widget-title  mb-3">Retiene</h4>
                   <ul class="list-unstyled text-reset mb-4">
-                    <li><a href="#">Encuesta de satisfacción</a></li>
-                    <li><a href="#">Fidelización de clientes</a></li>
-                    <li><a href="#">Charly</a></li>
-                    <li><a href="#">Giftcards</a></li>
+                    <li><a href="/{{ $locale }}/encuesta-de-satisfaccion">Encuesta de satisfacción</a></li>
+                    <li><a href="/{{ $locale }}/fidelizacion-de-clientes">Fidelización de clientes</a></li>
+                    <li><a href="/{{ $locale }}/charly">Charly</a></li>
+                    <li><a href="/{{ $locale }}/giftcards">Giftcards</a></li>
                   </ul>
                 </div>
                 <!-- /.widget -->
@@ -111,16 +112,16 @@
                 <div class="widget">
                   <h4 class="widget-title  mb-3">Gestiona</h4>
                   <ul class="list-unstyled text-reset mb-4">
-                    <li><a href="#">Recordatorios automáticos</a></li>
-                    <li><a href="#">Ficha Clínica</a></li>
-                    <li><a href="#">Sistema de caja</a></li>
-                    <li><a href="#">Facturación electrónica</a></li>
-                    <li><a href="#">Control de inventarios</a></li>
-                    <li><a href="#">Gestión de clientes</a></li>
-                    <li><a href="#">Almacenamiento en la nube</a></li>
-                    <li><a href="#">Teleconsulta</a></li>
-                    <li><a href="#">Reportes de gestión</a></li>
-                    <li><a href="#">Integraciones / API</a></li>
+                    <li><a href="/{{ $locale }}/recordatorios-automaticos">Recordatorios automáticos</a></li>
+                    <li><a href="/{{ $locale }}/ficha-clinica">Ficha Clínica</a></li>
+                    <li><a href="/{{ $locale }}/sistema-de-caja">Sistema de caja</a></li>
+                    <li><a href="/{{ $locale }}/facturacion-electronica">Facturación electrónica</a></li>
+                    <li><a href="/{{ $locale }}/control-de-inventarios">Control de inventarios</a></li>
+                    <li><a href="/{{ $locale }}/gestion-de-clientes">Gestión de clientes</a></li>
+                    <li><a href="/{{ $locale }}/almacenamiento-en-la-nube">Almacenamiento en la nube</a></li>
+                    <li><a href="/{{ $locale }}/teleconsulta">Teleconsulta</a></li>
+                    <li><a href="/{{ $locale }}/reportes-de-gestion">Reportes de gestión</a></li>
+                    <li><a href="/{{ $locale }}/integraciones-api">Integraciones / API</a></li>
                   </ul>
                 </div>
                 <!-- /.widget -->
