@@ -50,11 +50,6 @@ class ContentController extends Controller
                 'name_2' => 'Pediatra en Colombia',
             ],
             [
-                'text' => __('Lo más impactante es la agenda para l@s pacientes y también la historia clínica.'), 
-                'name' => 'Jhony', 
-                'name_2' => 'Director Ejecutivo en Perú',
-            ],
-            [
                 'text' => __('Es mi asistente personal: No más tiempo perdido coordinando horas por Whatsapp con pacientes'), 
                 'name' => 'Christiane', 
                 'name_2' => 'Dentista en Chile',
@@ -65,16 +60,6 @@ class ContentController extends Controller
                 'name_2' => 'Gerente en Chile',
             ],
             [
-                'text' => __('Es fácil de usar cómodo y se ajusta a mi necesidad'), 
-                'name' => 'Victor Manuel', 
-                'name_2' => 'Administrador en Colombia',
-            ],
-            [
-                'text' => __('Fácil de usar, practico y visualmente agradable.'), 
-                'name' => 'Ramiro', 
-                'name_2' => 'Gerente General en Chile',
-            ],
-            [
                 'text' => __('Una excelente experiencia en la contratación y la asistencia'), 
                 'name' => 'Jorge', 
                 'name_2' => 'CO en Chile',
@@ -83,11 +68,6 @@ class ContentController extends Controller
                 'text' => __('Es muy versátil y fácil de usar! nos facilita las tareas y organización de consultorios'), 
                 'name' => 'Aixa', 
                 'name_2' => 'Administrador en Argentina',
-            ],
-            [
-                'text' => __('Me a gustado y cada dia aprendo mas de las multiples funciones que tiene.'), 
-                'name' => 'Angela', 
-                'name_2' => 'Administradora en Colombia',
             ],
             [
                 'text' => __('Me gusta sobre todo lo intuitivo, versátil y flexible que es. Buen servicio!'), 

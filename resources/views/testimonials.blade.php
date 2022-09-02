@@ -16,13 +16,13 @@
           @foreach ($testimonials as $testimonial)
             <div class="item col-md-6 col-xl-3">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body px-6 py-6">
                   <span class="ratings five mb-3"></span>
                   <blockquote class="icon mb-0">
-                    <p>“{{ $testimonial['text'] }}”</p>
+                    <p class="fs-16">“{{ $testimonial['text'] }}”</p>
                     <div class="info">
-                      <h5 class="mb-1">{{ $testimonial['name'] }}</h5>
-                      <p class="mb-0">{{ $testimonial['name_2'] }}</p>
+                      <h5 class="mb-1 fs-16">{{ $testimonial['name'] }}</h5>
+                      <p class="mb-0 fs-16">{{ $testimonial['name_2'] }}</p>
                     </div>
                   </blockquote>
                 </div>
