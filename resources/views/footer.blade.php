@@ -34,8 +34,9 @@
           <div class="widget">
             <h4 class="widget-title  mb-3">{{ __('Más en AgendaPro') }}</h4>
             <ul class="list-unstyled text-reset mb-4">
-              <li><a href="#">{{ __('Blog') }}</a></li>
-              <li><a href="#">{{ __('Ayuda') }}</a></li>
+              <li><a href="https://blog.agendapro.com">{{ __('Blog') }}</a></li>
+              <li><a href="https://ayuda.agendapro.com">{{ __('Ayuda') }}</a></li>
+              <li><a href="/{{ $locale }}/testimonios">{{ __('Testimonios') }}</a></li>
               <li><a href="#">{{ __('Marketplace') }}</a></li>
               <li><a href="#">{{ __('Políticas de privacidad') }}</a></li>
               <li><a href="#">{{ __('Términos y condiciones') }}</a></li>
