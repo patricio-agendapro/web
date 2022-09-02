@@ -48,19 +48,17 @@
       </div>
     </section>
 
-  
-
     @foreach ($features_content as $feature_content)
       @if ($loop->even)
-        @include('features_section_img_left')
+        @include('businesstype_section_img_left')
       @endif
       @if ($loop->odd)
-        @include('features_section_img_right')
+        @include('businesstype_section_img_right')
       @endif
     @endforeach
 
     <section class="wrapper bg-light">  
-      <div class="container text-center mb-14">
+      <div class="container text-center mt-14 mb-4">
         <div class="row">
             <div>
               <a href="/" class="btn btn-lg btn-primary rounded">{{ __('Prueba Gratis') }}</a>
@@ -80,83 +78,26 @@
         <div class="row text-center">
           <div class="col-lg-9 col-xl-8 mx-auto">
             <h2 class="fs-16 text-uppercase text-muted mb-3">Y aún tenemos mucho más para gestionar tu negocio.</h2>
-            <h3 class="display-4 mb-10 px-xxl-10">Automatiza y ahorra con las siguientes herramientas.</h3>
+            <h3 class="display-4 mb-14 px-xxl-10">{{ $content['other_features_text'] }}</h3>
           </div>
           <!-- /column -->
         </div>
         <div class="row gx-lg-8 gx-xl-12 gy-8">
+        @foreach ($other_features as $feature)
           <div class="col-md-6 col-lg-4">
             <div class="d-flex flex-row">
               <div class="more-image">
-                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Reporte-de-comisiones_4.png" class="me-4 lazyload" alt="" />
+                <img data-src="{{ $feature['image'] }}" class="me-4 lazyload" alt="{{ $feature['title'] }}" />
               </div>
               <div>
-                <h4 class="mb-1">Control de comisiones</h4>
-                <p class="mb-0">Calcula automáticamente las comisiones de de los profesionales de tu centro.</p>
+                <h4 class="mb-1">{{ $feature['title'] }}</h4>
+                <p class="mb-0">{{ $feature['text'] }}</p>
+                <a href="/{{ $locale . $feature['url'] }}" class="more hover">{{ __('Saber más') }}</a>
               </div>
             </div>
           </div>
           <!--/column -->
-          <div class="col-md-6 col-lg-4">
-            <div class="d-flex flex-row">
-              <div class="more-image">
-                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Control-de-inventarios_3.png" class="me-4 lazyload" alt="" />
-              </div>
-              <div>
-                <h4 class="mb-1">Sistema de inventario online</h4>
-                <p class="mb-0">Lleva el control de tu inventario en tiempo real.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-4">
-            <div class="d-flex flex-row">
-              <div class="more-image">
-                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Fichas-clinicas.png" class="me-4 lazyload" alt="" />
-              </div>
-              <div>
-                <h4 class="mb-1">Ficha/Historia Clínica</h4>
-                <p class="mb-0">Lleva toda la información de tus pacientes de forma segura y accesible en la nube.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-4">
-            <div class="d-flex flex-row">
-              <div class="more-image">
-                <img  data-src="https://agendapro.com/wp-content/uploads/2021/01/Sistema-de-caja_4-2.png" class="me-4 lazyload" alt="" />
-              </div>
-              <div>
-                <h4 class="mb-1">Control de caja</h4>
-                <p class="mb-0">Controla tus ingresos y egresos en tiempo real para ver cuánto ganas cada día.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-4">
-            <div class="d-flex flex-row">
-              <div class="more-image">
-                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Pago-online_3.png" class="me-4 lazyload" alt="" />
-              </div>
-              <div>
-                <h4 class="mb-1">Pago online</h4>
-                <p class="mb-0">DPermite a tus clientes pagar directamente desde la página web.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-4">
-            <div class="d-flex flex-row">
-              <div class="more-image">
-                <img  data-src="https://agendapro.com/wp-content/uploads/2020/12/Reportes-de-gestion_3.png" class="me-4 lazyload" alt="" />
-              </div>
-              <div>
-                <h4 class="mb-1">Reportes y estadísticas</h4>
-                <p class="mb-0">Toma decisiones inteligentes a partir de los reportes de tu negocio.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
+        @endforeach
         </div>
         <!--/.row -->
       </div>
@@ -255,16 +196,16 @@
         <div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-6">
           <h2 class="display-4 mb-4 px-lg-14 text-center">{{ __('¡Miles de profesionales confían en nosotros!') }} <i class="uil uil-heart"></i></h2>
           <div class="col-md-8 col-lg-6 position-relative">
-            <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="fE39Y0h7_Ng"></div>
+            <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="{{ $content['testimonial']['id_youtube'] }}"></div>
           </div>
           <!--/column -->
           <div class="col-lg-5 col-xl-4 offset-lg-1">
             <blockquote class="icon fs-lg">
-              <p>“Hemos utilizado varios software y han dejado mucho que desear. Hemos magnetizado con AgendaPro porque es muy amigable y me motiva a organizarme y mantener un orden.”</p>
+              <p>“{{ $content['testimonial']['testimonial'] }}”</p>
               <div class="blockquote-details">
                 <div class="info ps-0">
-                  <h5 class="mb-1">Cristián Fogar</h5>
-                  <p class="mb-0">Kifit Recovery – Centro de kinesiología</p>
+                  <h5 class="mb-1">{{ $content['testimonial']['name_testimonial'] }}</h5>
+                  <p class="mb-0">{{ $content['testimonial']['client_testimonial'] }}</p>
                 </div>
               </div>
             </blockquote>
