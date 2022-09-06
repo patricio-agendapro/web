@@ -36,10 +36,10 @@
             <ul class="list-unstyled text-reset mb-4">
               <li><a href="https://blog.agendapro.com">{{ __('Blog') }}</a></li>
               <li><a href="https://ayuda.agendapro.com">{{ __('Ayuda') }}</a></li>
-              <li><a href="/{{ $locale }}/testimonios">{{ __('Testimonios') }}</a></li>
+              <li><a href="/{{ $locale }}/testimonios" rel="nofollow">{{ __('Testimonios') }}</a></li>
               <li><a href="#">{{ __('Marketplace') }}</a></li>
-              <li><a href="/{{ $locale }}/politica-de-privacidad">{{ __('Políticas de privacidad') }}</a></li>
-              <li><a href="/{{ $locale }}/terminos-y-condiciones">{{ __('Términos y condiciones') }}</a></li>
+              <li><a href="/{{ $locale }}/politica-de-privacidad" rel="nofollow">{{ __('Políticas de privacidad') }}</a></li>
+              <li><a href="/{{ $locale }}/terminos-y-condiciones" rel="nofollow">{{ __('Términos y condiciones') }}</a></li>
             </ul>
           </div>
           <!-- /.widget -->

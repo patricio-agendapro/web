@@ -8,7 +8,7 @@
           </div>
           <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
             <div class="offcanvas-header d-lg-none">
-              <h3 class="text-white fs-30 mb-0">AgendaPro</h3>
+              <img class="lazyimglate logo" data-src="/assets/img/logoapro-dark.svg" alt="" width="160" height="29.16"/>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body d-flex flex-column h-100 nav-agendapro-menu">
@@ -482,6 +482,13 @@
                 <div>
                   <a href="mailto:first.last@email.com" class="link-inverse">contacto@agendapro.com</a>
                   <br /> +562 2938 1145<br />
+                  <nav class="nav social social-white mt-4">
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-dribbble"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                  </nav>
                   <!-- /.social -->
                 </div>
               </div>
