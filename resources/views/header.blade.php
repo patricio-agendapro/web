@@ -480,6 +480,7 @@
               <!-- /.navbar-nav -->
               <div class="offcanvas-footer d-lg-none">
                 <div>
+                  <a href="https://app.agendapro.com/sign_up" class="btn btn-sm btn-primary mb-6 rounded">Prueba Gratis</a>
                   <a href="mailto:first.last@email.com" class="link-inverse">contacto@agendapro.com</a>
                   <br /> +562 2938 1145<br />
                   <nav class="nav social social-white mt-4">
