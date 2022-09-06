@@ -496,7 +496,21 @@ body.pricing .pricing .normal_price{
     background: $green !important;
 }
 
-body.terms .sidebar nav .nav-link {
+body.terms .sidebar nav .nav-link, body.privacy .sidebar nav .nav-link {
     font-size: 14px;
     line-height: 20px;
+}
+
+
+body.privacy .table_poli{
+    border: 1px solid #efefef;
+    margin: 40px 0;
+}
+body.privacy .table_poli tr{
+    border: 1px solid #efefef;
+    padding: 5px;
+}
+body.privacy .table_poli td{
+    border: 1px solid #efefef;
+    padding: 5px;
 }

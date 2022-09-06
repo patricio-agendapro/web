@@ -125,4 +125,15 @@ class ContentController extends Controller
         
     }
 
+    public function privacy($locale)
+    {
+        
+        $meta = array(
+            "bodyclass" => "privacy",
+        );
+
+        return view('privacy', ['locale' => $locale, 'meta' => $meta]);
+        
+    }
+
 }
