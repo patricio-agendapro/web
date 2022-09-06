@@ -480,16 +480,18 @@
               <!-- /.navbar-nav -->
               <div class="offcanvas-footer d-lg-none">
                 <div>
-                  <a href="https://app.agendapro.com/sign_in" class="btn btn-sm btn-outline-primary rounded mb-6">Login</a>
-                  <a href="https://app.agendapro.com/sign_up" class="btn btn-sm btn-primary rounded mb-6">Prueba Gratis</a>
+                  <p><a rel="nofollow" href="https://app.agendapro.com/sign_in" class="btn btn-sm btn-outline-white rounded">Ir a mi cuenta</a></p>
+                  <p><a href="https://app.agendapro.com/sign_up" class="btn btn-sm btn-primary rounded mb-2">Prueba Gratis</a></p>
                   <a href="mailto:first.last@email.com" class="link-inverse">contacto@agendapro.com</a>
                   <br /> +562 2938 1145<br />
                   <nav class="nav social social-white mt-4">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
-                    <a href="#"><i class="uil uil-youtube"></i></a>
+                    <a rel="nofollow" href="https://www.instagram.com/agendapro_software/"><i class="uil text-green uil-instagram"></i></a>
+                    <a rel="nofollow" href="https://www.facebook.com/agendapro"><i class="uil text-green uil-facebook-f"></i></a>
+                    <a rel="nofollow" href="https://twitter.com/agendapro"><i class="uil text-green uil-twitter"></i></a>
+                    <a rel="nofollow" href="https://www.linkedin.com/company/agendapro"><i class="uil text-green uil-linkedin"></i></a>
+                    <a rel="nofollow" href="https://www.youtube.com/channel/UCoCMp3I4V5uojehS2Co0v5g"><i class="uil text-green uil-youtube"></i></a>
+           
+
                   </nav>
                   <!-- /.social -->
                 </div>

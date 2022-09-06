@@ -8,11 +8,11 @@
             <img class="mb-4 lazyload" width="240" data-src="/assets/img/logoapro.svg" alt="AgendaPro" />
             <nav class="nav social ">
               
-              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a href="#"><i class="uil text-green uil-instagram"></i></a></span>
-              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a href="#"><i class="uil text-green uil-facebook-f"></i></a></span>
-              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a href="#"><i class="uil text-green uil-twitter"></i></a></span>
-              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a href="#"><i class="uil text-green uil-linkedin"></i></a></span>
-              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a href="#"><i class="uil text-green uil-youtube"></i></a></span>
+              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a target="_blank" rel="nofollow" href="https://www.instagram.com/agendapro_software/"><i class="uil text-green uil-instagram"></i></a></span>
+              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a target="_blank" rel="nofollow" href="https://www.facebook.com/agendapro"><i class="uil text-green uil-facebook-f"></i></a></span>
+              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a target="_blank" rel="nofollow" href="https://twitter.com/agendapro"><i class="uil text-green uil-twitter"></i></a></span>
+              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/agendapro"><i class="uil text-green uil-linkedin"></i></a></span>
+              <span class="avatar bg-pale-primary text-primary w-9 h-9"><a target="_blank" rel="nofollow" href="https://www.youtube.com/channel/UCoCMp3I4V5uojehS2Co0v5g"><i class="uil text-green uil-youtube"></i></a></span>
             </nav>
             <!-- /.social -->
           </div>  
