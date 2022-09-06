@@ -38,8 +38,8 @@
               <li><a href="https://ayuda.agendapro.com">{{ __('Ayuda') }}</a></li>
               <li><a href="/{{ $locale }}/testimonios">{{ __('Testimonios') }}</a></li>
               <li><a href="#">{{ __('Marketplace') }}</a></li>
-              <li><a href="#">{{ __('Políticas de privacidad') }}</a></li>
-              <li><a href="#">{{ __('Términos y condiciones') }}</a></li>
+              <li><a href="/{{ $locale }}/politica-de-privacidad">{{ __('Políticas de privacidad') }}</a></li>
+              <li><a href="/{{ $locale }}/terminos-y-condiciones">{{ __('Términos y condiciones') }}</a></li>
             </ul>
           </div>
           <!-- /.widget -->

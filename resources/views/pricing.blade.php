@@ -1,4 +1,7 @@
 @include('head')
+
+@include('header_strip')
+
 @include('header')
 
 <script>

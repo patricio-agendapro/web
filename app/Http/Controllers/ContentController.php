@@ -114,4 +114,15 @@ class ContentController extends Controller
         
     }
 
+    public function terms($locale)
+    {
+        
+        $meta = array(
+            "bodyclass" => "terms",
+        );
+
+        return view('terms', ['locale' => $locale, 'meta' => $meta]);
+        
+    }
+
 }

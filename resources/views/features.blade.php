@@ -1,4 +1,7 @@
 @include('head')
+
+@include('header_strip')
+
 @include('header')
 
     <section class="wrapper">
@@ -77,7 +80,7 @@
             <div class="mb-5"> <img src="{{ $feature['image'] }}"> </div>
             <h4>{{ $feature['title'] }}</h4>
             <p class="mb-3">{{ $feature['text'] }}</p>
-            <a href="{{ $feature['url'] }}" class="more hover">{{ __('Saber más') }}</a>
+            <a href="/{{ $locale }}{{ $feature['url'] }}" class="more hover">{{ __('Saber más') }}</a>
           </div>
           <!--/column -->
         @endforeach

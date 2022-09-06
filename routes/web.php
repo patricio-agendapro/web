@@ -65,6 +65,8 @@ Route::get('{locale}/gimnasio/software-para-gimnasio', [BusinessTypeController::
 
 //precios
 Route::get('{locale}/planes', [ContentController::class, 'pricing']);
+//terminos y condiciones
+Route::get('{locale}/terminos-y-condiciones', [ContentController::class, 'terms']);
 //testimonios
 Route::get('{locale}/testimonios', [ContentController::class, 'testimonials']);
 //Home

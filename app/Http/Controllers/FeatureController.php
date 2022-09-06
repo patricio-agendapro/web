@@ -19,28 +19,130 @@ class FeatureController extends Controller
 
         $this->features = [
             'reservas-online' => [
-                'url' => 'reservas-online', 
+                'url' => '/reservas-online', 
                 'title' => __('Reservas Online'), 
                 'text' => __('Permite a tus clientes reservar online'), 
                 'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-15.png',
             ],
             'gestion-de-clientes' => [
-                'url' => 'gestion-de-clientes', 
+                'url' => '/gestion-de-clientes', 
                 'title' => __('Gestión de clientes'), 
                 'text' => __('Ten toda la info de tus clientes organizada'), 
                 'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-16.png',
             ],
             'control-de-inventarios' => [
-                'url' => 'control-de-inventarios', 
+                'url' => '/control-de-inventarios', 
                 'title' => __('Control de Inventario'), 
                 'text' => __('Controla tu inventario de forma online automática'), 
                 'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-18.png',
             ],
             'agenda-medica' => [
-                'url' => 'agenda-medica', 
+                'url' => '/agenda-medica', 
                 'title' => __('Agenda Médica'), 
                 'text' => __('Organiza tus reservas online automáticamente'), 
                 'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-15.png',
+            ],
+            'reportes-de-gestion' => [
+                'url' => '/reportes-de-gestion', 
+                'title' => __('Agenda Médica'), 
+                'text' => __('Organiza tus reservas online automáticamente'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-15.png',
+            ],
+            'fidelizacion-de-clientes' => [
+                'url' => '/fidelizacion-de-clientes', 
+                'title' => __('Fidelización de clientes'), 
+                'text' => __('Haz que tus clientes vuelvan a tu negocio'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-16.png',
+            ],
+            'archivos-rips' => [
+                'url' => '/archivos-rips', 
+                'title' => __('Archivos RIPS'), 
+                'text' => __('Todo lo que necesitas para tus RIPS'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-18.png',
+            ],
+            'sistema-de-caja' => [
+                'url' => '/sistema-de-caja', 
+                'title' => __('Sistema de caja'), 
+                'text' => __('Tu caja actualizada en tiempo real'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-15.png',
+            ],
+            'sistema-de-inventario' => [
+                'url' => '/sistema-de-inventario', 
+                'title' => __('Sistema de Inventario'), 
+                'text' => __('Administra tu inventario en tiempo real'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-15.png',
+            ],
+            'marketing' => [
+                'url' => '/marketing', 
+                'title' => __('Marketing'), 
+                'text' => __('Aumenta tus reservas de forma inteligente'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-16.png',
+            ],
+            'encuesta-de-satisfaccion' => [
+                'url' => '/encuesta-de-satisfaccion', 
+                'title' => __('Encuestas de satisfacción'), 
+                'text' => __('Mira lo que tus clientes opinan de tu negocio.'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-18.png',
+            ],
+            'almacenamiento-en-la-nube' => [
+                'url' => '/almacenamiento-en-la-nube', 
+                'title' => __('Almacenamiento en la nube'), 
+                'text' => __('La forma más segura de almacenar tus datos'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-15.png',
+            ],
+            'ficha-clinica' => [
+                'url' => '/ficha-clinica', 
+                'title' => __('Ficha Clínica'), 
+                'text' => __('Ficha clínica online para tus pacientes o clientes'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-16.png',
+            ],
+            'aplicacion-movil' => [
+                'url' => '/aplicacion-movil', 
+                'title' => __('Aplicación Móvil'), 
+                'text' => __('Crea tu propia app móvil para tu negocio'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-16.png',
+            ],
+            'teleconsulta' => [
+                'url' => '/teleconsulta', 
+                'title' => __('Teleconsulta'), 
+                'text' => __('Consulta online desde cualquier lugar'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-15.png',
+            ],
+            'giftcards' => [
+                'url' => '/giftcards', 
+                'title' => __('GiftCard'), 
+                'text' => __('La mejor manera de fidelizar a tus clientes'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-16.png',
+            ],
+            'integracion-con-redes-sociales' => [
+                'url' => '/integracion-con-redes-sociales', 
+                'title' => __('Integración con redes sociales'), 
+                'text' => __('Integra tu agenda con todas tus redes'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-18.png',
+            ],
+            'integraciones-api' => [
+                'url' => '/integraciones-api', 
+                'title' => __('Integraciones / API'), 
+                'text' => __('Envía recordatorios de tus reservas por Whatsapp'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-15.png',
+            ],
+            'historia-clinica' => [
+                'url' => '/historia-clinica', 
+                'title' => __('Historia Clínica'), 
+                'text' => __('Historial de tus pacientes online'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-16.png',
+            ],
+            'control-de-pagos' => [
+                'url' => '/control-de-pagos', 
+                'title' => __('Control de pagos'), 
+                'text' => __('Mira quién ha pagado tus servicios en tiempo real'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-18.png',
+            ],
+            'agenda-online' => [
+                'url' => '/agenda-online', 
+                'title' => __('Agenda Online'), 
+                'text' => __('Organiza tus reservas online automáticamente'), 
+                'image' => 'https://agendapro.com/wp-content/uploads/2020/10/Group-18.png',
             ],
         ];
 
@@ -162,10 +264,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Agenda-medica-4-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['reportes-de-gestion'];
+        $other_features[] = $this->features['fidelizacion-de-clientes'];
+        $other_features[] = $this->features['archivos-rips'];
+        $other_features[] = $this->features['sistema-de-caja'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -224,10 +326,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Reservas-online-4-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['reportes-de-gestion'];
+        $other_features[] = $this->features['fidelizacion-de-clientes'];
+        $other_features[] = $this->features['archivos-rips'];
+        $other_features[] = $this->features['sistema-de-caja'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -286,10 +388,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Aplicacio%CC%81n-mo%CC%81vil-4-8-1.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['sistema-de-caja'];
+        $other_features[] = $this->features['marketing'];
+        $other_features[] = $this->features['encuesta-de-satisfaccion'];
+        $other_features[] = $this->features['almacenamiento-en-la-nube'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -330,10 +432,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Integracio%CC%81n-con-redes-sociales-2-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['sistema-de-caja'];
+        $other_features[] = $this->features['marketing'];
+        $other_features[] = $this->features['encuesta-de-satisfaccion'];
+        $other_features[] = $this->features['almacenamiento-en-la-nube'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -454,10 +556,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Fichas-clinicas-3-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['sistema-de-inventario'];
+        $other_features[] = $this->features['marketing'];
+        $other_features[] = $this->features['encuesta-de-satisfaccion'];
+        $other_features[] = $this->features['almacenamiento-en-la-nube'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -578,10 +680,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Facturacion-electronica-4-8.png',
         ];
 
+        $other_features[] = $this->features['reportes-de-gestion'];
+        $other_features[] = $this->features['ficha-clinica'];
+        $other_features[] = $this->features['aplicacion-movil'];
         $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -640,10 +742,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Pago-online-4-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['sistema-de-inventario'];
+        $other_features[] = $this->features['marketing'];
+        $other_features[] = $this->features['encuesta-de-satisfaccion'];
+        $other_features[] = $this->features['almacenamiento-en-la-nube'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -702,10 +804,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Control-de-inventario-4-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['teleconsulta'];
+        $other_features[] = $this->features['giftcards'];
+        $other_features[] = $this->features['integracion-con-redes-sociales'];
+        $other_features[] = $this->features['integraciones-api'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -764,10 +866,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Gestion-de-clientes-4-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['teleconsulta'];
+        $other_features[] = $this->features['giftcards'];
+        $other_features[] = $this->features['integracion-con-redes-sociales'];
+        $other_features[] = $this->features['integraciones-api'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -827,10 +929,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Almacenamiento-en-la-nube-4-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['sistema-de-caja'];
+        $other_features[] = $this->features['historia-clinica'];
+        $other_features[] = $this->features['control-de-pagos'];
+        $other_features[] = $this->features['agenda-online'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -871,10 +973,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Teleconsulta-2-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['reportes-de-gestion'];
+        $other_features[] = $this->features['fidelizacion-de-clientes'];
+        $other_features[] = $this->features['archivos-rips'];
+        $other_features[] = $this->features['sistema-de-caja'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -933,10 +1035,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Reportes-de-gestion-4-8.png',
         ];
 
+        $other_features[] = $this->features['reportes-de-gestion'];
+        $other_features[] = $this->features['ficha-clinica'];
+        $other_features[] = $this->features['aplicacion-movil'];
         $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -977,10 +1079,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Integraciones-API-2-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['sistema-de-caja'];
+        $other_features[] = $this->features['historia-clinica'];
+        $other_features[] = $this->features['control-de-pagos'];
+        $other_features[] = $this->features['agenda-online'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -1074,10 +1176,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Encuesta-de-satisfaccio%CC%81n-3-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['sistema-de-caja'];
+        $other_features[] = $this->features['historia-clinica'];
+        $other_features[] = $this->features['control-de-pagos'];
+        $other_features[] = $this->features['agenda-online'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -1136,10 +1238,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Fidelizacio%CC%81n-de-clientes-4-8.png',
         ];
 
+        $other_features[] = $this->features['reportes-de-gestion'];
+        $other_features[] = $this->features['ficha-clinica'];
+        $other_features[] = $this->features['aplicacion-movil'];
         $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -1198,10 +1300,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Charly-4-8.png',
         ];
 
-        $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
+        $other_features[] = $this->features['sistema-de-inventario'];
+        $other_features[] = $this->features['marketing'];
+        $other_features[] = $this->features['encuesta-de-satisfaccion'];
+        $other_features[] = $this->features['almacenamiento-en-la-nube'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
@@ -1242,10 +1344,10 @@ class FeatureController extends Controller
             'image' => 'https://agendapro.com/wp-content/uploads/2021/04/Gift-cards-2-8.png',
         ];
 
+        $other_features[] = $this->features['reportes-de-gestion'];
+        $other_features[] = $this->features['ficha-clinica'];
+        $other_features[] = $this->features['aplicacion-movil'];
         $other_features[] = $this->features['reservas-online'];
-        $other_features[] = $this->features['gestion-de-clientes'];
-        $other_features[] = $this->features['control-de-inventarios'];
-        $other_features[] = $this->features['agenda-medica'];
 
         return view('features', ['locale' => $locale, 'meta' => $meta, 'content' => $content, 'features_content' => $features_content, 'other_features' => $other_features]);
         
