@@ -480,7 +480,7 @@
               <!-- /.navbar-nav -->
               <div class="offcanvas-footer d-lg-none">
                 <div>
-                  <p><a rel="nofollow" href="https://app.agendapro.com/sign_in" class="btn btn-sm btn-outline-white rounded">Ir a mi cuenta</a></p>
+                  <p class="mb-2"><a rel="nofollow" href="https://app.agendapro.com/sign_in" class="btn btn-sm btn-outline-white rounded">Ir a mi cuenta</a></p>
                   <p><a href="https://app.agendapro.com/sign_up" class="btn btn-sm btn-primary rounded mb-2">Prueba Gratis</a></p>
                   <a href="mailto:first.last@email.com" class="link-inverse">contacto@agendapro.com</a>
                   <br /> +562 2938 1145<br />
@@ -514,7 +514,7 @@
                 </ul>
               </li>
               <li class="nav-item d-none d-md-block">
-                <a href="https://app.agendapro.com/sign_in" class="btn btn-sm btn-outline-primary rounded">Login</a>
+                <a rel="nofollow" href="https://app.agendapro.com/sign_in" class="btn btn-sm btn-outline-primary rounded">Login</a>
               </li>
               <li class="nav-item d-none d-md-block">
                 <a href="https://app.agendapro.com/sign_up" class="btn btn-sm btn-primary rounded">Prueba Gratis</a>
