@@ -1,3 +1,12 @@
+function injectScript(src,callback){
+	var script = document.createElement('script');
+        script.src = src;
+        script.onload=function(){
+            callback();
+        }
+        document.head.appendChild(script);
+}
+
 function loadlazyimglate(){
     const items = document.querySelectorAll('.lazyimglate');
     for (const item of items) {
@@ -6,28 +15,35 @@ function loadlazyimglate(){
 }
 
 var flag_lazyscript = 0;
-function lazyscript(){
+function lazylazyload(){
     if(flag_lazyscript == 0){
-        let script = document.createElement('script');
-        script.src = "/assets/js/lazyscripts.js";
-        document.body.append(script);
-        flag_lazyscript = 1;
-
         loadlazyimglate();
+        //formulario hubspot footer newsletter
+        injectScript('https://js.hsforms.net/forms/v2.js', function(){
+            footer_hs_form = document.querySelector("#mc_embed_signup2");
+            let script = document.createElement('script');
+            script.src = "/assets/js/lazyscripts.js";
+            footer_hs_form.append(script);
+        });
+        //fin formulario hubspot footer 
+
+        //flag para que no se active nuevamente
+        flag_lazyscript = 1;
     }
 }
 
 setTimeout(
     function() {
-        document.addEventListener('touchstart', lazyscript);
-        document.addEventListener('scroll', lazyscript);
-        document.addEventListener('keydown', lazyscript);
-        document.addEventListener('mousemove', lazyscript);
+        document.addEventListener('touchstart', lazylazyload);
+        document.addEventListener('scroll', lazylazyload);
+        document.addEventListener('keydown', lazylazyload);
+        document.addEventListener('mousemove', lazylazyload);
     }, 1000);
 
 if(screen.width >= 992){
     loadlazyimglate();
 }
+
 
 function build_prices(){
     const select_solo = document.querySelector(".plan_solo select");

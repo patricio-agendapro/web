@@ -76,13 +76,6 @@
               <!-- Begin Mailchimp Signup Form -->
               <div id="mc_embed_signup2">
 
-                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-                <script>hbspt.forms.create({
-                region: "na1",
-                portalId: "2356021",
-                formId: "d378124d-2031-4040-accb-789b4f2c7ece"
-                });
-                </script>
               </div>
               <!--End mc_embed_signup-->
             </div>
