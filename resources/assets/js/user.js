@@ -26,6 +26,14 @@ function lazylazyload(){
             footer_hs_form.append(script);
         });
         //fin formulario hubspot footer 
+        //inicio tag manager
+        injectScript('https://www.googletagmanager.com/gtag/js?id=G-F7NH5TV3ZY', function(){
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-F7NH5TV3ZY');
+        });
+        //fin tag manager
 
         //flag para que no se active nuevamente
         flag_lazyscript = 1;
