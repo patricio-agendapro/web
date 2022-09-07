@@ -533,3 +533,9 @@ footer .hs-button{
     padding: 10px 20px;
     font-weight: bold;
 }
+
+@media (max-width: 991.98px){
+    .navbar-expand-lg .navbar-collapse .dropdown-toggle:after {
+        right: unset;
+    }
+}
