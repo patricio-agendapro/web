@@ -2,7 +2,7 @@
 <html lang="{{ Config::get('country.'.$locale.'.lang_location') }}">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {{ seo()->render() }}
   <link rel="shortcut icon" href="/assets/img/favicon.ico">

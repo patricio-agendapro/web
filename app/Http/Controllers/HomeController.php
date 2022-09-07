@@ -20,8 +20,15 @@ class HomeController extends Controller
 
     public function home($locale)
     {
-        $this->seo->title('AgendaPro');
-        $this->seo->meta('description', 'AgendaPro FTW');
+        $this->seo->title(__('Software de gestión | AgendaPro - AgendaPro'));
+        $this->seo->meta('description', __('Simplifica tu día a día y haz crecer tu negocio con el software todo en uno para centros de estética, salones de belleza y centros médicos. Da click acá y pide tu demo gratis'));
+        $this->seo->meta('robots', 'index, follow');
+
+        //canonical
+        //hreflangs
+        //todo og:
+        //twitter card
+
         $meta = array(
             'bodyclass' => 'home',
         );
