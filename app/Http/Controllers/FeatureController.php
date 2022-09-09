@@ -17,6 +17,14 @@ class FeatureController extends Controller
         $this->seo = app(SeoService::class);
         $this->seo = Seo::make();
 
+        $this->seo->meta('robots', 'index, follow');
+        $this->seo->canonical('https://agendapro.com/es/' . get_url_without_locale());
+        $hreflangs['link'][] = ['rel' => 'alternate','hreflang' => 'x-default','href' => 'https://agendapro.com/es/' . get_url_without_locale()];
+        foreach (config('country') as $id_country=>$country){
+            $hreflangs['link'][] = ['rel' => 'alternate','hreflang' => $country['lang_location'],'href' => 'https://agendapro.com/' . $id_country . '/' . get_url_without_locale()];
+        }
+        $this->seo->addFromArray($hreflangs);
+
         $this->features = [
             'reservas-online' => [
                 'url' => '/reservas-online', 

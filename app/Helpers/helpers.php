@@ -29,3 +29,9 @@ function download_locize_lang_file() {
     }
    
 }
+
+function get_url_without_locale() {
+    $array_url = explode('/', request()->path());
+    array_shift($array_url);
+    return(implode('/',$array_url));
+}

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use romanzipp\Seo\Facades\Seo;
 use romanzipp\Seo\Services\SeoService;
 
+
 class HomeController extends Controller
 {
     public function __construct()
@@ -25,8 +26,8 @@ class HomeController extends Controller
         $this->seo->meta('robots', 'index, follow');
         $this->seo->canonical('https://agendapro.com/es');
         $hreflangs['link'][] = ['rel' => 'alternate','hreflang' => 'x-default','href' => 'https://agendapro.com/es'];
-        foreach (config('country') as $key=>$country){
-            $hreflangs['link'][] = ['rel' => 'alternate','hreflang' => $country['lang_location'],'href' => 'https://agendapro.com/' . $key];
+        foreach (config('country') as $id_country=>$country){
+            $hreflangs['link'][] = ['rel' => 'alternate','hreflang' => $country['lang_location'],'href' => 'https://agendapro.com/' . $id_country];
         }
         $this->seo->addFromArray($hreflangs);
 
