@@ -23,9 +23,13 @@ class HomeController extends Controller
         $this->seo->title(__('Software de gestión | AgendaPro - AgendaPro'));
         $this->seo->meta('description', __('Simplifica tu día a día y haz crecer tu negocio con el software todo en uno para centros de estética, salones de belleza y centros médicos. Da click acá y pide tu demo gratis'));
         $this->seo->meta('robots', 'index, follow');
+        $this->seo->canonical('https://agendapro.com/es');
+        $hreflangs['link'][] = ['rel' => 'alternate','hreflang' => 'x-default','href' => 'https://agendapro.com/es'];
+        foreach (config('country') as $key=>$country){
+            $hreflangs['link'][] = ['rel' => 'alternate','hreflang' => $country['lang_location'],'href' => 'https://agendapro.com/' . $key];
+        }
+        $this->seo->addFromArray($hreflangs);
 
-        //canonical
-        //hreflangs
         //todo og:
         //twitter card
 
