@@ -11,7 +11,7 @@
             <h1 class="display-3 mb-5">Crea tu agenda online y haz <span class="underline-3 style-3 primary">crecer</span> tu negocio</h1>
             <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0">Gestiona tus citas, clientes y ventas en un mismo lugar</p>
             <div class="d-flex justify-content-center justify-content-lg-start">
-              <span><a class="btn btn-green rounded">¡Empieza ahora, prueba gratis!</a></span>
+              <span><a href="https://app.agendapro.com/sign_up" class="btn btn-green rounded">¡Empieza ahora, prueba gratis!</a></span>
             </div>
           </div>
           <!--/column -->

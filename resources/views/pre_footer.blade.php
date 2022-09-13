@@ -11,7 +11,7 @@
                   <p class="lead pe-lg-12 mb-0 text-light">Si aún tienes dudas, nos encantaria mostrarte todas nuestras funcionalidades en una breve demo online. ¡Contáctanos!.</p>
                   <div class="button_lastcall_signup">
                     <div class="mt-5">
-                      <span><a class="btn btn-light rounded mx-1 text-leaf">Empezar</a></span>
+                      <span><a href="https://app.agendapro.com/sign_up" class="btn btn-light rounded mx-1 text-leaf">Empezar</a></span>
                       <span><a class="btn btn-outline-light rounded mx-1 text-white">Agenda una Demo</a></span>
                     </div>
                   </div>
