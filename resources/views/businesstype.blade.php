@@ -64,7 +64,7 @@
       <div class="container text-center mt-14 mb-4">
         <div class="row">
             <div>
-              <a href="/" class="btn btn-lg btn-primary rounded">{{ __('Prueba Gratis') }}</a>
+              <a href="https://app.agendapro.com/sign_up" class="btn btn-lg btn-primary rounded">{{ __('Prueba Gratis') }}</a>
             </div>
           </div>
           <!-- /column -->
