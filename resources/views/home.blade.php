@@ -21,8 +21,16 @@
           <!--/column -->
         </div>
         <!-- /.row -->
-        <h2 class="fs-20 text-uppercase text-muted text-center mb-8">Más de <span class="fs-30">5.000</span> clientes confían en nosotros</h2>
-        <div class="px-lg-5 mb-0 mb-md-16 clients">
+        <h2 class="fs-20 text-uppercase text-muted text-center mb-8"></h2>
+        <div class="row pt-md-12">
+          <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+            <h2 class="fs-15 text-uppercase text-muted mb-3">Únete a nuestra comunidad</h2>
+            <h3 class="display-4 mb-10">Más de <span class="fs-36">5.000</span> clientes confían en nosotros</h3>
+          </div>
+          <!-- /.row -->
+        </div>
+        
+        <div class="px-lg-5 mb-0 clients">
           <div class="row gx-0 gx-md-8 gx-xl-6 gy-8 align-items-center">
             <div class="col-4 col-md-2">
               <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img class="lazyimglate" data-src="https://dcx13p9dsx90t.cloudfront.net/uploads/logos/logo_c4227e3319b972c4.png" alt="" /></figure>
@@ -52,6 +60,29 @@
           <!--/.row -->
         </div>
         <!-- /div -->
+        <div class="row pb-md-12 mt-10">
+          <div class="col-md-10 col-lg-9 col-xl-7 mx-auto">
+            <div class="row align-items-center counter-wrapper gy-4 gy-md-0">
+              <div class="col-md-4 text-center">
+                <h3 class="fs-36 text-primary">+40.000</h3>
+                <p>Profesionales</p>
+              </div>
+              <!--/column -->
+              <div class="col-md-4 text-center">
+                <h3 class="fs-36 text-primary">+5.000</h3>
+                <p>Clientes felices</p>
+              </div>
+              <!--/column -->
+              <div class="col-md-4 text-center">
+                <h3 class="fs-36 text-primary">+2.000.000</h3>
+                <p>Reservas mensuales</p>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /column -->
+        </div>
       </div>
       <!-- /.container -->
     </section>
@@ -96,7 +127,7 @@
 
 
 
-    <section class="wrapper bg-soft-aqua">
+    <section class="wrapper bg-soft-aqua mt-14">
       <div class="container pt-8 pb-8">
         <div class="row gy-6 ">
           <div class="col-xl-4">
@@ -228,14 +259,15 @@
               </div>
             </div>
           </div>
+          <!-- /.row -->
         </div>
       </div>
       <!-- /.container -->
     </section>
     <!-- /section -->
-    <section class="wrapper bg-white growth-section">
+    <section class="wrapper bg-white growth-section mb-12 mb-md-17">
       <div class="container pt-10">
-        <div class="row gx-3 gy-10 gy-lg-0 mb-12 mb-md-17 align-items-center">
+        <div class="row gx-3 gy-10 gy-lg-0 align-items-center">
           <div class="col-lg-5 mx-auto order-lg-2">
             <div class="row gx-md-5 gy-5 position-relative">
               <img class="lazyload" data-src="/assets/img/web_5.png" >
@@ -259,7 +291,6 @@
           <!--/column -->
         </div>
         <!--/.row -->
-        
       </div>
       <!-- /.container -->
     </section>
