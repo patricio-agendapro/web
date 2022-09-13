@@ -94,7 +94,7 @@
                         <option value="{{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.plans.individual.values.1') }}" selected>1 profesional</option>
                       </select>
                     </div>
-                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
+                    <a href="https://app.agendapro.com/sign_up" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
                     <span class="fs-16 text-dark">{{ __('Incluye') }}</span>
                     <ul class="icon-list bullet-green mt-2 mb-0">
                       <li><i class="uil uil-check"></i><span>Agenda online de citas y clases ilimitadas</span></li>
@@ -136,7 +136,7 @@
                       @endforeach
                       </select>
                     </div>
-                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
+                    <a href="https://app.agendapro.com/sign_up" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
                     <span class="fs-16 text-dark">{{ __('Incluye') }}</span>
                     <ul class="icon-list bullet-green mt-2 mb-0">
                       <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de individual, más:</span></li>
@@ -175,7 +175,7 @@
                       @endforeach
                       </select>
                     </div>
-                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
+                    <a href="https://app.agendapro.com/sign_up" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
                     <span class="fs-16 text-dark">{{ __('Incluye') }}</span>
                     <ul class="icon-list bullet-green mt-2 mb-0">
                       <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de básico, más:</span></li>
@@ -216,7 +216,7 @@
                       @endforeach
                       </select>
                     </div>
-                    <a href="#" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
+                    <a href="https://app.agendapro.com/sign_up" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
                     <span class="fs-16 text-dark">{{ __('Incluye') }}</span>
                     <ul class="icon-list bullet-green mt-2 mb-0">
                       <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades del premium, más:</span></li>

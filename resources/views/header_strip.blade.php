@@ -5,11 +5,11 @@
           </div>
           <div class="d-flex flex-row align-items-center me-6 ms-auto">
             <div class="icon text-leaf fs-18 mt-0 me-1"> <i class="uil uil-phone"></i></div>
-            <p class="mb-0">+562 2938 1145</p>
+            <p class="mb-0"><a href="tel:56229381145">+562 2938 1145</a></p>
           </div>
           <div class="d-flex flex-row align-items-center">
             <div class="icon text-leaf fs-18 mt-0 me-1"> <i class="uil uil-envelope-alt"></i></div>
-            <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-leaf hover">contacto@agendapro.com</a></p>
+            <p class="mb-0"><a href="mailto:contacto@agendapro.com" class="link-leaf hover">contacto@agendapro.com</a></p>
           </div>
         </div>
         <!-- /.container -->

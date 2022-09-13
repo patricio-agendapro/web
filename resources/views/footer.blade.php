@@ -19,10 +19,10 @@
           <div class="widget">  
             <h4 class="widget-title mt-6">{{ __('Contacto') }}</h4>
             <ul class="list-unstyled text-reset mb-4 mt-2">
-              <li><i class="uil uil-envelope-alt"></i> <a href="#">contacto@agendapro.com</a></li>
-              <li><i class="uil uil-phone"></i> <a href="#">Chile: +56 2 2938 1145</a></li>
-              <li><i class="uil uil-phone"></i> <a href="#">Colombia: +57 60 1 5087362</a></li>
-              <li><i class="uil uil-phone"></i> <a href="#">México: +52 55 41613780</a></li>
+              <li><i class="uil uil-envelope-alt"></i> <a href="mailto:contacto@agendapro.com">contacto@agendapro.com</a></li>
+              <li><i class="uil uil-phone"></i> <a href="tel:56229381145">Chile: +56 2 2938 1145</a></li>
+              <li><i class="uil uil-phone"></i> <a href="tel:576015087362">Colombia: +57 60 1 5087362</a></li>
+              <li><i class="uil uil-phone"></i> <a href="tel:525541613780">México: +52 55 41613780</a></li>
             </ul>
             <p>AgendaPro. Gunei Investment SpA</p>
           </div>
@@ -45,7 +45,7 @@
           <!-- /.widget -->
           <div class="widget mobile_apps">
             <h4 class="widget-title mb-4">{{ __('Descarga la app') }}</h4>			
-            <a href="https://hubs.ly/H0rf2wQ0"><img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/App-Store.png" alt="" width="149" height="50"></a> <a href="https://hubs.ly/H0rdYSd0"><img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/Google-Play-1.png" alt="" width="149" height="50"></a>
+            <a rel="nofollow" href="https://hubs.ly/H0rf2wQ0"><img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/App-Store.png" alt="" width="149" height="50"></a> <a href="https://hubs.ly/H0rdYSd0"><img class="lazyload" data-src="https://agendapro.com/wp-content/uploads/2021/01/Google-Play-1.png" alt="" width="149" height="50"></a>
           </div>
         </div>
         <!-- /column -->

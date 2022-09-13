@@ -51,7 +51,7 @@
       <div class="container text-center mb-14">
         <div class="row">
             <div>
-              <a href="/" class="btn btn-lg btn-primary rounded">{{ __('Prueba Gratis') }}</a>
+              <a href="https://app.agendapro.com/sign_up" class="btn btn-lg btn-primary rounded">{{ __('Prueba Gratis') }}</a>
             </div>
           </div>
           <!-- /column -->
@@ -110,7 +110,7 @@
             <p>{{ __('Un software con agenda online funciona como un ERP para pymes. Es versátil, puede funcionar cómo agenda en tu peluquería o como herramienta para guardar la ficha clínica de los pacientes de un centro médico. El sistema te da la opción de crear tus propias aplicaciones para celular (aplicaciones móviles) como google app y tener el control de gestión de tu negocio.') }}</p>
 
             <p>{{ __('Además de poseer control de inventarios y ayudar a tu marketing. Todo en el mismo software administrativo para negocios. Agenda una demo y descubre cómo podemos ayudarte.') }}</p>
-            <a href="#" class="btn btn-primary rounded-pill mt-3">{{ __('Ver testimonios de nuestros clientes') }}</a>
+            <a href="/{{ $locale }}/testimonios" class="btn btn-primary rounded-pill mt-3">{{ __('Ver testimonios de nuestros clientes') }}</a>
           </div>
           <!--/column -->
         </div>
