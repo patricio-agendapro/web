@@ -11,7 +11,7 @@
             <h1 class="display-3 mb-5">Crea tu agenda online y haz <span class="underline-3 style-3 primary">crecer</span> tu negocio</h1>
             <p class="lead fs-25 lh-sm mb-7 px-md-10 px-lg-0">Gestiona tus citas, clientes y ventas en un mismo lugar</p>
             <div class="d-flex justify-content-center justify-content-lg-start">
-              <span><a class="btn btn-green rounded">Prueba Gratis</a></span>
+              <span><a class="btn btn-green rounded">¡Empieza ahora, prueba gratis!</a></span>
             </div>
           </div>
           <!--/column -->
@@ -59,9 +59,9 @@
     <section class="wrapper bg-light features-section">
       <div class="container py-8 py-md-0 mb-2 mb-md-14 mt-12 mt-md-18">
         <div class="row">
-          <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
-            <h2 class="fs-15 text-uppercase text-muted mb-3">La única forma de crecer es manteniendo el orden</h2>
-            <h3 class="display-4 mb-2 py-2">Simplifica tu día a día y haz crecer tu negocio</h3>
+          <div class="col-md-10 col-lg-8 col-xl-8 col-xxl-8 mx-auto text-center">
+            <h2 class="fs-15 text-uppercase text-muted mb-3">¡Llevamos tu negocio al siguiente nivel!</h2>
+            <h3 class="display-4 mb-2 py-2">Somos el aliado que necesitas para organizar y profesionalizar tu negocio.</h3>
           </div>
           <!-- /column -->
         </div>
@@ -70,18 +70,18 @@
           <div class="col-lg-12 features-icons">
             <div class="row gx-lg-4 gx-xl-4 mt-10 mb-4 process-wrapper text-center">
               <div class="col-md-4"> <img data-src="/assets/img/web_2.png" class="mb-4 lazyload" alt="" />
-                <h3 class="fs-18">Toma el control</h3>
-                <p>Mantén a tu agenda, equipo, clientes e ingresos en orden.</p>
+                <h3 class="fs-18">Obtén Control Total</h3>
+                <p>Gestiona tus citas, clientes y ventas en un solo lugar y mantente siempre informado del estado de tu negocio.</p>
               </div>
               <!--/column -->
               <div class="col-md-4"> <img data-src="/assets/img/web_3.png" class="mb-4 lazyload" alt="" />
-                <h3 class="fs-18">Ahorra tiempo</h3>
-                <p>Deja que tus clientes agenden por si mismos.</p>
+                <h3 class="fs-18">Libera Tu Tiempo</h3>
+                <p>Permite a tus clientes agendar en tu Sitio Web profesional, que trabaja 24/7 para que tú no tengas que hacerlo.</p>
               </div>
               <!--/column -->
               <div class="col-md-4"> <img data-src="/assets/img/web_4.png" class="mb-4 lazyload" alt="" />
-                <h3 class="fs-18">Aumenta ingresos</h3>
-                <p>Evita inasistencias con recordatorios.</p>
+                <h3 class="fs-18">Aumenta Tus ingresos</h3>
+                <p>Evita pérdidas de tiempo y dinero disminuyendo las inasistencias con nuestros recordatorios automáticos.</p>
               </div>
               <!--/column -->
             </div>
@@ -93,6 +93,7 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
+
     <section class="wrapper bg-soft-aqua">
       <div class="container py-14 pt-md-14 pb-md-19">
         <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0 align-items-center">
@@ -103,12 +104,12 @@
           <div class="col-lg-7 mt-lg-2">
             <div class="row align-items-center gy-6 text-center">
               <div class="col-md-4">
-                <h3 class="fs-35 text-green">+30.000</h3>
+                <h3 class="fs-35 text-green">+40.000</h3>
                 <p class="text-leaf">Profesionales</p>
               </div>
               <!--/column -->
               <div class="col-md-4">
-                <h3 class="fs-35 text-green">+4.000</h3>
+                <h3 class="fs-35 text-green">+5.000</h3>
                 <p class="text-leaf">Clientes</p>
               </div>
               <!--/column -->
@@ -189,7 +190,25 @@
             <!--/column -->
           </div>
           <!-- /.row -->
-        </div>
+
+          <div class="row align-items-center gy-6 text-left mt-6 col-md-12 col-lg-10 mx-auto">
+            <div class="col-9 col-md-3 align-items-center">
+              <img class="lazyload" data-src="https://assets.capterra.com/badge/ffc34770d2d17eb8dd364658095c2ed9.svg?v=2158283&p=218709" />
+            </div>
+            <div class="col-12 col-md-9 align-items-center">
+              <div class="d-flex flex-row mb-0">
+                <blockquote class="border-0 fs-lg mb-0">
+                  <span class="ratings five mb-0"></span><span class="fs-16">5.0</span>
+                  <p class="fs-16 mb-0">“La mejor secretaria virtual. Nuestros clientes están agendando directo sin consultarnos.”</p>
+                  <div class="info p-0">
+                    <h6 class="mb-1 fs-16">Aldo - Instructor & Terapeuta</h6>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+
         <!-- /.grid-view -->
       </div>
       <!-- /.container -->
@@ -207,18 +226,12 @@
           </div>
           <!--/column -->
           <div class="col-lg-5 me-auto">
-            <h2 class="fs-16 text-uppercase text-leaf mb-3">¿Cómo hacemos crecer tu negocio?</h2>
-            <h3 class="display-4 mb-5 pe-xxl-5">Nosotros nos encargamos de hacer crecer tu negocio.</h3>
-            <p class="mb-6">Sabías qué el 80% de tus ingresos proviene del 20% de tus clientes, y el Rebound Marketing sabe cómo encontrarlos y hacerlos crece </p>
+            <h2 class="fs-16 text-uppercase text-leaf mb-3">¿Qué estás esperando para aumentar tus ingresos?</h2>
+            <h3 class="display-4 mb-5 pe-xxl-5">¡Hoy millones de citas se realizan a través de AgendaPro!</h3>
+            <p class="mb-6">Nuestros clientes aumentan en promedio sus ingresos un 49% después de un año utilizando AgendaPro. Y tras 24 meses, sus ingresos aumentan un 82% 🚀 </p>
             <div class="row align-items-center gy-6">
-              <div class="col-6">
-                <h3 class="fs-35 mb-1 text-green">+49%</h3>
-                <h6 class="fs-20 mb-1 text-leaf">12 Meses</h6>
-              </div>
-              <!--/column -->
-              <div class="col-6">
-                <h3 class="fs-35 mb-1 text-green">+82%</h3>
-                <h6 class="fs-20 mb-1 text-leaf">24 Meses</h6>
+              <div class="col-12">
+                <img class="lazyload img-fluid px-6" data-src="/assets/img/gpv_home.png" >
               </div>
               <!--/column -->
             </div>

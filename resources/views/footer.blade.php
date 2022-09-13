@@ -94,11 +94,11 @@
   <section class="wrapper bg-soft-aqua sub-footer">
     <div class="container mt-4 pb-7">
       <div class="d-md-flex align-items-center justify-content-between">
-        <p class="mb-2 mb-lg-0">{{ __('AgendaPro se hace con ') }}<i class="uil uil-heart text-red"></i> desde <span class="typer" data-words="Chile,Colombia,México,Argentina" data-delay="100" data-deleteDelay="1000"></span></p>
-
-
-        <span class="comodo"><img class="lazyload" data-src="/assets/img/comodo.png"></span>
-        <!-- /.social -->
+        <p class="mb-2 mb-lg-0">{{ __('AgendaPro se hace con ') }}<i class="uil uil-heart text-red"></i> desde <span class="typer" data-words="Chile,Colombia,México,Argentina,Perú,Nicaragua,España,Bolivia" data-delay="100" data-deleteDelay="1000"></span></p>
+        <span class="comodo">
+          <img class="lazyload" data-src="/assets/img/comodo.png">
+        </span>
+        <!-- /.badges -->
       </div>
       <!-- /div -->
     </div>
