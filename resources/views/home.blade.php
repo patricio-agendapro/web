@@ -230,8 +230,8 @@
             <h3 class="display-4 mb-5 pe-xxl-5">¡Hoy millones de citas se realizan a través de AgendaPro!</h3>
             <p class="mb-6">Nuestros clientes aumentan en promedio sus ingresos un 49% después de un año utilizando AgendaPro. Y tras 24 meses, sus ingresos aumentan un 82% 🚀 </p>
             <div class="row align-items-center gy-6">
-              <div class="col-12">
-                <img class="lazyload img-fluid px-6" data-src="/assets/img/gpv_home.png" >
+              <div class="col-12 col-lg-10 mx-auto">
+                <img class="lazyload img-fluid" data-src="/assets/img/gpv_home.png" >
               </div>
               <!--/column -->
             </div>
