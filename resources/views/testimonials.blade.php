@@ -5,8 +5,8 @@
       <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
         <div class="row">
           <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
-            <h2 class="fs-15 text-uppercase text-muted mb-3">Clientes felices</h2>
-            <h3 class="display-4 mb-10 px-xl-10 px-xxl-15">No lo decimos nosotros, lo dicen nuestros clientes.</h3>
+            <h2 class="fs-15 text-uppercase text-muted mb-3">{{ __('Clientes felices') }}</h2>
+            <h3 class="display-4 mb-10 px-xl-10 px-xxl-15">{{ __('No lo decimos nosotros, lo dicen nuestros clientes.') }}</h3>
           </div>
           <!-- /column -->
         </div>
@@ -45,8 +45,8 @@
       <div class="container py-12 py-md-12">
         <div class="row">
           <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
-            <h2 class="fs-15 text-uppercase text-muted mb-3">El aliado perfecto</h2>
-            <h3 class="display-4 mb-10 px-xl-10 px-xxl-15">¿Sigues sin convencerte? Conoce la experiencia de éxito de nuestros clientes.</h3>
+            <h2 class="fs-15 text-uppercase text-muted mb-3">{{ __('El aliado perfecto') }}</h2>
+            <h3 class="display-4 mb-10 px-xl-10 px-xxl-15">{{ __('¿Sigues sin convencerte? Conoce la experiencia de éxito de nuestros clientes.') }}</h3>
           </div>
           <!-- /column -->
         </div>

@@ -107,39 +107,39 @@ if(document.querySelector(".pricing-switcher-wrapper") != null) {
    
     build_prices();
 
-    // price_solo = document.querySelector("#plans_data .plan_solo");
-    // const clone_solo = price_solo.cloneNode(true);
-    // document.getElementById("tab-solo").appendChild(clone_solo);
+    price_solo = document.querySelector("#plans_data .plan_solo");
+    const clone_solo = price_solo.cloneNode(true);
+    document.getElementById("tab-solo").appendChild(clone_solo);
 
-    // price_basic = document.querySelector("#plans_data .plan_basic");
-    // const clone_basic = price_basic.cloneNode(true);
-    // document.getElementById("tab-basic").appendChild(clone_basic);
+    price_basic = document.querySelector("#plans_data .plan_basic");
+    const clone_basic = price_basic.cloneNode(true);
+    document.getElementById("tab-basic").appendChild(clone_basic);
 
-    // price_premium = document.querySelector("#plans_data .plan_premium");
-    // const clone_premium = price_premium.cloneNode(true);
-    // document.getElementById("tab-premium").appendChild(clone_premium);
+    price_premium = document.querySelector("#plans_data .plan_premium");
+    const clone_premium = price_premium.cloneNode(true);
+    document.getElementById("tab-premium").appendChild(clone_premium);
 
-    // price_pro = document.querySelector("#plans_data .plan_pro");
-    // const clone_pro = price_pro.cloneNode(true);
-    // document.getElementById("tab-pro").appendChild(clone_pro);
+    price_pro = document.querySelector("#plans_data .plan_pro");
+    const clone_pro = price_pro.cloneNode(true);
+    document.getElementById("tab-pro").appendChild(clone_pro);
 
 
  
 
-    // const wrapper = document.querySelectorAll(".pricing-wrapper");
-    // wrapper.forEach(wrap => {
-    // const switchers = wrap.querySelector(".pricing-switchers");
-    // const switcher = wrap.querySelectorAll(".pricing-switcher");
-    // const price = wrap.querySelectorAll(".price");
-    // switchers.addEventListener("click", (e) => {
-    //     switcher.forEach(s => {
-    //     s.classList.toggle("pricing-switcher-active");
-    //     });
-    //     price.forEach(p => {
-    //     p.classList.remove("price-hidden");
-    //     p.classList.toggle("price-show");
-    //     p.classList.toggle("price-hide");
-    //     });
-    // });
-    // });
+    const wrapper = document.querySelectorAll(".pricing-wrapper");
+    wrapper.forEach(wrap => {
+    const switchers = wrap.querySelector(".pricing-switchers");
+    const switcher = wrap.querySelectorAll(".pricing-switcher");
+    const price = wrap.querySelectorAll(".price");
+    switchers.addEventListener("click", (e) => {
+        switcher.forEach(s => {
+        s.classList.toggle("pricing-switcher-active");
+        });
+        price.forEach(p => {
+        p.classList.remove("price-hidden");
+        p.classList.toggle("price-show");
+        p.classList.toggle("price-hide");
+        });
+    });
+    });
 }

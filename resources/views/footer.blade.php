@@ -37,7 +37,7 @@
               <li><a href="https://blog.agendapro.com">{{ __('Blog') }}</a></li>
               <li><a href="https://ayuda.agendapro.com">{{ __('Ayuda') }}</a></li>
               <li><a href="/{{ $locale }}/testimonios" rel="nofollow">{{ __('Testimonios') }}</a></li>
-              <li><a href="#">{{ __('Marketplace') }}</a></li>
+              <!-- <li><a href="#">{{ __('Marketplace') }}</a></li> -->
               <li><a href="/{{ $locale }}/politica-de-privacidad" rel="nofollow">{{ __('Políticas de privacidad') }}</a></li>
               <li><a href="/{{ $locale }}/terminos-y-condiciones" rel="nofollow">{{ __('Términos y condiciones') }}</a></li>
             </ul>

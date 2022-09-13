@@ -64,13 +64,159 @@
             </ul>
             <!-- /.nav-tabs -->
             <div class="tab-content">
-              <div class="tab-pane fade" id="tab-solo"></div>
+              <div class="tab-pane fade" id="tab-solo">
+                <div class="plan_solo pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">{{ __('Individual') }}</h4>
+                    <p>{{ __('Para independientes que necesitan de un aliado para controlar y hacer crecer su negocio.') }}</p>
+                    <span class="text-dark">{{ __('Desde') }}:</span>
+                    <div class="prices text-dark">
+                      <div class="normal_price price-hidden"></div>
+                      <div class="price justify-content-start"><span class="price-currency">{{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.currency_sign') }}</span><span class="price-value"></span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / {{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.currency') }} {{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.tax') }}</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad" disabled>
+                        <option value="{{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.plans.individual.values.1') }}" selected>1 profesional</option>
+                      </select>
+                    </div>
+                    <a href="https://app.agendapro.com/sign_up" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
+                    <span class="fs-16 text-dark">{{ __('Incluye') }}</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li><i class="uil uil-check"></i><span>Agenda online de citas y clases ilimitadas</span></li>
+                      <li><i class="uil uil-check"></i><span>Gestión de clientes y CRM</span></li>
+                      <li><i class="uil uil-check"></i><span>Recordatorios automáticos</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>50</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>1000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Reportes de gestión</span></li>
+                      <li><i class="uil uil-check"></i><span>Notificaciones y alertas diarias</span></li>
+                      <li><i class="uil uil-check"></i><span>Pagos online</span></li>
+                    </ul>
+                    
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
               <!--/.tab-pane -->
-              <div class="tab-pane fade" id="tab-basic"></div>
+              <div class="tab-pane fade" id="tab-basic">
+                <div class="plan_basic pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">{{ __('Básico') }}</h4>
+                    <p>{{ __('Para negocios que buscan organizarse, controlar su administración y hacer crecer sus ventas.') }}</p>
+                    <span class="text-dark">{{ __('Desde') }}:</span>
+                    <div class="prices text-dark">
+                      <div class="normal_price price-hidden"></div>
+                      <div class="price justify-content-start"><span class="price-currency">{{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.currency_sign') }}</span><span class="price-value"></span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / {{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.currency') }} {{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.tax') }}</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad" onChange="build_prices()">
+                      @foreach (Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.plans.basic.values') as $key=>$price)
+                        @if ($key === Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.plans.basic.default'))
+                        <option value="{{ $price }}" selected>{{ $key }} profesionales</option>
+                        @else
+                        <option value="{{ $price }}">{{ $key }} profesionales</option>
+                        @endif
+                      @endforeach
+                      </select>
+                    </div>
+                    <a href="https://app.agendapro.com/sign_up" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
+                    <span class="fs-16 text-dark">{{ __('Incluye') }}</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de individual, más:</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>50</strong> confirmaciones de Whatsapp</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>5000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Inventario</span></li>
+                      <li><i class="uil uil-check"></i><span>Comisiones</span></li>
+                    </ul>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
               <!--/.tab-pane -->
-              <div class="tab-pane fade show active" id="tab-premium"></div>
+              <div class="tab-pane fade show active" id="tab-premium">
+                <div class="plan_premium pricing card">
+                  <div class="card-body">
+                    <span class="btn-bestchoise btn btn-secondary rounded-pill fs-14"><i class="uil uil-star me-1"></i> {{ __('Más popular') }}</span>
+                    <h4 class="card-title ls-sm">{{ __('Premium') }}</h4>
+                    <p>{{ __('Para empresas que buscan tener el control y llevar un seguimiento de pacientes/ clientes personalizable.') }}</p>
+                    <span class="text-dark">{{ __('Desde') }}:</span>
+                    <div class="prices text-dark">
+                      <div class="normal_price price-hidden"></div>
+                      <div class="price justify-content-start"><span class="price-currency">{{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.currency_sign') }}</span><span class="price-value"></span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / {{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.currency') }} {{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.tax') }}</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad" onChange="build_prices()">
+                      @foreach (Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.plans.premium.values') as $key=>$price)
+                        @if ($key === Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.plans.premium.default'))
+                        <option value="{{ $price }}" selected>{{ $key }} profesionales</option>
+                        @else
+                        <option value="{{ $price }}">{{ $key }} profesionales</option>
+                        @endif
+                      @endforeach
+                      </select>
+                    </div>
+                    <a href="https://app.agendapro.com/sign_up" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
+                    <span class="fs-16 text-dark">{{ __('Incluye') }}</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades de básico, más:</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>100</strong> confirmaciones de Whatsapp</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>10000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Encuestas de satisfacción</span></li>
+                      <li><i class="uil uil-check"></i><span>Fichas personalizables</span></li>
+                      <li><i class="uil uil-check"></i><span>Personalización de diseño</span></li>
+                      <li><i class="uil uil-check"></i><span>Giftcards</span></li>
+                      <li><i class="uil uil-check"></i><span>Presupuestos</span></li>
+                    </ul>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
               <!--/.tab-pane -->
-              <div class="tab-pane fade" id="tab-pro"></div>
+              <div class="tab-pane fade" id="tab-pro">
+                <div class="plan_pro pricing card shadow-none">
+                  <div class="card-body">
+                    <h4 class="card-title ls-sm">{{ __('Pro') }}</h4>
+                    <p>{{ __('Para empresas que requieren integrar sistemas y utilizar todo el poder de AgendaPro para llegar al último nivel.') }}</p>
+                    <span class="text-dark">{{ __('Desde') }}:</span>
+                    <div class="prices text-dark">
+                      <div class="normal_price price-hidden"></div>
+                      <div class="price justify-content-start"><span class="price-currency">{{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.currency_sign') }}</span><span class="price-value"></span></div>
+                    </div>
+                    <!--/.prices -->
+                    <span class="text-dark">mes / {{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.currency') }} {{ Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.tax') }}</span>
+                    <div class="form-select-wrapper mt-2">
+                      <select class="form-select" aria-label="Elija cantidad" onChange="build_prices()">
+                      @foreach (Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.plans.pro.values') as $key=>$price)
+                        @if ($key === Config::get('pricing.' . Config::get('country.' . $locale . '.id_pricing') . '.plans.pro.default'))
+                        <option value="{{ $price }}" selected>{{ $key }} profesionales</option>
+                        @else
+                        <option value="{{ $price }}">{{ $key }} profesionales</option>
+                        @endif
+                      @endforeach
+                      </select>
+                    </div>
+                    <a href="https://app.agendapro.com/sign_up" class="btn-pricing btn btn-primary rounded mt-4 mb-4">{{ __('Prueba Gratis') }}</a>
+                    <span class="fs-16 text-dark">{{ __('Incluye') }}</span>
+                    <ul class="icon-list bullet-green mt-2 mb-0">
+                      <li class="mb-3"><i class="fs-22 uil uil-arrow-circle-left"></i><span class="text-dark">Todas las funcionalidades del premium, más:</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>200</strong> confirmaciones de Whatsapp</span></li>
+                      <li><i class="uil uil-check"></i><span><strong>20000</strong> correos mensuales de marketing</span></li>
+                      <li><i class="uil uil-check"></i><span>Acceso a API</span></li>
+                      <li><i class="uil uil-check"></i><span>Soporte personalizado por teléfono</span></li>
+                    </ul>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
               <!--/.tab-pane -->
             </div>
             <!-- /.tab-content -->
