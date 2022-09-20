@@ -1,13 +1,10 @@
 FROM ubuntu:20.04
 
-ARG PHP_VERSION=8.1
-
 ARG DEBIAN_FRONTEND=noninteractive
 
 COPY ./docker-conf/scripts/docker-entrypoint.sh /
 
-RUN echo $PHP_VERSION > /PHP_VERSION; \
-chmod +x /docker-entrypoint.sh; \
+RUN chmod +x /docker-entrypoint.sh; \
 mkdir /app; \
 mkdir /run/php/; \
 mkdir -p /app/public; \
@@ -20,29 +17,35 @@ cron vim wget unzip curl less git nginx; \
 #php-base
 RUN add-apt-repository -y ppa:ondrej/php; \
 export DEBIAN_FRONTEND=noninteractive; \
-apt-get install -yq php$PHP_VERSION php$PHP_VERSION-cli \
-php$PHP_VERSION-common php$PHP_VERSION-curl php$PHP_VERSION-fpm php-json \
-php$PHP_VERSION-mysql php$PHP_VERSION-readline \
-php$PHP_VERSION-xml php$PHP_VERSION-gd php$PHP_VERSION-intl \
-php$PHP_VERSION-bz2 php$PHP_VERSION-bcmath php$PHP_VERSION-imap php$PHP_VERSION-gd \
-php$PHP_VERSION-mbstring php$PHP_VERSION-pgsql \
-php$PHP_VERSION-xmlrpc php$PHP_VERSION-zip php$PHP_VERSION-odbc php$PHP_VERSION-snmp \
-php$PHP_VERSION-interbase php$PHP_VERSION-ldap php$PHP_VERSION-tidy \
-php$PHP_VERSION-memcached php-tcpdf php-redis php-imagick php-mongodb php-pear php-dev;
+apt-get install -yq php8.1 php8.1-cli \
+php8.1-common php8.1-curl php8.1-fpm php-json \
+php8.1-mysql php8.1-readline \
+php8.1-xml php8.1-gd php8.1-intl \
+php8.1-bz2 php8.1-bcmath php8.1-imap php8.1-gd \
+php8.1-mbstring php8.1-pgsql \
+php8.1-xmlrpc php8.1-zip php8.1-odbc php8.1-snmp \
+php8.1-interbase php8.1-ldap php8.1-tidy \
+php8.1-memcached php-tcpdf php-redis php-imagick php-mongodb php-pear php-dev;
 
 #php-swoole
-RUN pecl install swoole;
+RUN pecl install swoole-4.8.9;
+
+#sphinxsearch
+#RUN apt-get install -y sphinxsearch;
 
 #config base
 
-COPY ./docker-conf/php/php-fpm.ini /etc/php/$PHP_VERSION/fpm/php.ini
-COPY ./docker-conf/php/php-cli.ini /etc/php/$PHP_VERSION/cli/php.ini
+COPY ./docker-conf/php/php-fpm.ini /etc/php/8.1/fpm/php.ini
+COPY ./docker-conf/php/php-cli.ini /etc/php/8.1/cli/php.ini
 COPY ./docker-conf/nginx/default /etc/nginx/sites-available/default
+# COPY ./docker-conf/sphinxsearch/sphinx.conf /etc/sphinxsearch/sphinx.conf
+# COPY ./docker-conf/sphinxsearch/sphinxsearch /etc/default/sphinxsearch
+# COPY ./docker-conf/sphinxsearch/stop_words_es.txt /etc/sphinxsearch/data/stop_words_es.txt
 COPY . /app/
 
 RUN chmod 777 -R /app/storage/logs;
 RUN chmod 777 -R /app/storage/;
 
-EXPOSE 80 8080
+EXPOSE 80
 
 ENTRYPOINT ["/docker-entrypoint.sh"]

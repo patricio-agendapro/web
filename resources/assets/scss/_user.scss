@@ -394,6 +394,7 @@ body.pricing .pricing-switcher-wrapper .nav-tabs.nav-pills .nav-link{
     body.pricing .pricing-wrapper .pricing.card .prices {
         height: 48px;
         margin-top: -10px;
+        position:  relative !important;
     }
 }
 
@@ -492,6 +493,17 @@ body.pricing .pricing .normal_price{
     color: $ash;
 }
 
+@media (max-width: 767px){
+    body.pricing .pricing .normal_price{
+        text-decoration: line-through;
+        position: absolute;
+        left: 58px;
+        top: -18px;
+        font-size: 18px;
+        color: $ash;
+    }
+}
+
 .plyr__control--overlaid {
     background: $green !important;
 }
@@ -538,4 +550,14 @@ footer .hs-button{
     .navbar-expand-lg .navbar-collapse .dropdown-toggle:after {
         right: unset;
     }
+}
+
+.pricing-wrapper .pricing.card .prices .price-hide {
+    -webkit-animation: priceFade .6s forwards;
+    animation: priceFade .6s forwards;
+}
+
+.pricing-wrapper .pricing.card .prices .price-show {
+    -webkit-animation: priceShow .6s forwards;
+    animation: priceShow .6s forwards;
 }
