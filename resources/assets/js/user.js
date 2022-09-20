@@ -93,12 +93,19 @@ function build_container_prices(id_container_prices){
             p.classList.remove("price-hide");
         });
     }else{
+
+        price_solo_normal.innerHTML = ""; 
+        price_basic_normal.innerHTML = ""; 
+        price_premium_normal.innerHTML = ""; 
+        price_pro_normal.innerHTML = "";
+
         price_solo.innerHTML = currencyLocale.format(select_solo.options[select_solo.selectedIndex].value); 
         price_basic.innerHTML = currencyLocale.format(select_basic.options[select_basic.selectedIndex].value); 
         price_premium.innerHTML = currencyLocale.format(select_premium.options[select_premium.selectedIndex].value); 
         price_pro.innerHTML = currencyLocale.format(select_pro.options[select_pro.selectedIndex].value); 
 
         normal_prices.forEach(p => {
+            p.classList.add("price-hidden");
             p.classList.remove("price-show");
             p.classList.add("price-hide");
         });
