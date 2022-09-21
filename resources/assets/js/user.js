@@ -152,8 +152,10 @@ if(document.querySelector(".pricing-switcher-wrapper") != null) {
 
         if ((window.pageYOffset > offset.top - 77) &&  (window.pageYOffset < element)){
             legend.classList.add("fixed");
+            table_compare.style.padding = '120px 0 0 0';
         } else {
             legend.classList.remove("fixed");
+            table_compare.style.padding = '0';
         }
     });
 
