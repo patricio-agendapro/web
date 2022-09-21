@@ -28,7 +28,10 @@ class ContentController extends Controller
 
     public function pricing($locale)
     {
-        
+        $this->seo->title(__('Planes - AgendaPro'));
+        $this->seo->meta('description', __('Mira todos los planes que tenemos para ti'));
+       
+
         $meta = array(
             "bodyclass" => "pricing",
         );
@@ -39,7 +42,9 @@ class ContentController extends Controller
 
     public function testimonials($locale)
     {
-        
+        $this->seo->title(__('Testimonios - AgendaPro'));
+        $this->seo->meta('description', __('Mira lo que los clinetes dicen sobre AgendaPro'));
+
         $meta = array(
             "bodyclass" => "testimonials",
         );
@@ -123,7 +128,9 @@ class ContentController extends Controller
 
     public function terms($locale)
     {
-        
+        $this->seo->title(__('Términos y condiciones de uso - AgendaPro'));
+        $this->seo->meta('description', __('Términos y condiciones de uso.'));
+
         $meta = array(
             "bodyclass" => "terms",
         );
@@ -134,7 +141,9 @@ class ContentController extends Controller
 
     public function privacy($locale)
     {
-        
+        $this->seo->title(__('Políticas de Privacidad - AgendaPro'));
+        $this->seo->meta('description', __('Políticas de Privacidad.'));
+
         $meta = array(
             "bodyclass" => "privacy",
         );

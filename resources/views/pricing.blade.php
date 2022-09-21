@@ -272,6 +272,15 @@
             <h3 class="display-8 mb-8 text-center">{{ __('Compara nuestros planes') }}</h3>
 
             <table class="table table-striped table-compare">
+              <thead>
+                <tr class="bg-primary text-white">
+                  <th scope="col">Características</th>
+                  <th scope="col">Individual</th>
+                  <th scope="col">Básico</th>
+                  <th scope="col">Premium</th>
+                  <th scope="col">Pro</th>
+                </tr>
+              </thead>
               <tbody>
                 <tr>
                   <td>Niveles de acceso y permisos</td>
