@@ -144,7 +144,7 @@ if(document.querySelector(".pricing-switcher-wrapper") != null) {
     const legend = document.querySelector('.table-header');
     const offset = legend.getBoundingClientRect();
     const table_compare = document.querySelector(".table-compare");
-    var element = table_compare.offsetHeight + offset.top - 100;
+    var element = table_compare.offsetHeight + offset.top;
 
     window.addEventListener('scroll', function() {
     if ((window.pageYOffset > offset.top) &&  (window.pageYOffset < element)){

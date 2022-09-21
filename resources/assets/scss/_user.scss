@@ -572,6 +572,7 @@ body.pricing .table-compare tr td{
     color: #000;
     width: 12.5%;
     text-align: center;
+    padding: 10px;
 }
 
 body.pricing .table-header tr th{
@@ -582,6 +583,8 @@ body.pricing .table-header tr th{
 body.pricing .table-compare tr td:first-child{
     width: 50% !important;
     text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
 }
 
 body.pricing .table-header tr th:first-child{
@@ -597,7 +600,15 @@ body.pricing .table-header {
     margin-bottom: 0;
 }
 
+body.pricing .accordion-wrapper .card-body{
+    padding-left: 0 !important;
+}
+
 @media (max-width: 767px){
+
+    body.pricing .table-compare tr td:first-child{
+        padding-left: 10px;
+    }
 
     body.pricing .table-compare td{
         color: #000;
@@ -626,6 +637,7 @@ body.pricing .table-header {
         position: fixed;
         top: 76px;
         width: calc(100% - 30px);
+        z-index: 1;
     }
 
 }
