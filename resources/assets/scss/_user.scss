@@ -568,6 +568,18 @@ body.pricing .table-compare i.uil-check{
     font-weight: 700;
 }
 
-body.pricing .table-compare td{
+body.pricing .table-compare tr td{
     color: #000;
+}
+
+body.pricing .table-compare tr td:first-child{
+    width: 50%;
+}
+
+@media (max-width: 767px){
+    body.pricing .table-compare td{
+        color: #000;
+        padding: 15px 10px;
+        font-size: 14px !important;
+    }
 }
