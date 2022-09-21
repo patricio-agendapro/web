@@ -148,7 +148,7 @@ if(document.querySelector(".pricing-switcher-wrapper") != null) {
     window.addEventListener('scroll', function() {
 
         var table_compare = document.querySelector(".accordion-wrapper");
-        var element = table_compare.offsetHeight + offset.top;
+        var element = table_compare.offsetHeight + offset.top - 250;
 
         if ((window.pageYOffset > offset.top) &&  (window.pageYOffset < element)){
             legend.classList.add("fixed");
