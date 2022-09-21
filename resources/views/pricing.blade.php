@@ -269,7 +269,7 @@
 
 
           <section id="snippet-3" class="wrapper pt-0 mb-17">
-            <h3 class="display-8 mb-5 text-center">{{ __('Compara nuestros planes') }}</h3>
+            <h3 class="display-8 mb-8 text-center">{{ __('Compara nuestros planes') }}</h3>
             <div class="card">
               <div class="card-body">
                 <table class="table table-striped table-compare">
