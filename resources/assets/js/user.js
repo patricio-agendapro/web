@@ -141,9 +141,9 @@ if(document.querySelector(".pricing-switcher-wrapper") != null) {
 
     build_prices();
 
-    const legend = document.querySelector('.table-header');
-    const offset = legend.getBoundingClientRect();
-    const table_compare = document.querySelector(".table-compare");
+    var legend = document.querySelector('.table-header');
+    var offset = legend.getBoundingClientRect();
+    var table_compare = document.querySelector(".table-compare");
     var element = table_compare.offsetHeight + offset.top;
 
     window.addEventListener('scroll', function() {
