@@ -141,20 +141,17 @@ if(document.querySelector(".pricing-switcher-wrapper") != null) {
 
     build_prices();
 
-    // const wrapper = document.querySelectorAll(".pricing-wrapper");
-    // wrapper.forEach(wrap => {
-    // const switchers = wrap.querySelector(".pricing-switchers");
-    // const switcher = wrap.querySelectorAll(".pricing-switcher");
-    // const price = wrap.querySelectorAll(".price");
-    // switchers.addEventListener("click", (e) => {
-    //     switcher.forEach(s => {
-    //     s.classList.toggle("pricing-switcher-active");
-    //     });
-    //     price.forEach(p => {
-    //     p.classList.remove("price-hidden");
-    //     p.classList.toggle("price-show");
-    //     p.classList.toggle("price-hide");
-    //     });
-    // });
-    // });
+    const legend = document.querySelector('.table-header');
+    const offset = legend.getBoundingClientRect();
+    const table_compare = document.querySelector(".table-compare");
+    var element = table_compare.offsetHeight + offset.top - 100;
+
+    window.addEventListener('scroll', function() {
+    if ((window.pageYOffset > offset.top) &&  (window.pageYOffset < element)){
+        legend.classList.add("fixed");
+    } else {
+        legend.classList.remove("fixed");
+    }
+    });
+
 }

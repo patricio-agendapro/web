@@ -270,17 +270,18 @@
 
           <section id="snippet-3" class="wrapper pt-0 mb-17">
             <h3 class="display-8 mb-8 text-center">{{ __('Compara nuestros planes') }}</h3>
-
-            <table class="table table-striped table-compare">
+            <table class="table table-header">
               <thead>
                 <tr class="bg-primary text-white">
-                  <th scope="col"><span>Características</span></th>
-                  <th scope="col"><span>Individual</span></th>
-                  <th scope="col"><span>Básico</span></th>
-                  <th scope="col"><span>Premium</span></th>
-                  <th scope="col"><span>Pro</span></th>
+                  <th><span>Características</span></th>
+                  <th><span>Individual</span></th>
+                  <th><span>Básico</span></th>
+                  <th><span>Premium</span></th>
+                  <th><span>Pro</span></th>
                 </tr>
-              </thead>
+              </thead> 
+            </table>  
+            <table class="table table-striped table-compare">
               <tbody>
                 <tr>
                   <td>Niveles de acceso y permisos</td>

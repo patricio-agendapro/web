@@ -574,7 +574,7 @@ body.pricing .table-compare tr td{
     text-align: center;
 }
 
-body.pricing .table-compare tr th{
+body.pricing .table-header tr th{
     width: 12.5%;
     text-align: center;
 }
@@ -584,13 +584,17 @@ body.pricing .table-compare tr td:first-child{
     text-align: left;
 }
 
-body.pricing .table-compare tr th:first-child{
+body.pricing .table-header tr th:first-child{
     width: 50%!important;
     text-align: left;
 }
 
-body.pricing .table-compare thead tr{
+body.pricing .table-header thead tr{
     height: 80px;
+}
+
+body.pricing .table-header {
+    margin-bottom: 0;
 }
 
 @media (max-width: 767px){
@@ -601,7 +605,7 @@ body.pricing .table-compare thead tr{
         font-size: 14px !important;
     }
 
-    body.pricing .table-compare tr th:not(:first-child) span{
+    body.pricing .table-header tr th:not(:first-child) span{
         font-size: 13px!important;
         transform: rotate(-90deg);
         display: block;
@@ -610,11 +614,19 @@ body.pricing .table-compare thead tr{
         margin-bottom: -15px;
     }
 
-    body.pricing .table-compare tr th:first-child{
+    body.pricing .table-header tr th:first-child{
         padding-left: 10px;
     }
 
-    body.pricing .table-compare thead tr{
+    body.pricing .table-header thead tr{
         height: 100px;
     }
+
+    body.pricing .table-header.fixed {
+        position: fixed;
+        top: 76px;
+        width: calc(100% - 30px);
+    }
+
 }
+
