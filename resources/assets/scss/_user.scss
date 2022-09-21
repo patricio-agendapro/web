@@ -590,7 +590,7 @@ body.pricing .table-compare tr th:first-child{
 }
 
 body.pricing .table-compare thead tr{
-    height: 90px;
+    height: 80px;
 }
 
 @media (max-width: 767px){
@@ -612,5 +612,9 @@ body.pricing .table-compare thead tr{
 
     body.pricing .table-compare tr th:first-child{
         padding-left: 10px;
+    }
+
+    body.pricing .table-compare thead tr{
+        height: 100px;
     }
 }
