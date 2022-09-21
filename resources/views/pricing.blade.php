@@ -268,7 +268,7 @@
         </div>
 
 
-          <section id="snippet-3" class="wrapper pt-0 mb-17">
+          <section id="comparison" class="wrapper pt-0 mb-17">
             <h3 class="display-8 mb-8 text-center">{{ __('Compara nuestros planes') }}</h3>
             <table class="table table-header">
               <thead>
@@ -284,10 +284,10 @@
             <div class="accordion accordion-wrapper mt-4" id="accordionSimpleExample">
               <div class="card plain accordion-item">
                 <div class="card-header" id="headingSimpleOne">
-                  <button class="accordion-button text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleOne" aria-expanded="true" aria-controls="collapseSimpleOne"> Capta </button>
+                  <button class="accordion-button text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleOne" aria-expanded="false" aria-controls="collapseSimpleOne"> Capta </button>
                 </div>
                 <!--/.card-header -->
-                <div id="collapseSimpleOne" class="accordion-collapse collapse show" aria-labelledby="headingSimpleOne" data-bs-parent="#accordionSimpleExample">
+                <div id="collapseSimpleOne" class="accordion-collapse collapse" aria-labelledby="headingSimpleOne" data-bs-parent="#accordionSimpleExample">
                   <div class="card-body">
                     <table class="table table-striped table-compare">
                       <tbody>
@@ -343,10 +343,10 @@
               <!--/.accordion-item -->
               <div class="card plain accordion-item">
                 <div class="card-header" id="headingSimpleTwo">
-                  <button class="collapsed text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleTwo" aria-expanded="false" aria-controls="collapseSimpleTwo"> Gestiona </button>
+                  <button class="collapsed text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleTwo" aria-expanded="true" aria-controls="collapseSimpleTwo"> Gestiona </button>
                 </div>
                 <!--/.card-header -->
-                <div id="collapseSimpleTwo" class="accordion-collapse collapse" aria-labelledby="headingSimpleTwo" data-bs-parent="#accordionSimpleExample">
+                <div id="collapseSimpleTwo" class="accordion-collapse collapse show" aria-labelledby="headingSimpleTwo" data-bs-parent="#accordionSimpleExample">
                   <div class="card-body">
                   <table class="table table-striped table-compare">
                       <tbody>
@@ -510,10 +510,6 @@
               <!--/.accordion-item -->
             </div>
             <!--/.accordion -->
-            
-
-
-
           </section>
           
         <div class="row mb-14 mb-md-18 text-center">

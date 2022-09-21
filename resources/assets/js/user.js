@@ -143,15 +143,18 @@ if(document.querySelector(".pricing-switcher-wrapper") != null) {
 
     var legend = document.querySelector('.table-header');
     var offset = legend.getBoundingClientRect();
-    var table_compare = document.querySelector(".table-compare");
-    var element = table_compare.offsetHeight + offset.top;
+
 
     window.addEventListener('scroll', function() {
-    if ((window.pageYOffset > offset.top) &&  (window.pageYOffset < element)){
-        legend.classList.add("fixed");
-    } else {
-        legend.classList.remove("fixed");
-    }
+
+        var table_compare = document.querySelector(".accordion-wrapper");
+        var element = table_compare.offsetHeight + offset.top;
+
+        if ((window.pageYOffset > offset.top) &&  (window.pageYOffset < element)){
+            legend.classList.add("fixed");
+        } else {
+            legend.classList.remove("fixed");
+        }
     });
 
 }
