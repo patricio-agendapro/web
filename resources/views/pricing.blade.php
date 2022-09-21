@@ -268,7 +268,112 @@
         </div>
 
 
+          <section id="snippet-3" class="wrapper pt-0 mb-17">
+            <h3 class="display-8 mb-5 text-center">{{ __('Compara nuestros planes') }}</h3>
+            <div class="card">
+              <div class="card-body">
+                <table class="table table-striped table-compare">
+                  <tbody>
+                    <tr>
+                      <td>Niveles de acceso y permisos</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Notificaciones automáticas de citas</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Sistema de caja</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Pago online</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Gestión de clientes y CRM</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Almacenamiento en la nube</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Control de ocupación</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Reportes de gestión</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Gestión de presupuesto</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Alertas de stock de productos</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Ficha clínica personalizada</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Consentimiento informado</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Integraciones / API</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
 
+
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </section>
           
         <div class="row mb-14 mb-md-18 text-center">
           <h2 class="display-4 mb-3 text-center">{{ __('Productos adicionales') }}</h3>

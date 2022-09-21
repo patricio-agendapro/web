@@ -561,3 +561,8 @@ footer .hs-button{
     -webkit-animation: priceShow .6s forwards;
     animation: priceShow .6s forwards;
 }
+
+body.pricing .table-compare i.uil-check{
+    color: $green;
+    font-size: 18px !important;
+}
