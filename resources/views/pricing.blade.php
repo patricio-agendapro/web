@@ -274,11 +274,11 @@
             <table class="table table-striped table-compare">
               <thead>
                 <tr class="bg-primary text-white">
-                  <th scope="col">Características</th>
-                  <th scope="col">Individual</th>
-                  <th scope="col">Básico</th>
-                  <th scope="col">Premium</th>
-                  <th scope="col">Pro</th>
+                  <th scope="col"><span>Características</span></th>
+                  <th scope="col"><span>Individual</span></th>
+                  <th scope="col"><span>Básico</span></th>
+                  <th scope="col"><span>Premium</span></th>
+                  <th scope="col"><span>Pro</span></th>
                 </tr>
               </thead>
               <tbody>

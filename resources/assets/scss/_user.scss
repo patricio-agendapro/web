@@ -589,8 +589,8 @@ body.pricing .table-compare tr th:first-child{
     text-align: left;
 }
 
-body.pricing .table-compare thead{
-    padding: 15px;
+body.pricing .table-compare thead tr{
+    height: 90px;
 }
 
 @media (max-width: 767px){
@@ -600,12 +600,12 @@ body.pricing .table-compare thead{
         font-size: 14px !important;
     }
 
-    body.pricing .table-compare tr th:not(:first-child) {
-        font-size: 12px!important;
+    body.pricing .table-compare tr th:not(:first-child) span{
+        font-size: 13px!important;
         transform: rotate(-90deg);
-        padding: 0;
-        line-height: 85px;
-        text-align: center;
-        width: 12.5%;
+        display: block;
+        width: 0px;
+        margin-left: 50%;
+        margin-bottom: -15px;
     }
 }
