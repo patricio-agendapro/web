@@ -148,14 +148,14 @@ if(document.querySelector(".pricing-switcher-wrapper") != null) {
     window.addEventListener('scroll', function() {
 
         var table_compare = document.querySelector(".accordion-wrapper");
-        var element = table_compare.offsetHeight + offset.top - 250;
+        var element = table_compare.offsetHeight + offset.top - 120;
 
         if ((window.pageYOffset > offset.top - 77) &&  (window.pageYOffset < element)){
             legend.classList.add("fixed");
-            table_compare.style.padding = '120px 0 0 0';
+            table_compare.classList.add("mt-18");
         } else {
             legend.classList.remove("fixed");
-            table_compare.style.padding = '0';
+            table_compare.classList.remove("mt-18");
         }
     });
 

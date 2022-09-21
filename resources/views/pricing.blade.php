@@ -281,7 +281,7 @@
                 </tr>
               </thead> 
             </table>  
-            <div class="accordion accordion-wrapper mt-4" id="accordionSimpleExample">
+            <div class="accordion accordion-wrapper mt-4 mt-sm-4" id="accordionSimpleExample">
               <div class="card plain accordion-item">
                 <div class="card-header" id="headingSimpleOne">
                   <button class="accordion-button text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleOne" aria-expanded="false" aria-controls="collapseSimpleOne"> Capta </button>
