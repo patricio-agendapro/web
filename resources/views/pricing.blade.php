@@ -292,7 +292,7 @@
                     <table class="table table-striped table-compare">
                       <tbody>
                         <tr>
-                          <td>Sitio web de reservas</td>
+                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Obtén una página web personalizada para que tus clientes tomen una hora en tu negocio">Sitio web de reservas<i class="uil uil-info-circle ms-1"></i></span></td>
                           <td><i class="uil uil-check"></i></td>
                           <td><i class="uil uil-check"></i></td>
                           <td><i class="uil uil-check"></i></td>
@@ -306,7 +306,7 @@
                           <td><i class="uil uil-check"></i></td>
                         </tr>
                         <tr>
-                          <td>Administración digital de tu agenda</td>
+                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Mueve tus reservas y ajusta cada cita según el tiempo que requiera el servicio">Administración digital de tu agenda<i class="uil uil-info-circle ms-1"></i></span></td>
                           <td><i class="uil uil-check"></i></td>
                           <td><i class="uil uil-check"></i></td>
                           <td><i class="uil uil-check"></i></td>
@@ -351,7 +351,7 @@
                   <table class="table table-striped table-compare">
                       <tbody>
                         <tr>
-                          <td>Niveles de acceso y permisos</td>
+                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Controla el acceso de cada usuario que trabaja en tu negocio">Niveles de acceso y permisos<i class="uil uil-info-circle ms-1"></i></span></td>
                           <td><i class="uil uil-check"></i></td>
                           <td><i class="uil uil-check"></i></td>
                           <td><i class="uil uil-check"></i></td>
@@ -435,21 +435,21 @@
                           <td><i class="uil uil-check"></i></td>
                         </tr>
                         <tr>
-                          <td>Ficha clínica personalizada</td>
+                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Crea Fichas con imágenes y exámenes de la evolución de tus pacientes y clientes.">Ficha clínica personalizada<i class="uil uil-info-circle ms-1"></i></span></td>
                           <td></td>
                           <td></td>
                           <td><i class="uil uil-check"></i></td>
                           <td><i class="uil uil-check"></i></td>
                         </tr>
                         <tr>
-                          <td>Consentimiento informado</td>
+                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Recibe una confirmación firmada de tus pacientes para cualquier tratamiento que lo amerite.">Consentimiento informado<i class="uil uil-info-circle ms-1"></i></span></td>
                           <td></td>
                           <td></td>
                           <td><i class="uil uil-check"></i></td>
                           <td><i class="uil uil-check"></i></td>
                         </tr>
                         <tr>
-                          <td>Integraciones / API</td>
+                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Integra tus sistemas actuales con AgendaPro.">Integraciones / API<i class="uil uil-info-circle ms-1"></i></span></td>
                           <td></td>
                           <td></td>
                           <td></td>
