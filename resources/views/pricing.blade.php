@@ -268,249 +268,249 @@
         </div>
 
 
-          <section id="comparison" class="wrapper pt-0 mb-17">
-            <h3 class="display-8 mb-8 text-center">{{ __('Compara nuestros planes') }}</h3>
-            <table class="table table-header">
-              <thead>
-                <tr class="bg-primary text-white">
-                  <th><span>Características</span></th>
-                  <th><span>Individual</span></th>
-                  <th><span>Básico</span></th>
-                  <th><span>Premium</span></th>
-                  <th><span>Pro</span></th>
-                </tr>
-              </thead> 
-            </table>  
-            <div class="accordion accordion-wrapper mt-4 mt-sm-4" id="accordionSimpleExample">
-              <div class="card plain accordion-item">
-                <div class="card-header" id="headingSimpleOne">
-                  <button class="accordion-button text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleOne" aria-expanded="false" aria-controls="collapseSimpleOne"> Capta </button>
-                </div>
-                <!--/.card-header -->
-                <div id="collapseSimpleOne" class="accordion-collapse collapse" aria-labelledby="headingSimpleOne" data-bs-parent="#accordionSimpleExample">
-                  <div class="card-body">
-                    <table class="table table-striped table-compare">
-                      <tbody>
-                        <tr>
-                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Obtén una página web personalizada para que tus clientes tomen una hora en tu negocio">Sitio web de reservas<i class="uil uil-info-circle ms-1"></i></span></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Agenda online de citas y clases ilimitadas</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Mueve tus reservas y ajusta cada cita según el tiempo que requiera el servicio">Administración digital de tu agenda<i class="uil uil-info-circle ms-1"></i></span></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Email marketing</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Reporte de campañas de marketing</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Integración con redes sociales</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <!--/.card-body -->
-                </div>
-                <!--/.accordion-collapse -->
-              </div>
-              <!--/.accordion-item -->
-              <div class="card plain accordion-item">
-                <div class="card-header" id="headingSimpleTwo">
-                  <button class="collapsed text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleTwo" aria-expanded="true" aria-controls="collapseSimpleTwo"> Gestiona </button>
-                </div>
-                <!--/.card-header -->
-                <div id="collapseSimpleTwo" class="accordion-collapse collapse show" aria-labelledby="headingSimpleTwo" data-bs-parent="#accordionSimpleExample">
-                  <div class="card-body">
-                  <table class="table table-striped table-compare">
-                      <tbody>
-                        <tr>
-                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Controla el acceso de cada usuario que trabaja en tu negocio">Niveles de acceso y permisos<i class="uil uil-info-circle ms-1"></i></span></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Notificaciones automáticas de citas</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Sistema de caja</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Pago online</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Gestión de clientes y CRM</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Almacenamiento en la nube</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Control de ocupación</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Reportes de gestión</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Gestión de presupuesto</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Cálculo de comisiones</td>
-                          <td></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Control de inventarios</td>
-                          <td></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Alertas de stock de productos</td>
-                          <td></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Crea Fichas con imágenes y exámenes de la evolución de tus pacientes y clientes.">Ficha clínica personalizada<i class="uil uil-info-circle ms-1"></i></span></td>
-                          <td></td>
-                          <td></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Recibe una confirmación firmada de tus pacientes para cualquier tratamiento que lo amerite.">Consentimiento informado<i class="uil uil-info-circle ms-1"></i></span></td>
-                          <td></td>
-                          <td></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Integra tus sistemas actuales con AgendaPro.">Integraciones / API<i class="uil uil-info-circle ms-1"></i></span></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <!--/.card-body -->
-                </div>
-                <!--/.accordion-collapse -->
-              </div>
-              <!--/.accordion-item -->
-              <div class="card plain accordion-item">
-                <div class="card-header" id="headingSimpleThree">
-                  <button class="collapsed text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleThree" aria-expanded="false" aria-controls="collapseSimpleThree"> Retiene </button>
-                </div>
-                <!--/.card-header -->
-                <div id="collapseSimpleThree" class="accordion-collapse collapse" aria-labelledby="headingSimpleThree" data-bs-parent="#accordionSimpleExample">
-                  <div class="card-body">
-                  <table class="table table-striped table-compare">
-                      <tbody>
-                        <tr>
-                          <td>Recordatorios automáticos</td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Encuestas de satisfacción</td>
-                          <td></td>
-                          <td></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Email automático de cumpleaños</td>
-                          <td></td>
-                          <td></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                        <tr>
-                          <td>Giftcards</td>
-                          <td></td>
-                          <td></td>
-                          <td><i class="uil uil-check"></i></td>
-                          <td><i class="uil uil-check"></i></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <!--/.card-body -->
-                </div>
-                <!--/.accordion-collapse -->
-              </div>
-              <!--/.accordion-item -->
+
+        <h3 class="display-8 mb-8 text-center">{{ __('Compara nuestros planes') }}</h3>
+        <table class="table table-header">
+          <thead>
+            <tr class="bg-primary text-white">
+              <th><span>Características</span></th>
+              <th><span>Individual</span></th>
+              <th><span>Básico</span></th>
+              <th><span>Premium</span></th>
+              <th><span>Pro</span></th>
+            </tr>
+          </thead> 
+        </table>  
+        <div class="accordion accordion-wrapper mt-4 mt-sm-4" id="accordionSimpleExample">
+          <div class="card plain accordion-item">
+            <div class="card-header" id="headingSimpleOne">
+              <button class="accordion-button text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleOne" aria-expanded="false" aria-controls="collapseSimpleOne"> Capta </button>
             </div>
-            <!--/.accordion -->
-          </section>
+            <!--/.card-header -->
+            <div id="collapseSimpleOne" class="accordion-collapse collapse" aria-labelledby="headingSimpleOne" data-bs-parent="#accordionSimpleExample">
+              <div class="card-body">
+                <table class="table table-striped table-compare">
+                  <tbody>
+                    <tr>
+                      <td><span tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" title="Sitio web de reservas" data-bs-content="Obtén una página web personalizada para que tus clientes tomen una hora en tu negocio">Sitio web de reservas<i class="uil uil-info-circle ms-1"></i></span></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Agenda online de citas y clases ilimitadas</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td><span tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" title="Administración digital de tu agenda" data-bs-content="Mueve tus reservas y ajusta cada cita según el tiempo que requiera el servicio">Administración digital de tu agenda<i class="uil uil-info-circle ms-1"></i></span></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Email marketing</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Reporte de campañas de marketing</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Integración con redes sociales</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.accordion-collapse -->
+          </div>
+          <!--/.accordion-item -->
+          <div class="card plain accordion-item">
+            <div class="card-header" id="headingSimpleTwo">
+              <button class="collapsed text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleTwo" aria-expanded="true" aria-controls="collapseSimpleTwo"> Gestiona </button>
+            </div>
+            <!--/.card-header -->
+            <div id="collapseSimpleTwo" class="accordion-collapse collapse show" aria-labelledby="headingSimpleTwo" data-bs-parent="#accordionSimpleExample">
+              <div class="card-body">
+              <table class="table table-striped table-compare">
+                  <tbody>
+                    <tr>
+                      <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Controla el acceso de cada usuario que trabaja en tu negocio">Niveles de acceso y permisos<i class="uil uil-info-circle ms-1"></i></span></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Notificaciones automáticas de citas</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Sistema de caja</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Pago online</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Gestión de clientes y CRM</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Almacenamiento en la nube</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Control de ocupación</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Reportes de gestión</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Gestión de presupuesto</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Cálculo de comisiones</td>
+                      <td></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Control de inventarios</td>
+                      <td></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Alertas de stock de productos</td>
+                      <td></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Crea Fichas con imágenes y exámenes de la evolución de tus pacientes y clientes.">Ficha clínica personalizada<i class="uil uil-info-circle ms-1"></i></span></td>
+                      <td></td>
+                      <td></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Recibe una confirmación firmada de tus pacientes para cualquier tratamiento que lo amerite.">Consentimiento informado<i class="uil uil-info-circle ms-1"></i></span></td>
+                      <td></td>
+                      <td></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td><span data-bs-toggle="tooltip" data-bs-placement="right" title="Integra tus sistemas actuales con AgendaPro.">Integraciones / API<i class="uil uil-info-circle ms-1"></i></span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.accordion-collapse -->
+          </div>
+          <!--/.accordion-item -->
+          <div class="card plain accordion-item">
+            <div class="card-header" id="headingSimpleThree">
+              <button class="collapsed text-primary" data-bs-toggle="collapse" data-bs-target="#collapseSimpleThree" aria-expanded="false" aria-controls="collapseSimpleThree"> Retiene </button>
+            </div>
+            <!--/.card-header -->
+            <div id="collapseSimpleThree" class="accordion-collapse collapse" aria-labelledby="headingSimpleThree" data-bs-parent="#accordionSimpleExample">
+              <div class="card-body">
+              <table class="table table-striped table-compare">
+                  <tbody>
+                    <tr>
+                      <td>Recordatorios automáticos</td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Encuestas de satisfacción</td>
+                      <td></td>
+                      <td></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Email automático de cumpleaños</td>
+                      <td></td>
+                      <td></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Giftcards</td>
+                      <td></td>
+                      <td></td>
+                      <td><i class="uil uil-check"></i></td>
+                      <td><i class="uil uil-check"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.accordion-collapse -->
+          </div>
+          <!--/.accordion-item -->
+        </div>
+        <!--/.accordion -->
+
           
         <div class="row mb-14 mb-md-18 text-center">
           <h2 class="display-4 mb-3 text-center">{{ __('Productos adicionales') }}</h3>
